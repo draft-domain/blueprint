@@ -43,6 +43,10 @@
         html {
             font-family: canada-type-gibson, Arial, sans-serif !important;
         }
+        @font-face {
+            font-family: "Orange Blossom";
+            src: url("webfonts/Orange\ Blossom.ttf") format("truetype");  /* Update path to your font file */
+        }        
     </style>
 
     <link rel="stylesheet" href="https://use.typekit.net/fdp3qaw.css">
@@ -4436,7 +4440,8 @@
     <style>
         .TopBar {
             transition: margin .25s ease;
-            background: #6CCFF6;
+            background: rgb(242,169,4);
+            background: linear-gradient(90deg, rgba(242,169,4,1) 0%, rgba(250,238,120,1) 50%, rgba(242,169,4,1) 100%);
         }
 
         .has-menu .TopBar {
@@ -4459,9 +4464,11 @@
         }
 
         .TopBar-copy a {
+            font-family: "Orange Blossom", canada-type-gibson, Arial, sans-serif !important;
             text-decoration: none;
             color: #1B325E;
         }
+        
 
         .TopBar-copy a:hover {
             text-decoration: underline
@@ -4952,7 +4959,7 @@
         @media screen and (min-width:75em) {
             .rs-PrimaryNav-menu {
                 display: flex;
-                justify-content: flex-start;
+                justify-content: center;
                 margin: auto;
                 padding: 0 16px
             }
@@ -9766,7 +9773,7 @@
                 }
 
                 .rs-Section--paddingBottom4xl\@lg {
-                    padding-bottom: 96px
+                    padding-bottom: 0px
                 }
 
                 .rs-Section--paddingBottom5xl\@lg {
@@ -9799,30 +9806,30 @@
 
             <style>
                 [data-mgnl-id="d8381992-e81c-4723-9894-f1b7c1d5ae51"] {
-                    background: scroll url('images/background-desktop-large.png') bottom center / cover no-repeat;
+                    background: scroll url('images/banner.png') bottom center / cover no-repeat;
                 }
 
                 @media only screen and (min-width: 37.5em) {
                     [data-mgnl-id="d8381992-e81c-4723-9894-f1b7c1d5ae51"] {
-                        background: scroll url('images/background-desktop-large.png') top center / cover no-repeat;
+                        background: scroll url('images/banner.png') top center / cover no-repeat;
                     }
                 }
 
                 @media only screen and (min-width: 56.25em) {
                     [data-mgnl-id="d8381992-e81c-4723-9894-f1b7c1d5ae51"] {
-                        background: scroll url('images/background-desktop-large.png') top center / cover no-repeat;
+                        background: scroll url('images/banner.png') top center / cover no-repeat;
                     }
                 }
 
                 @media only screen and (min-width: 75em) {
                     [data-mgnl-id="d8381992-e81c-4723-9894-f1b7c1d5ae51"] {
-                        background-image: 'images/background-desktop-large.png' top center / cover no-repeat;
+                        background-image: 'images/banner.png' top center / cover no-repeat;
                     }
                 }
 
                 @media only screen and (min-width: 112.5em) {
                     [data-mgnl-id="d8381992-e81c-4723-9894-f1b7c1d5ae51"] {
-                        background: scroll url('images/background-desktop-large.png') top center / cover no-repeat;
+                        background: scroll url('images/banner.png') top center / cover no-repeat;
                     }
                 }
             </style>
@@ -10826,7 +10833,7 @@
                         <div class="rs-Image u-spacingBlockSm rs-Image--horizontalAlignCenter">
 
                             <picture>
-                                <img src="images/tour.png"
+                                <img src="images/tour-cropped.png"
                                     alt="Training Tour" class="rs-Image-element rs-Image-element" loading="lazy"
                                     fetchpriority="auto">
                             </picture>
