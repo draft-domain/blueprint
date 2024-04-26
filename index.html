@@ -27,7 +27,10 @@
     <meta name="twitter:image:width" content="1600" />
     <meta name="twitter:image:height" content="537" />
     <link rel="canonical" href="#" />
-
+    
+    <!--================= BOOTSTRAP ================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--============== END OF BOOTSTRAP =============-->
 
     <!--================= FONT ================-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,6 +43,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--============== END OF OWL-CAROUSEL =============-->
 
+    <!--================= FLICKITY ================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--============== END OF SECTION =============-->
+
+    <!--================= YOUTUBE API ================-->
+    <script src="https://apis.google.com/js/client.js"></script>
+    <!--============== END OF SECTION =============-->
+    
     <!--================= FONT-AWESOME ================-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -6558,33 +6569,33 @@
                         width: 100%
                     }
 
-                    @media(min-width:37.5em) {
+                    @media(min-width:576px) {
                         .container {
-                            max-width: 37.5em
+                            max-width: 540px
                         }
                     }
 
-                    @media(min-width:56.25em) {
+                    @media(min-width:768px) {
                         .container {
-                            max-width: 56.25em
+                            max-width: 720px
                         }
                     }
 
-                    @media(min-width:75em) {
+                    @media(min-width:992px) {
                         .container {
-                            max-width: 75em
+                            max-width: 960px
                         }
                     }
 
-                    @media(min-width:93.75em) {
+                    @media(min-width:1200px) {
                         .container {
-                            max-width: 93.75em
+                            max-width: 1140px
                         }
                     }
 
-                    @media(min-width:112.5em) {
+                    @media(min-width:1400px) {
                         .container {
-                            max-width: 112.5em
+                            max-width: 1320px
                         }
                     }
 
@@ -14244,2179 +14255,2093 @@
 
 
 
-        <div class="rs-Section rs-Section--paddingTopLg rs-Section--paddingBottomLg rs-Section--paddingTopXl@sm rs-Section--paddingBottomXl@sm rs-Section--paddingTop2xl@lg rs-Section--paddingBottom2xl@lg"
-            data-optly="product-slice product-slice-a" data-mgnl-id="98b4fe12-1d4e-4cb1-823e-8868e9049316">
-
-
-
+        <div data-mgnl-id="48cef243-f421-4eee-92f8-0eaa47378d72" class="gzl-Slice gzl-Slice--small bg-img bg-lines">
+        
+        
             <style>
                 [data-mgnl-id="98b4fe12-1d4e-4cb1-823e-8868e9049316"] {
                     background: #fff;
                 }
-
+        
                 @media only screen and (min-width: 37.5em) {
                     [data-mgnl-id="98b4fe12-1d4e-4cb1-823e-8868e9049316"] {
                         background: #fff;
                     }
                 }
-
+        
                 @media only screen and (min-width: 56.25em) {
                     [data-mgnl-id="98b4fe12-1d4e-4cb1-823e-8868e9049316"] {
                         background: #fff;
                     }
                 }
-
+        
                 @media only screen and (min-width: 75em) {
                     [data-mgnl-id="98b4fe12-1d4e-4cb1-823e-8868e9049316"] {
                         background: #fff;
                     }
                 }
-
+        
                 @media only screen and (min-width: 112.5em) {
                     [data-mgnl-id="98b4fe12-1d4e-4cb1-823e-8868e9049316"] {
                         background: #fff;
                     }
                 }
             </style>
-
-            <div class="rs-Section-container">
-
-
-                <style>
+        
+        
+            <style>
+                .rs-OneUp,
+                .rs-OneUp--marginBottomNone {
+                    margin-bottom: 0
+                }
+        
+                .rs-OneUp--marginBottomMd {
+                    margin-bottom: 16px
+                }
+        
+                .rs-OneUp--marginBottomLg {
+                    margin-bottom: 24px
+                }
+        
+                .rs-OneUp--marginBottomXl {
+                    margin-bottom: 32px
+                }
+        
+                .rs-OneUp--marginBottom2xl {
+                    margin-bottom: 48px
+                }
+        
+                .rs-OneUp--marginBottom3xl {
+                    margin-bottom: 64px
+                }
+        
+                .rs-OneUp--marginBottom4xl {
+                    margin-bottom: 96px
+                }
+        
+                .rs-OneUp--marginBottom5xl {
+                    margin-bottom: 160px
+                }
+        
+                .rs-OneUp--marginBottom6xl {
+                    margin-bottom: 256px
+                }
+        
+                .rs-OneUp--marginBottom7xl {
+                    margin-bottom: 384px
+                }
+        
+                @media screen and (min-width:37.5em) {
+        
                     .rs-OneUp,
-                    .rs-OneUp--marginBottomNone {
+                    .rs-OneUp--marginBottomNone\@sm {
                         margin-bottom: 0
                     }
-
-                    .rs-OneUp--marginBottomMd {
+        
+                    .rs-OneUp--marginBottomMd\@sm {
                         margin-bottom: 16px
                     }
-
-                    .rs-OneUp--marginBottomLg {
+        
+                    .rs-OneUp--marginBottomLg\@sm {
                         margin-bottom: 24px
                     }
-
-                    .rs-OneUp--marginBottomXl {
+        
+                    .rs-OneUp--marginBottomXl\@sm {
                         margin-bottom: 32px
                     }
-
-                    .rs-OneUp--marginBottom2xl {
+        
+                    .rs-OneUp--marginBottom2xl\@sm {
                         margin-bottom: 48px
                     }
-
-                    .rs-OneUp--marginBottom3xl {
+        
+                    .rs-OneUp--marginBottom3xl\@sm {
                         margin-bottom: 64px
                     }
-
-                    .rs-OneUp--marginBottom4xl {
+        
+                    .rs-OneUp--marginBottom4xl\@sm {
                         margin-bottom: 96px
                     }
-
-                    .rs-OneUp--marginBottom5xl {
+        
+                    .rs-OneUp--marginBottom5xl\@sm {
                         margin-bottom: 160px
                     }
-
-                    .rs-OneUp--marginBottom6xl {
+        
+                    .rs-OneUp--marginBottom6xl\@sm {
                         margin-bottom: 256px
                     }
-
-                    .rs-OneUp--marginBottom7xl {
+        
+                    .rs-OneUp--marginBottom7xl\@sm {
                         margin-bottom: 384px
                     }
-
-                    @media screen and (min-width:37.5em) {
-
-                        .rs-OneUp,
-                        .rs-OneUp--marginBottomNone\@sm {
-                            margin-bottom: 0
-                        }
-
-                        .rs-OneUp--marginBottomMd\@sm {
-                            margin-bottom: 16px
-                        }
-
-                        .rs-OneUp--marginBottomLg\@sm {
-                            margin-bottom: 24px
-                        }
-
-                        .rs-OneUp--marginBottomXl\@sm {
-                            margin-bottom: 32px
-                        }
-
-                        .rs-OneUp--marginBottom2xl\@sm {
-                            margin-bottom: 48px
-                        }
-
-                        .rs-OneUp--marginBottom3xl\@sm {
-                            margin-bottom: 64px
-                        }
-
-                        .rs-OneUp--marginBottom4xl\@sm {
-                            margin-bottom: 96px
-                        }
-
-                        .rs-OneUp--marginBottom5xl\@sm {
-                            margin-bottom: 160px
-                        }
-
-                        .rs-OneUp--marginBottom6xl\@sm {
-                            margin-bottom: 256px
-                        }
-
-                        .rs-OneUp--marginBottom7xl\@sm {
-                            margin-bottom: 384px
-                        }
+                }
+        
+                @media screen and (min-width:75em) {
+        
+                    .rs-OneUp,
+                    .rs-OneUp--marginBottomNone\@lg {
+                        margin-bottom: 0
                     }
-
-                    @media screen and (min-width:75em) {
-
-                        .rs-OneUp,
-                        .rs-OneUp--marginBottomNone\@lg {
-                            margin-bottom: 0
-                        }
-
-                        .rs-OneUp--marginBottomMd\@lg {
-                            margin-bottom: 16px
-                        }
-
-                        .rs-OneUp--marginBottomLg\@lg {
-                            margin-bottom: 24px
-                        }
-
-                        .rs-OneUp--marginBottomXl\@lg {
-                            margin-bottom: 32px
-                        }
-
-                        .rs-OneUp--marginBottom2xl\@lg {
-                            margin-bottom: 48px
-                        }
-
-                        .rs-OneUp--marginBottom3xl\@lg {
-                            margin-bottom: 64px
-                        }
-
-                        .rs-OneUp--marginBottom4xl\@lg {
-                            margin-bottom: 96px
-                        }
-
-                        .rs-OneUp--marginBottom5xl\@lg {
-                            margin-bottom: 160px
-                        }
-
-                        .rs-OneUp--marginBottom6xl\@lg {
-                            margin-bottom: 256px
-                        }
-
-                        .rs-OneUp--marginBottom7xl\@lg {
-                            margin-bottom: 384px
-                        }
+        
+                    .rs-OneUp--marginBottomMd\@lg {
+                        margin-bottom: 16px
                     }
-
+        
+                    .rs-OneUp--marginBottomLg\@lg {
+                        margin-bottom: 24px
+                    }
+        
+                    .rs-OneUp--marginBottomXl\@lg {
+                        margin-bottom: 32px
+                    }
+        
+                    .rs-OneUp--marginBottom2xl\@lg {
+                        margin-bottom: 48px
+                    }
+        
+                    .rs-OneUp--marginBottom3xl\@lg {
+                        margin-bottom: 64px
+                    }
+        
+                    .rs-OneUp--marginBottom4xl\@lg {
+                        margin-bottom: 96px
+                    }
+        
+                    .rs-OneUp--marginBottom5xl\@lg {
+                        margin-bottom: 160px
+                    }
+        
+                    .rs-OneUp--marginBottom6xl\@lg {
+                        margin-bottom: 256px
+                    }
+        
+                    .rs-OneUp--marginBottom7xl\@lg {
+                        margin-bottom: 384px
+                    }
+                }
+        
+                .rs-OneUp--boxBackground .rs-OneUp-item {
+                    border: 1px solid #d5d9db;
+                    border-radius: 8px;
+                    background-color: #fff;
+                    padding: 24px
+                }
+        
+                .rs-OneUp--boxBackground .rs-OneUp-item.on-darkCanvas {
+                    border: 0
+                }
+        
+                @media screen and (min-width:56.25em) {
                     .rs-OneUp--boxBackground .rs-OneUp-item {
-                        border: 1px solid #d5d9db;
-                        border-radius: 8px;
-                        background-color: #fff;
-                        padding: 24px
+                        padding: 32px
                     }
-
-                    .rs-OneUp--boxBackground .rs-OneUp-item.on-darkCanvas {
-                        border: 0
+                }
+        
+                @media screen and (min-width:75em) {
+                    .rs-OneUp--boxBackground .rs-OneUp-item {
+                        padding: 48px
                     }
-
-                    @media screen and (min-width:56.25em) {
-                        .rs-OneUp--boxBackground .rs-OneUp-item {
-                            padding: 32px
-                        }
-                    }
-
-                    @media screen and (min-width:75em) {
-                        .rs-OneUp--boxBackground .rs-OneUp-item {
-                            padding: 48px
-                        }
-                    }
-                </style>
-
-
-
-
-
-
-
-                <style>
+                }
+            </style>
+        
+        
+            <style>
+                .rds-Grid_1 {
+                    display: grid;
+                    grid-template-columns: repeat(12, 1fr);
+                    gap: 16px
+                }
+        
+                @media screen and (min-width:37.5em) {
                     .rds-Grid_1 {
-                        display: grid;
-                        grid-template-columns: repeat(12, 1fr);
-                        gap: 16px
+                        gap: 24px
                     }
-
-                    @media screen and (min-width:37.5em) {
-                        .rds-Grid_1 {
-                            gap: 24px
-                        }
+                }
+        
+                @media screen and (min-width:75em) {
+                    .rds-Grid_1 {
+                        gap: 32px
                     }
-
-                    @media screen and (min-width:75em) {
-                        .rds-Grid_1 {
-                            gap: 32px
-                        }
-
-                        .rds-Grid--gapLarge_1 {
-                            gap: 48px
-                        }
+        
+                    .rds-Grid--gapLarge_1 {
+                        gap: 48px
                     }
-
-                    .rds-Grid-item_1 {
-                        grid-column-end: span 12
-                    }
-
-                    .rds-Grid-item--start1_1 {
+                }
+        
+                .rds-Grid-item_1 {
+                    grid-column-end: span 12
+                }
+        
+                .rds-Grid-item--start1_1 {
+                    grid-column-start: 1;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start2_1 {
+                    grid-column-start: 2;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start3_1 {
+                    grid-column-start: 3;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start4_1 {
+                    grid-column-start: 4;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start5_1 {
+                    grid-column-start: 5;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start6_1 {
+                    grid-column-start: 6;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start7_1 {
+                    grid-column-start: 7;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start8_1 {
+                    grid-column-start: 8;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start9_1 {
+                    grid-column-start: 9;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start10_1 {
+                    grid-column-start: 10;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start11_1 {
+                    grid-column-start: 11;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--start12_1 {
+                    grid-column-start: 12;
+                    grid-column-end: -1
+                }
+        
+                .rds-Grid-item--span1_1 {
+                    grid-column-end: span 1
+                }
+        
+                .rds-Grid-item--span2_1 {
+                    grid-column-end: span 2
+                }
+        
+                .rds-Grid-item--span3_1 {
+                    grid-column-end: span 3
+                }
+        
+                .rds-Grid-item--span4_1 {
+                    grid-column-end: span 4
+                }
+        
+                .rds-Grid-item--span5_1 {
+                    grid-column-end: span 5
+                }
+        
+                .rds-Grid-item--span6_1 {
+                    grid-column-end: span 6
+                }
+        
+                .rds-Grid-item--span7_1 {
+                    grid-column-end: span 7
+                }
+        
+                .rds-Grid-item--span8_1 {
+                    grid-column-end: span 8
+                }
+        
+                .rds-Grid-item--span9_1 {
+                    grid-column-end: span 9
+                }
+        
+                .rds-Grid-item--span10_1 {
+                    grid-column-end: span 10
+                }
+        
+                .rds-Grid-item--span11_1 {
+                    grid-column-end: span 11
+                }
+        
+                .rds-Grid-item--span12_1 {
+                    grid-column-end: span 12
+                }
+        
+                .rds-Grid-item--orderStart_1 {
+                    order: -1
+                }
+        
+                .rds-Grid-item--orderEnd_1 {
+                    order: 1
+                }
+        
+                .rds-Grid-item--orderReset_1 {
+                    order: 0
+                }
+        
+                @media screen and (min-width:37.5em) {
+                    .rds-Grid-item--start1\@sm_1 {
                         grid-column-start: 1;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start2_1 {
+        
+                    .rds-Grid-item--start2\@sm_1 {
                         grid-column-start: 2;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start3_1 {
+        
+                    .rds-Grid-item--start3\@sm_1 {
                         grid-column-start: 3;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start4_1 {
+        
+                    .rds-Grid-item--start4\@sm_1 {
                         grid-column-start: 4;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start5_1 {
+        
+                    .rds-Grid-item--start5\@sm_1 {
                         grid-column-start: 5;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start6_1 {
+        
+                    .rds-Grid-item--start6\@sm_1 {
                         grid-column-start: 6;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start7_1 {
-                        grid-column-start: 7;
+        
+                    .rds-Grid-item--start7\@sm_1 {
+                        grid-column-start: 1;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start8_1 {
+        
+                    .rds-Grid-item--start8\@sm_1 {
                         grid-column-start: 8;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start9_1 {
+        
+                    .rds-Grid-item--start9\@sm_1 {
                         grid-column-start: 9;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start10_1 {
+        
+                    .rds-Grid-item--start10\@sm_1 {
                         grid-column-start: 10;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start11_1 {
+        
+                    .rds-Grid-item--start11\@sm_1 {
                         grid-column-start: 11;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--start12_1 {
+        
+                    .rds-Grid-item--start12\@sm_1 {
                         grid-column-start: 12;
                         grid-column-end: -1
                     }
-
-                    .rds-Grid-item--span1_1 {
+        
+                    .rds-Grid-item--span1\@sm_1 {
                         grid-column-end: span 1
                     }
-
-                    .rds-Grid-item--span2_1 {
+        
+                    .rds-Grid-item--span2\@sm_1 {
                         grid-column-end: span 2
                     }
-
-                    .rds-Grid-item--span3_1 {
+        
+                    .rds-Grid-item--span3\@sm_1 {
                         grid-column-end: span 3
                     }
-
-                    .rds-Grid-item--span4_1 {
+        
+                    .rds-Grid-item--span4\@sm_1 {
                         grid-column-end: span 4
                     }
-
-                    .rds-Grid-item--span5_1 {
+        
+                    .rds-Grid-item--span5\@sm_1 {
                         grid-column-end: span 5
                     }
-
-                    .rds-Grid-item--span6_1 {
-                        grid-column-end: span 6
-                    }
-
-                    .rds-Grid-item--span7_1 {
-                        grid-column-end: span 7
-                    }
-
-                    .rds-Grid-item--span8_1 {
-                        grid-column-end: span 8
-                    }
-
-                    .rds-Grid-item--span9_1 {
-                        grid-column-end: span 9
-                    }
-
-                    .rds-Grid-item--span10_1 {
-                        grid-column-end: span 10
-                    }
-
-                    .rds-Grid-item--span11_1 {
-                        grid-column-end: span 11
-                    }
-
-                    .rds-Grid-item--span12_1 {
+        
+                    .rds-Grid-item--span6\@sm_1 {
                         grid-column-end: span 12
                     }
-
-                    .rds-Grid-item--orderStart_1 {
+        
+                    .rds-Grid-item--span7\@sm_1 {
+                        grid-column-end: span 7
+                    }
+        
+                    .rds-Grid-item--span8\@sm_1 {
+                        grid-column-end: span 8
+                    }
+        
+                    .rds-Grid-item--span9\@sm_1 {
+                        grid-column-end: span 9
+                    }
+        
+                    .rds-Grid-item--span10\@sm_1 {
+                        grid-column-end: span 10
+                    }
+        
+                    .rds-Grid-item--span11\@sm_1 {
+                        grid-column-end: span 11
+                    }
+        
+                    .rds-Grid-item--span12\@sm_1 {
+                        grid-column-end: span 12
+                    }
+        
+                    .rds-Grid-item--orderStart\@sm_1 {
                         order: -1
                     }
-
-                    .rds-Grid-item--orderEnd_1 {
+        
+                    .rds-Grid-item--orderEnd\@sm_1 {
                         order: 1
                     }
-
-                    .rds-Grid-item--orderReset_1 {
+        
+                    .rds-Grid-item--orderReset\@sm_1 {
                         order: 0
                     }
-
-                    @media screen and (min-width:37.5em) {
-                        .rds-Grid-item--start1\@sm_1 {
-                            grid-column-start: 1;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start2\@sm_1 {
-                            grid-column-start: 2;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start3\@sm_1 {
-                            grid-column-start: 3;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start4\@sm_1 {
-                            grid-column-start: 4;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start5\@sm_1 {
-                            grid-column-start: 5;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start6\@sm_1 {
-                            grid-column-start: 6;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start7\@sm_1 {
-                            grid-column-start: 1;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start8\@sm_1 {
-                            grid-column-start: 8;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start9\@sm_1 {
-                            grid-column-start: 9;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start10\@sm_1 {
-                            grid-column-start: 10;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start11\@sm_1 {
-                            grid-column-start: 11;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start12\@sm_1 {
-                            grid-column-start: 12;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--span1\@sm_1 {
-                            grid-column-end: span 1
-                        }
-
-                        .rds-Grid-item--span2\@sm_1 {
-                            grid-column-end: span 2
-                        }
-
-                        .rds-Grid-item--span3\@sm_1 {
-                            grid-column-end: span 3
-                        }
-
-                        .rds-Grid-item--span4\@sm_1 {
-                            grid-column-end: span 4
-                        }
-
-                        .rds-Grid-item--span5\@sm_1 {
-                            grid-column-end: span 5
-                        }
-
-                        .rds-Grid-item--span6\@sm_1 {
-                            grid-column-end: span 12
-                        }
-
-                        .rds-Grid-item--span7\@sm_1 {
-                            grid-column-end: span 7
-                        }
-
-                        .rds-Grid-item--span8\@sm_1 {
-                            grid-column-end: span 8
-                        }
-
-                        .rds-Grid-item--span9\@sm_1 {
-                            grid-column-end: span 9
-                        }
-
-                        .rds-Grid-item--span10\@sm_1 {
-                            grid-column-end: span 10
-                        }
-
-                        .rds-Grid-item--span11\@sm_1 {
-                            grid-column-end: span 11
-                        }
-
-                        .rds-Grid-item--span12\@sm_1 {
-                            grid-column-end: span 12
-                        }
-
-                        .rds-Grid-item--orderStart\@sm_1 {
-                            order: -1
-                        }
-
-                        .rds-Grid-item--orderEnd\@sm_1 {
-                            order: 1
-                        }
-
-                        .rds-Grid-item--orderReset\@sm_1 {
-                            order: 0
-                        }
+                }
+        
+                @media screen and (min-width:56.25em) {
+                    .rds-Grid-item--start1\@md_1 {
+                        grid-column-start: 1;
+                        grid-column-end: -1
                     }
-
-                    @media screen and (min-width:56.25em) {
-                        .rds-Grid-item--start1\@md_1 {
-                            grid-column-start: 1;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start2\@md_1 {
-                            grid-column-start: 2;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start3\@md_1 {
-                            grid-column-start: 3;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start4\@md_1 {
-                            grid-column-start: 4;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start5\@md_1 {
-                            grid-column-start: 5;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start6\@md_1 {
-                            grid-column-start: 6;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start7\@md_1 {
-                            grid-column-start: 1;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start8\@md_1 {
-                            grid-column-start: 8;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start9\@md_1 {
-                            grid-column-start: 9;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start10\@md_1 {
-                            grid-column-start: 10;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start11\@md_1 {
-                            grid-column-start: 11;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start12\@md_1 {
-                            grid-column-start: 12;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--span1\@md_1 {
-                            grid-column-end: span 1
-                        }
-
-                        .rds-Grid-item--span2\@md_1 {
-                            grid-column-end: span 2
-                        }
-
-                        .rds-Grid-item--span3\@md_1 {
-                            grid-column-end: span 3
-                        }
-
-                        .rds-Grid-item--span4\@md_1 {
-                            grid-column-end: span 4
-                        }
-
-                        .rds-Grid-item--span5\@md_1 {
-                            grid-column-end: span 5
-                        }
-
-                        .rds-Grid-item--span6\@md_1 {
-                            grid-column-end: span 12
-                        }
-
-                        .rds-Grid-item--span7\@md_1 {
-                            grid-column-end: span 7
-                        }
-
-                        .rds-Grid-item--span8\@md_1 {
-                            grid-column-end: span 8
-                        }
-
-                        .rds-Grid-item--span9\@md_1 {
-                            grid-column-end: span 9
-                        }
-
-                        .rds-Grid-item--span10\@md_1 {
-                            grid-column-end: span 10
-                        }
-
-                        .rds-Grid-item--span11\@md_1 {
-                            grid-column-end: span 11
-                        }
-
-                        .rds-Grid-item--span12\@md_1 {
-                            grid-column-end: span 12
-                        }
-
-                        .rds-Grid-item--orderStart\@md_1 {
-                            order: -1
-                        }
-
-                        .rds-Grid-item--orderEnd\@md_1 {
-                            order: 1
-                        }
-
-                        .rds-Grid-item--orderReset\@md_1 {
-                            order: 0
-                        }
+        
+                    .rds-Grid-item--start2\@md_1 {
+                        grid-column-start: 2;
+                        grid-column-end: -1
                     }
-
-                    @media screen and (min-width:75em) {
-                        .rds-Grid-item--start1\@lg_1 {
-                            grid-column-start: 1;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start2\@lg_1 {
-                            grid-column-start: 2;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start3\@lg_1 {
-                            grid-column-start: 3;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start4\@lg_1 {
-                            grid-column-start: 4;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start5\@lg_1 {
-                            grid-column-start: 5;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start6\@lg_1 {
-                            grid-column-start: 6;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start7\@lg_1 {
-                            grid-column-start: 7;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start8\@lg_1 {
-                            grid-column-start: 8;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start9\@lg_1 {
-                            grid-column-start: 9;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start10\@lg_1 {
-                            grid-column-start: 10;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start11\@lg_1 {
-                            grid-column-start: 11;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start12\@lg_1 {
-                            grid-column-start: 12;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--span1\@lg_1 {
-                            grid-column-end: span 1
-                        }
-
-                        .rds-Grid-item--span2\@lg_1 {
-                            grid-column-end: span 2
-                        }
-
-                        .rds-Grid-item--span3\@lg_1 {
-                            grid-column-end: span 3
-                        }
-
-                        .rds-Grid-item--span4\@lg_1 {
-                            grid-column-end: span 4
-                        }
-
-                        .rds-Grid-item--span5\@lg_1 {
-                            grid-column-end: span 5
-                        }
-
-                        .rds-Grid-item--span6\@lg_1 {
-                            grid-column-end: span 6
-                        }
-
-                        .rds-Grid-item--span7\@lg_1 {
-                            grid-column-end: span 7
-                        }
-
-                        .rds-Grid-item--span8\@lg_1 {
-                            grid-column-end: span 8
-                        }
-
-                        .rds-Grid-item--span9\@lg_1 {
-                            grid-column-end: span 9
-                        }
-
-                        .rds-Grid-item--span10\@lg_1 {
-                            grid-column-end: span 10
-                        }
-
-                        .rds-Grid-item--span11\@lg_1 {
-                            grid-column-end: span 11
-                        }
-
-                        .rds-Grid-item--span12\@lg_1 {
-                            grid-column-end: span 12
-                        }
-
-                        .rds-Grid-item--orderStart\@lg_1 {
-                            order: -1
-                        }
-
-                        .rds-Grid-item--orderEnd\@lg_1 {
-                            order: 1
-                        }
-
-                        .rds-Grid-item--orderReset\@lg_1 {
-                            order: 0
-                        }
+        
+                    .rds-Grid-item--start3\@md_1 {
+                        grid-column-start: 3;
+                        grid-column-end: -1
                     }
-
-                    @media screen and (min-width:93.75em) {
-                        .rds-Grid-item--start1\@xl_1 {
-                            grid-column-start: 1;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start2\@xl_1 {
-                            grid-column-start: 2;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start3\@xl_1 {
-                            grid-column-start: 3;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start4\@xl_1 {
-                            grid-column-start: 4;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start5\@xl_1 {
-                            grid-column-start: 5;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start6\@xl_1 {
-                            grid-column-start: 6;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start7\@xl_1 {
-                            grid-column-start: 7;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start8\@xl_1 {
-                            grid-column-start: 8;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start9\@xl_1 {
-                            grid-column-start: 9;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start10\@xl_1 {
-                            grid-column-start: 10;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start11\@xl_1 {
-                            grid-column-start: 11;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start12\@xl_1 {
-                            grid-column-start: 12;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--span1\@xl_1 {
-                            grid-column-end: span 1
-                        }
-
-                        .rds-Grid-item--span2\@xl_1 {
-                            grid-column-end: span 2
-                        }
-
-                        .rds-Grid-item--span3\@xl_1 {
-                            grid-column-end: span 3
-                        }
-
-                        .rds-Grid-item--span4\@xl_1 {
-                            grid-column-end: span 4
-                        }
-
-                        .rds-Grid-item--span5\@xl_1 {
-                            grid-column-end: span 5
-                        }
-
-                        .rds-Grid-item--span6\@xl_1 {
-                            grid-column-end: span 6
-                        }
-
-                        .rds-Grid-item--span7\@xl_1 {
-                            grid-column-end: span 7
-                        }
-
-                        .rds-Grid-item--span8\@xl_1 {
-                            grid-column-end: span 8
-                        }
-
-                        .rds-Grid-item--span9\@xl_1 {
-                            grid-column-end: span 9
-                        }
-
-                        .rds-Grid-item--span10\@xl_1 {
-                            grid-column-end: span 10
-                        }
-
-                        .rds-Grid-item--span11\@xl_1 {
-                            grid-column-end: span 11
-                        }
-
-                        .rds-Grid-item--span12\@xl_1 {
-                            grid-column-end: span 12
-                        }
-
-                        .rds-Grid-item--orderStart\@xl_1 {
-                            order: -1
-                        }
-
-                        .rds-Grid-item--orderEnd\@xl_1 {
-                            order: 1
-                        }
-
-                        .rds-Grid-item--orderReset\@xl_1 {
-                            order: 0
-                        }
+        
+                    .rds-Grid-item--start4\@md_1 {
+                        grid-column-start: 4;
+                        grid-column-end: -1
                     }
-
-                    @media screen and (min-width:112.5em) {
-                        .rds-Grid-item--start1\@2xl_1 {
-                            grid-column-start: 1;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start2\@2xl_1 {
-                            grid-column-start: 2;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start3\@2xl_1 {
-                            grid-column-start: 3;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start4\@2xl_1 {
-                            grid-column-start: 4;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start5\@2xl_1 {
-                            grid-column-start: 5;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start6\@2xl_1 {
-                            grid-column-start: 6;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start7\@2xl_1 {
-                            grid-column-start: 7;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start8\@2xl_1 {
-                            grid-column-start: 8;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start9\@2xl_1 {
-                            grid-column-start: 9;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start10\@2xl_1 {
-                            grid-column-start: 10;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start11\@2xl_1 {
-                            grid-column-start: 11;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--start12\@2xl_1 {
-                            grid-column-start: 12;
-                            grid-column-end: -1
-                        }
-
-                        .rds-Grid-item--span1\@2xl_1 {
-                            grid-column-end: span 1
-                        }
-
-                        .rds-Grid-item--span2\@2xl_1 {
-                            grid-column-end: span 2
-                        }
-
-                        .rds-Grid-item--span3\@2xl_1 {
-                            grid-column-end: span 3
-                        }
-
-                        .rds-Grid-item--span4\@2xl_1 {
-                            grid-column-end: span 4
-                        }
-
-                        .rds-Grid-item--span5\@2xl_1 {
-                            grid-column-end: span 5
-                        }
-
-                        .rds-Grid-item--span6\@2xl_1 {
-                            grid-column-end: span 6
-                        }
-
-                        .rds-Grid-item--span7\@2xl_1 {
-                            grid-column-end: span 7
-                        }
-
-                        .rds-Grid-item--span8\@2xl_1 {
-                            grid-column-end: span 8
-                        }
-
-                        .rds-Grid-item--span9\@2xl_1 {
-                            grid-column-end: span 9
-                        }
-
-                        .rds-Grid-item--span10\@2xl_1 {
-                            grid-column-end: span 10
-                        }
-
-                        .rds-Grid-item--span11\@2xl_1 {
-                            grid-column-end: span 11
-                        }
-
-                        .rds-Grid-item--span12\@2xl_1 {
-                            grid-column-end: span 12
-                        }
-
-                        .rds-Grid-item--orderStart\@2xl_1 {
-                            order: -1
-                        }
-
-                        .rds-Grid-item--orderEnd\@2xl_1 {
-                            order: 1
-                        }
-
-                        .rds-Grid-item--orderReset\@2xl_1 {
-                            order: 0
-                        }
+        
+                    .rds-Grid-item--start5\@md_1 {
+                        grid-column-start: 5;
+                        grid-column-end: -1
                     }
-                </style>
-
-
-
-
-
-
-
-
-                <div class="rds-Grid_1 rs-OneUp">
-
-
-
-
-
-
-                    <div
-                        class="rds-Grid-item_1 rds-Grid-item--span12_1 rds-Grid-item--span12@sm_1 rds-Grid-item--span12@md_1 rds-Grid-item--span12@lg_1 rds-Grid-item--span12@xl_1 rds-Grid-item--span12@2xl_1 rds-Grid-item--start1_1 rds-Grid-item--start1@sm_1 rds-Grid-item--start1@md_1 rds-Grid-item--start1@lg_1 rds-Grid-item--start1@xl_1 rds-Grid-item--start1@2xl_1 rs-OneUp-item">
-
-                        <style>
-                            .rds-Heading_1 {
-                                line-height: 1.25;
-                                color: #1f2426;
-                                font-family: Open Sans, Arial, sans-serif;
-                                font-size: 24px;
-                                font-weight: bold;
-                                margin-top: 0;
-                                margin-bottom: 0;
-                                text-indent: 0;
-                                text-transform: none;
-                                text-shadow: none;
-                                letter-spacing: 0;
-                                font-style: normal
-                            }
-
-                            .rds-Heading_1 sub,
-                            .rds-Heading_1 sup {
-                                line-height: 0;
-                                font-size: .875em
-                            }
-
-                            .rds-Heading_1 sup {
-                                top: auto;
-                                vertical-align: super
-                            }
-
-                            .rds-Heading_1 sub {
-                                bottom: auto;
-                                vertical-align: sub
-                            }
-
-                            .rds-Heading--xsmall_1 {
-                                font-size: 18px
-                            }
-
-                            .rds-Heading--small_1 {
-                                font-size: 20px
-                            }
-
-                            .rds-Heading--large_1 {
-                                font-size: 28px
-                            }
-
-                            @media screen and (min-width:37.5em) {
-                                .rds-Heading--large_1 {
-                                    font-size: 34px
-                                }
-                            }
-
-                            .rds-Heading--xlarge_1 {
-                                font-size: 34px
-                            }
-
-                            @media screen and (min-width:37.5em) {
-                                .rds-Heading--xlarge_1 {
-                                    line-height: 1.1;
-                                    font-size: 44px
-                                }
-                            }
-
-                            .rds-Heading--2xlarge_1 {
-                                font-size: 40px
-                            }
-
-                            @media screen and (min-width:37.5em) {
-                                .rds-Heading--2xlarge_1 {
-                                    line-height: 1.1;
-                                    font-size: 60px
-                                }
-                            }
-
-                            .rds-Heading_1 em {
-                                font-style: italic
-                            }
-
-                            .rds-Heading_1 a {
-                                text-decoration: none;
-                                text-transform: uppercase;
-                                color: inherit;
-                                margin-bottom: 1rem;
-                            }
-
-                            .rds-Heading_1 p {
-                                font-weight: 500;
-                                font-size: 14px;
-                                margin-top: 1rem;
-                            }
-
-                            .rds-Heading_1 a:hover {
-                                color: #495257
-                            }
-
-                            .rds-Heading--alternate_1 {
-                                color: #003561
-                            }
-
-                            .rds-Heading--alternate_1 a:hover {
-                                color: #005b98
-                            }
-
-                            .rds-Heading--brand_1 {
-                                color: var(--rds-heading-brand-color, #0073b9)
-                            }
-
-                            .rds-Heading--brand_1 a:hover {
-                                color: var(--rds-heading-brand-interactive-color, #005b98)
-                            }
-
-                            .rds-Heading_1.on-darkCanvas {
-                                color: #fff
-                            }
-
-                            .rds-Heading_1.on-darkCanvas a:hover {
-                                color: #f5f7f8
-                            }
-                        </style>
-
-                        <h2 class="rds-Heading_1 rds-Heading--large_1 u-spacingStack2 u-textAlignCenter ">
-                            <div>
-                                Watch Heather's Past Livestreams Here
-                            </div>
-
-                        </h2>
-
-                        <div class="
-                            u-accentLine
-                            u-spacingStack4 u-textAlignCenter
-                            
-                          " style="color: #0073b9">
-                        </div>
-
-                        <style>
-                            .rs-ContentList {
-                                margin-bottom: 0;
-                                padding-left: 0;
-                                list-style: none
-                            }
-
-                            .rs-ContentList-item {
-                                width: 100%
-                            }
-
-                            @media screen and (min-width:37.5em) {
-                                .rs-ContentList-item--fullWidth\@sm-gap-lg {
-                                    width: calc(100% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@sm-gap-lg {
-                                    width: calc(50% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@sm-gap-lg {
-                                    width: calc(33.33333% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@sm-gap-lg {
-                                    width: calc(25% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@sm-gap-lg {
-                                    width: calc(20% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@sm-gap-lg {
-                                    width: calc(16.66667% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@sm-gap-lg {
-                                    width: calc(14.28571% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@sm-gap-lg {
-                                    width: calc(12.5% - 24px)
-                                }
-
-                                .rs-ContentList-item--fullWidth\@sm-gap-xl {
-                                    width: calc(100% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@sm-gap-xl {
-                                    width: calc(50% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@sm-gap-xl {
-                                    width: calc(33.33333% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@sm-gap-xl {
-                                    width: calc(25% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@sm-gap-xl {
-                                    width: calc(20% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@sm-gap-xl {
-                                    width: calc(16.66667% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@sm-gap-xl {
-                                    width: calc(14.28571% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@sm-gap-xl {
-                                    width: calc(12.5% - 32px)
-                                }
-
-                                .rs-ContentList-item--fullWidth\@sm-gap-2xl {
-                                    width: calc(100% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@sm-gap-2xl {
-                                    width: calc(50% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@sm-gap-2xl {
-                                    width: calc(33.33333% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@sm-gap-2xl {
-                                    width: calc(25% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@sm-gap-2xl {
-                                    width: calc(20% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@sm-gap-2xl {
-                                    width: calc(16.66667% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@sm-gap-2xl {
-                                    width: calc(14.28571% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@sm-gap-2xl {
-                                    width: calc(12.5% - 48px)
-                                }
-                            }
-
-                            @media screen and (min-width:56.25em) {
-                                .rs-ContentList-item--fullWidth\@md-gap-lg {
-                                    width: calc(100% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@md-gap-lg {
-                                    width: calc(50% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@md-gap-lg {
-                                    width: calc(33.33333% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@md-gap-lg {
-                                    width: calc(25% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@md-gap-lg {
-                                    width: calc(20% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@md-gap-lg {
-                                    width: calc(16.66667% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@md-gap-lg {
-                                    width: calc(14.28571% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@md-gap-lg {
-                                    width: calc(12.5% - 24px)
-                                }
-
-                                .rs-ContentList-item--fullWidth\@md-gap-xl {
-                                    width: calc(100% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@md-gap-xl {
-                                    width: calc(50% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@md-gap-xl {
-                                    width: calc(33.33333% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@md-gap-xl {
-                                    width: calc(25% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@md-gap-xl {
-                                    width: calc(20% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@md-gap-xl {
-                                    width: calc(16.66667% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@md-gap-xl {
-                                    width: calc(14.28571% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@md-gap-xl {
-                                    width: calc(12.5% - 32px)
-                                }
-
-                                .rs-ContentList-item--fullWidth\@md-gap-2xl {
-                                    width: calc(100% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@md-gap-2xl {
-                                    width: calc(50% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@md-gap-2xl {
-                                    width: calc(33.33333% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@md-gap-2xl {
-                                    width: calc(25% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@md-gap-2xl {
-                                    width: calc(20% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@md-gap-2xl {
-                                    width: calc(16.66667% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@md-gap-2xl {
-                                    width: calc(14.28571% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@md-gap-2xl {
-                                    width: calc(12.5% - 48px)
-                                }
-                            }
-
-                            @media screen and (min-width:75em) {
-                                .rs-ContentList-item--fullWidth\@lg-gap-lg {
-                                    width: calc(100% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@lg-gap-lg {
-                                    width: calc(50% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@lg-gap-lg {
-                                    width: calc(33.33333% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@lg-gap-lg {
-                                    width: calc(25% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@lg-gap-lg {
-                                    width: calc(20% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@lg-gap-lg {
-                                    width: calc(16.66667% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@lg-gap-lg {
-                                    width: calc(14.28571% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@lg-gap-lg {
-                                    width: calc(12.5% - 24px)
-                                }
-
-                                .rs-ContentList-item--fullWidth\@lg-gap-xl {
-                                    width: calc(100% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@lg-gap-xl {
-                                    width: calc(50% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@lg-gap-xl {
-                                    width: calc(33.33333% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@lg-gap-xl {
-                                    width: calc(25% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@lg-gap-xl {
-                                    width: calc(20% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@lg-gap-xl {
-                                    width: calc(16.66667% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@lg-gap-xl {
-                                    width: calc(14.28571% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@lg-gap-xl {
-                                    width: calc(12.5% - 32px)
-                                }
-
-                                .rs-ContentList-item--fullWidth\@lg-gap-2xl {
-                                    width: calc(100% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneHalf\@lg-gap-2xl {
-                                    width: calc(50% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneThird\@lg-gap-2xl {
-                                    width: calc(33.33333% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneFourth\@lg-gap-2xl {
-                                    width: calc(25% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneFifth\@lg-gap-2xl {
-                                    width: calc(20% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneSixth\@lg-gap-2xl {
-                                    width: calc(16.66667% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneSeventh\@lg-gap-2xl {
-                                    width: calc(14.28571% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneEighth\@lg-gap-2xl {
-                                    width: calc(12.5% - 48px)
-                                }
-                            }
-
-                            @media screen and (max-width:37.5em) {
-                                .rs-ContentList-item--oneHalf-gap-lg {
-                                    width: calc(50% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneThird-gap-lg {
-                                    width: calc(33.33333% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneFourth-gap-lg {
-                                    width: calc(25% - 24px)
-                                }
-
-                                .rs-ContentList-item--oneHalf-gap-xl {
-                                    width: calc(50% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneThird-gap-xl {
-                                    width: calc(33.33333% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneFourth-gap-xl {
-                                    width: calc(25% - 32px)
-                                }
-
-                                .rs-ContentList-item--oneHalf-gap-2xl {
-                                    width: calc(50% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneThird-gap-2xl {
-                                    width: calc(33.33333% - 48px)
-                                }
-
-                                .rs-ContentList-item--oneFourth-gap-2xl {
-                                    width: calc(25% - 48px)
-                                }
-                            }
-                        </style>
-
-
-                        <style>
-                            .rds-Stack_3 {
-                                display: flex;
-                                align-items: center;
-                                flex-wrap: wrap;
-                                justify-content: flex-start;
-                                margin-top: -16px !important;
-                                margin-left: -16px !important
-                            }
-
-                            .rds-Stack_3>* {
-                                margin-top: 16px !important;
-                                margin-left: 16px !important;
-                                max-width: calc(100% - 15px)
-                            }
-
-                            .rds-Stack--smSpacing_3 {
-                                margin-top: -8px !important;
-                                margin-left: -8px !important
-                            }
-
-                            .rds-Stack--smSpacing_3>* {
-                                margin-top: 8px !important;
-                                margin-left: 8px !important;
-                                max-width: calc(100% - 7px)
-                            }
-
-                            .rds-Stack--lgSpacing_3 {
-                                margin-top: -24px !important;
-                                margin-left: -24px !important
-                            }
-
-                            .rds-Stack--lgSpacing_3>* {
-                                margin-top: 24px !important;
-                                margin-left: 24px !important;
-                                max-width: calc(100% - 23px)
-                            }
-
-                            .rds-Stack--xlSpacing_3 {
-                                margin-top: -32px !important;
-                                margin-left: -32px !important
-                            }
-
-                            .rds-Stack--xlSpacing_3>* {
-                                margin-top: 32px !important;
-                                margin-left: 32px !important;
-                                max-width: calc(100% - 31px)
-                            }
-
-                            .rds-Stack--2xlSpacing_3 {
-                                margin-top: -48px !important;
-                                margin-left: -48px !important
-                            }
-
-                            .rds-Stack--2xlSpacing_3>* {
-                                margin-top: 48px !important;
-                                margin-left: 48px !important;
-                                max-width: calc(100% - 47px)
-                            }
-
-                            .rds-Stack--topVerticalAlignment_3 {
-                                align-items: flex-start
-                            }
-
-                            .rds-Stack--bottomVerticalAlignment_3 {
-                                align-items: flex-end
-                            }
-
-                            .rds-Stack--centerHorizontalAlignment_3 {
-                                justify-content: center
-                            }
-
-                            .rds-Stack--rightHorizontalAlignment_3 {
-                                justify-content: flex-end
-                            }
-
-                            .rds-Stack--vertical_3 {
-                                align-items: flex-start;
-                                flex-direction: column;
-                                justify-content: center;
-                                margin-left: 0
-                            }
-
-                            .rds-Stack--vertical_3>* {
-                                margin-left: 0;
-                                max-width: 100%
-                            }
-
-                            .rds-Stack--vertical_3.rds-Stack--topVerticalAlignment_3 {
-                                justify-content: flex-start
-                            }
-
-                            .rds-Stack--vertical_3.rds-Stack--bottomVerticalAlignment_3 {
-                                justify-content: flex-end
-                            }
-
-                            .rds-Stack--vertical_3.rds-Stack--centerHorizontalAlignment_3 {
-                                align-items: center
-                            }
-
-                            .rds-Stack--vertical_3.rds-Stack--rightHorizontalAlignment_3 {
-                                align-items: flex-end
-                            }
-
-                            .rds-Stack--noWrap_3 {
-                                flex-wrap: nowrap
-                            }
-                        </style>
-
-                        <style>
-                            .rds-Stack_1 {
-                                display: flex;
-                                align-items: center;
-                                flex-wrap: wrap;
-                                justify-content: flex-start;
-                                margin-top: -16px;
-                                margin-left: -16px
-                            }
-
-                            .rds-Stack_1>* {
-                                margin-top: 16px;
-                                margin-left: 16px;
-                                max-width: calc(100% - 15px)
-                            }
-
-                            .rds-Stack--smallSpacing_1 {
-                                margin-top: -4px;
-                                margin-left: -4px
-                            }
-
-                            .rds-Stack--smallSpacing_1>* {
-                                margin-top: 4px;
-                                margin-left: 4px;
-                                max-width: calc(100% - 3px)
-                            }
-
-                            .rds-Stack--largeSpacing_1 {
-                                margin-top: -32px;
-                                margin-left: -32px
-                            }
-
-                            .rds-Stack--largeSpacing_1>* {
-                                margin-top: 32px;
-                                margin-left: 32px;
-                                max-width: calc(100% - 31px)
-                            }
-
-                            .rds-Stack--topVerticalAlignment_1 {
-                                align-items: flex-start
-                            }
-
-                            .rds-Stack--bottomVerticalAlignment_1 {
-                                align-items: flex-end
-                            }
-
-                            .rds-Stack--centerHorizontalAlignment_1 {
-                                justify-content: center
-                            }
-
-                            .rds-Stack--rightHorizontalAlignment_1 {
-                                justify-content: flex-end
-                            }
-
-                            .rds-Stack--vertical_1 {
-                                align-items: flex-start;
-                                flex-direction: column;
-                                justify-content: center;
-                                margin-left: 0
-                            }
-
-                            .rds-Stack--vertical_1>* {
-                                margin-left: 0;
-                                max-width: 100%
-                            }
-
-                            .rds-Stack--vertical_1.rds-Stack--topVerticalAlignment_1 {
-                                justify-content: flex-start
-                            }
-
-                            .rds-Stack--vertical_1.rds-Stack--bottomVerticalAlignment_1 {
-                                justify-content: flex-end
-                            }
-
-                            .rds-Stack--vertical_1.rds-Stack--centerHorizontalAlignment_1 {
-                                align-items: center
-                            }
-
-                            .rds-Stack--vertical_1.rds-Stack--rightHorizontalAlignment_1 {
-                                align-items: flex-end
-                            }
-
-                            .rds-Stack--noWrap_1 {
-                                flex-wrap: nowrap
-                            }
-                        </style>
-
-                        <style>
-                            .rds-Button_4 {
-                                box-sizing: border-box;
-                                display: inline-flex;
-                                align-items: center;
-                                flex-shrink: 0;
-                                justify-content: center;
-                                transition: background-color .3s cubic-bezier(.19, 1, .22, 1), border-color .3s cubic-bezier(.19, 1, .22, 1), color .3s cubic-bezier(.19, 1, .22, 1);
-                                border: 1px solid transparent;
-                                border-radius: 4px;
-                                box-shadow: inset #0073b9;
-                                background-color: var(--rds-button-background-color, #0073b9);
-                                cursor: pointer;
-                                padding: 12px 20px;
-                                width: auto;
-                                text-align: center;
-                                text-indent: 0;
-                                text-transform: none;
-                                text-decoration: none;
-                                text-shadow: none;
-                                line-height: 1;
-                                letter-spacing: normal;
-                                color: var(--rds-button-text-color, #fff);
-                                font-family: Open Sans, Arial, sans-serif;
-                                font-size: 16px;
-                                font-weight: 600;
-                                font-style: normal;
-                                word-break: break-word
-                            }
-
-                            .rds-Button_4:active:not([disabled]),
-                            .rds-Button_4:focus:not([disabled]),
-                            .rds-Button_4:hover:not([disabled]) {
-                                background-color: var(--rds-button-background-color-interactive, #005b98);
-                                color: #fff
-                            }
-
-                            .rds-Button_4.on-darkCanvas {
-                                background-color: #fff;
-                                color: var(--rds-button-background-color, #0073b9)
-                            }
-
-                            .rds-Button_4.on-darkCanvas:active:not([disabled]),
-                            .rds-Button_4.on-darkCanvas:focus:not([disabled]),
-                            .rds-Button_4.on-darkCanvas:hover:not([disabled]) {
-                                background-color: hsla(0, 0%, 100%, .9);
-                                color: var(--rds-button-background-color, #0073b9)
-                            }
-
-                            .rds-Button--alternate_4,
-                            .rds-Button--alternate_4.on-darkCanvas {
-                                background-color: var(--rds-button-alternate-background-color, #fcd214);
-                                color: var(--rds-button-alternate-text-color, #003561)
-                            }
-
-                            .rds-Button--alternate_4.on-darkCanvas:active:not([disabled]),
-                            .rds-Button--alternate_4.on-darkCanvas:focus:not([disabled]),
-                            .rds-Button--alternate_4.on-darkCanvas:hover:not([disabled]),
-                            .rds-Button--alternate_4:active:not([disabled]),
-                            .rds-Button--alternate_4:focus:not([disabled]),
-                            .rds-Button--alternate_4:hover:not([disabled]) {
-                                background-color: var(--rds-button-alternate-background-color-interactive, #ffe45e);
-                                color: var(--rds-button-alternate-text-color, #003561)
-                            }
-
-                            .rds-Button--ghost_4 {
-                                border-color: var(--rds-button-background-color, #0073b9);
-                                box-shadow: 0 0 0 1px var(--rds-button-background-color, #0073b9) inset;
-                                background-color: transparent;
-                                color: var(--rds-button-background-color, #0073b9)
-                            }
-
-                            .rds-Button--ghost_4.on-darkCanvas {
-                                border-color: #fff;
-                                box-shadow: inset 0 0 0 1px #fff;
-                                background-color: transparent;
-                                color: #fff
-                            }
-
-                            .rds-Button--ghost_4.on-darkCanvas:active:not([disabled]),
-                            .rds-Button--ghost_4.on-darkCanvas:focus:not([disabled]),
-                            .rds-Button--ghost_4.on-darkCanvas:hover:not([disabled]) {
-                                background-color: hsla(0, 0%, 100%, .1);
-                                color: #fff
-                            }
-
-                            .rds-Button--ghost_4:active:not([disabled]),
-                            .rds-Button--ghost_4:focus:not([disabled]),
-                            .rds-Button--ghost_4:hover:not([disabled]) {
-                                background-color: var(--rds-button-transparent-background-color-interactive, rgba(0, 115, 185, .1));
-                                color: var(--rds-button-background-color, #0073b9)
-                            }
-
-                            .rds-Button--subtle_4 {
-                                background-color: transparent;
-                                color: var(--rds-button-background-color, #0073b9)
-                            }
-
-                            .rds-Button--subtle_4.on-darkCanvas {
-                                background-color: transparent;
-                                color: #fff
-                            }
-
-                            .rds-Button--subtle_4.on-darkCanvas:active:not([disabled]),
-                            .rds-Button--subtle_4.on-darkCanvas:focus:not([disabled]),
-                            .rds-Button--subtle_4.on-darkCanvas:hover:not([disabled]) {
-                                background-color: hsla(0, 0%, 100%, .1);
-                                color: #fff
-                            }
-
-                            .rds-Button--subtle_4:active:not([disabled]),
-                            .rds-Button--subtle_4:focus:not([disabled]),
-                            .rds-Button--subtle_4:hover:not([disabled]) {
-                                background-color: var(--rds-button-transparent-background-color-interactive, rgba(0, 115, 185, .1));
-                                color: var(--rds-button-background-color, #0073b9)
-                            }
-
-                            .rds-Button--danger_4 {
-                                background-color: #e64b40;
-                                color: #fff
-                            }
-
-                            .rds-Button--danger_4.on-darkCanvas {
-                                background-color: #fff;
-                                color: #e64b40
-                            }
-
-                            .rds-Button--danger_4.on-darkCanvas:active:not([disabled]),
-                            .rds-Button--danger_4.on-darkCanvas:focus:not([disabled]),
-                            .rds-Button--danger_4.on-darkCanvas:hover:not([disabled]) {
-                                background-color: hsla(0, 0%, 100%, .9);
-                                color: #e64b40
-                            }
-
-                            .rds-Button--danger_4:active:not([disabled]),
-                            .rds-Button--danger_4:focus:not([disabled]),
-                            .rds-Button--danger_4:hover:not([disabled]) {
-                                background-color: #cc392f;
-                                color: #fff
-                            }
-
-                            .rds-Button--dangerSubtle_4 {
-                                background-color: transparent;
-                                color: #e64b40
-                            }
-
-                            .rds-Button--dangerSubtle_4.on-darkCanvas {
-                                background-color: #fff;
-                                color: #e64b40
-                            }
-
-                            .rds-Button--dangerSubtle_4.on-darkCanvas:active:not([disabled]),
-                            .rds-Button--dangerSubtle_4.on-darkCanvas:focus:not([disabled]),
-                            .rds-Button--dangerSubtle_4.on-darkCanvas:hover:not([disabled]) {
-                                background-color: hsla(0, 0%, 100%, .9);
-                                color: #e64b40
-                            }
-
-                            .rds-Button--dangerSubtle_4:active:not([disabled]),
-                            .rds-Button--dangerSubtle_4:focus:not([disabled]),
-                            .rds-Button--dangerSubtle_4:hover:not([disabled]) {
-                                background: rgba(230, 75, 64, .1);
-                                color: #e64b40
-                            }
-
-                            .rds-Button--neutralSubtle_4 {
-                                background-color: transparent;
-                                color: #1f2426
-                            }
-
-                            .rds-Button--neutralSubtle_4.on-darkCanvas {
-                                background-color: transparent;
-                                color: #fff
-                            }
-
-                            .rds-Button--neutralSubtle_4.on-darkCanvas:active:not([disabled]),
-                            .rds-Button--neutralSubtle_4.on-darkCanvas:focus:not([disabled]),
-                            .rds-Button--neutralSubtle_4.on-darkCanvas:hover:not([disabled]) {
-                                background-color: hsla(0, 0%, 100%, .1);
-                                color: #fff
-                            }
-
-                            .rds-Button--neutralSubtle_4:active:not([disabled]),
-                            .rds-Button--neutralSubtle_4:focus:not([disabled]),
-                            .rds-Button--neutralSubtle_4:hover:not([disabled]) {
-                                background-color: rgba(232, 236, 237, .44);
-                                color: #1f2426
-                            }
-
-                            .rds-Button--small_4 {
-                                padding: 8px 16px;
-                                font-size: 14px
-                            }
-
-                            .rds-Button--large_4 {
-                                padding: 16px 24px;
-                                font-size: 18px
-                            }
-
-                            .rds-Button--xlarge_4 {
-                                padding: 20px 28px;
-                                font-size: 20px
-                            }
-
-                            .rds-Button--fullWidthOnMobile_4 {
-                                width: 100%
-                            }
-
-                            @media screen and (min-width:37.5em) {
-                                .rds-Button--fullWidthOnMobile_4 {
-                                    width: auto
-                                }
-                            }
-
-                            .rds-Button--iconOnly_4 {
-                                padding: 12px
-                            }
-
-                            .rds-Button--iconOnly_4.rds-Button--small_4 {
-                                padding: 8px
-                            }
-
-                            .rds-Button--iconOnly_4.rds-Button--large_4 {
-                                padding: 13px
-                            }
-
-                            .rds-Button--iconOnly_4.rds-Button--xlarge_4 {
-                                padding: 18px
-                            }
-
-                            .rds-Button-icon_4 {
-                                flex-shrink: 0;
-                                pointer-events: none
-                            }
-
-                            .rds-Button-icon--left_4 {
-                                margin-right: 8px
-                            }
-
-                            .rds-Button-icon--right_4 {
-                                margin-left: 8px
-                            }
-
-                            .rds-Button_4[disabled] {
-                                cursor: not-allowed !important
-                            }
-
-                            .rds-Button_4.is-disabled,
-                            .rds-Button_4[disabled] {
-                                opacity: .4 !important;
-                                -webkit-user-select: none !important;
-                                -ms-user-select: none !important;
-                                user-select: none !important
-                            }
-
-                            a.rds-Button_4.is-disabled {
-                                pointer-events: none !important
-                            }
-
-                            .material-symbols-outlined {
-                                vertical-align: middle;
-                            }
-                        </style>
-
-
-
-                        <style>
-                            /* =================================================== */
-                        
-                        
-                            /* FONT --> Every font has different values.  Hence, when styling - use your
-                        preferred font. */
-                        
-                            @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,400&display=swap');
-                        
-                            /* jQUERY YOUTUBE VIDEO PLAYER
-                           Updated using jQuery data attrubtes */
-                        
-                            :root {
-                                /* DEFAULT YOUTUBE VIDEO ASPECT RATIO */
-                                --video-aspect-ratio: 16 / 9;
-                                /* PLAYER CONTAINER STYLES*/
-                                --player-font: Montserrat;
-                                --player-background-color: rgba(111, 137, 203, 0.75);
-                                --player-border-color: rgba(32, 58, 144, 0.75);
-                                --player-border-width: 5px;
-                                /* <-- 0 = no border */
-                                /* youtubeplaylist STYLES */
-                                --youtubeplaylist-background-color: rgba(32, 58, 144, 0.75);
-                                /* youtubeplaylist BUTTON STYLES */
-                                --youtubeplaylist-button-font-size: 18px;
-                                --youtubeplaylist-button-mobile-font-size: 15px;
-                                --youtubeplaylist-button-text-color: rgba(255, 255, 255, 1);
-                                --youtubeplaylist-button-border-color: rgba(255, 255, 255, 0.5);
-                                --youtubeplaylist-button-border-hover-color: rgba(223, 197, 111, 0.90);
-                                --youtubeplaylist-button-border-active-color: rgba(255, 255, 255, 0.8);
-                                --youtubeplaylist-button-text-color: rgba(255, 255, 255, 1);
-                                --youtubeplaylist-button-text-transform: lowercase;
-                                /* <--  uppercase - lowercase- normal - etc.*/
-                                /* PLAYER BUTTON WIDTH 
-                             Sets aspect ratio width and height in scrolling youtubeplaylist grid */
-                                --youtubeplaylist-button-width: 250px;
-                                --youtubeplaylist-button-mobile-width: 163px;
-                        
-                                /* CAPTION STYLES */
-                                --caption-container-padding: 15px;
-                                /* <-- PADDING SETS CONTAINER HEIGHT*/
-                                --caption-container-mobile-padding: 15px;
-                                --caption-font-size: 20px;
-                                --caption-font-mobile-size: 18px;
-                                --caption-text-color: rgba(255, 255, 255, 1);
-                                --caption-text-transform: uppercase;
-                                /* <--  uppercase - lowercase- normal - etc.*/
-                        
-                                /* FOR DEMO */
-                                --parent-container-max-width: 720px;
-                                /* <-- PLAY WITH ME */
-                            }
-                        
-                        
-                            /* FOR DEMO */
-                        
-                        
-                            /* BEGIN YOUTUBE PLAYER CSS */
-
-                            .main-container{
-                                flex-basis: 80%;
-                            }
-                        
-                            #video-player {
-                                display: flex;
-                                height: 38rem;
-                                justify-content: space-between;
-                                border: var(--player-border-width) solid var(--player-border-color);
-                                background-color: var(--player-background-color);
-                            }
-                        
-                            #video-player iframe {
-                                aspect-ratio: var(--video-aspect-ratio);
-                                width: 100% !important;
-                                height: auto !important;
-                                background: black;
-                            }
-                        
-                            #video-caption {
-                                font-family: var(--player-font);
-                                color: var(--caption-text-color);
-                                font-size: var(--caption-text-size);
-                                letter-spacing: 2px;
-                                text-transform: var(--caption-text-transform);
-                                width: 100%;
-                                overflow: hidden;
-                                padding-left: 15px;
-                                padding-right: 15px;
-                                /* top padding less 5 pixels.  Looked nicer.  */
-                                padding-top: calc(var(--caption-container-padding) - 5px);
-                                padding-bottom: var(--caption-container-padding);
-                            }
-                        
-                            /* MEDIA QUERY for CAPTION */
-                        
-                            @media only screen and (max-width: 980px) {
-                                #video-caption {
-                                    letter-spacing: 0px;
-                                    padding-top: calc(var(--caption-container-mobile-padding) - 5px);
-                                    padding-bottom: var(--caption-container-mobile-padding);
-                                }
-                        
-                            }
-                        
-                            #youtubeplaylist {
-                                background-color: var(--youtubeplaylist-background-color);
-                                padding-left: 4px;
-                                flex-basis: 23%;
-                                overflow-y: scroll;
-                                overflow-x: hidden;
-                        
-                            }
-                        
-                            /* MEDIA QUERY for youtubeplaylist GRID */
-                        
-                            @media only screen and (max-width: 980px) {
-                                #youtubeplaylist {
-                                    grid-auto-columns: minmax(var(--youtubeplaylist-button-mobile-width), 1fr);
-                                    grid-template-columns: repeat(auto-fill,
-                                            minmax(var(--youtubeplaylist-button-mobile-width), 1fr));
-                                }
-                            }
-                        
-                            #youtubeplaylist button {
-                        
-                                aspect-ratio: var(--video-aspect-ratio);
-                                width: var(--youtubeplaylist-button-width);
-                                font-family: var(--player-font);
-                                font-size: var(--youtubeplaylist-button-font-size);
-                                color: var(--youtubeplaylist-button-text-color);
-                                text-transform: var(--youtubeplaylist-button-text-transform);
-                                overflow: hidden;
-                                border: solid 2px var(--youtubeplaylist-button-border-color);
-                                filter: brightness(0.7);
-                                height: auto;
-                                background-size: cover;
-                                background-position: center;
-                                padding-left: 10px;
-                                padding-right: 10px;
-                                letter-spacing: 1px;
-                                transition: all 300ms ease;
-                                margin-bottom: 10px;
-                        
-                                /* CUSTOM youtubeplaylist BUTTON CURSOR  */
-                        
-                                cursor: pointer;
-                            }
-                        
-                        
-                            #youtubeplaylist button:hover {
-                                filter: brightness(1);
-                                border: solid 2px var(--youtubeplaylist-button-border-hover-color);
-                            }
-                        
-                        
-                            #youtubeplaylist button:focus,
-                            #youtubeplaylist button.active {
-                                filter: brightness(1);
-                                border: solid 2px var(--youtubeplaylist-button-border-active-color);
-                                cursor: none !important;
-                            }
-                        
-                            #youtubeplaylist button:active {
-                                transform: scale(0.95);
-                            }
-                        
-                            /* MEDIA QUERY for youtubeplaylist BUTTON*/
-                        
-                            @media only screen and (max-width: 979px) {
-                                #youtubeplaylist button {
-                                    width: var(--youtubeplaylist-button-mobile-width);
-                                    font-size: var(--youtubeplaylist-button-mobile-font-size), var(--caption-font-mobile-size);
-                                    padding-top: calc(var(--caption-container-mobile-padding) - 5px);
-                                    padding-bottom: var(--caption-container-mobile-padding);
-                                    letter-spacing: 0px;
-                                }
-                        
-                            }
-                        
-                        
-                            /************************* //  END PLAYER MARK-UP */
-                        
-                        
-                            /* DEMO PAGE STUFF */
-                        
-                        
-                            /* ADD STROKE TO TEXT  */
-                        
-                            #video-player h2,
-                            #video-player h3,
-                            #video-player button,
-                            #video-caption {
-                                letter-spacing: 2px;
-                                text-shadow: 2px 0 0 rgba(0, 0, 0, 0.5), 0 2px 0 rgba(0, 0, 0, 0.5),
-                                    -2px 0 0 rgba(0, 0, 0, 0.5), 0 -2px 0 rgba(0, 0, 0, 0.5);
-                            }
-                        </style>
-                        
-                        <section class="parent-container">
-                        
-                            <aside id="video-player">
-                                <!--  BEGIN PLAYER CONTAINER -->
-                        
-                                <!-- YouTube iFrame Embed -->
-
-                                <div class="main-container">
-                                    <iframe id="YouTube-Iframe" class="lazyload" src="https://www.youtube.com/embed/YPfEx9jKj_Y?enablejsapi=1"
-                                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
-                                
-                                    <!-- VIDEO CAPTION  -->
-                                
-                                    <div id="video-caption">How to Market to Families with an Auction Date</div>
+        
+                    .rds-Grid-item--start6\@md_1 {
+                        grid-column-start: 6;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start7\@md_1 {
+                        grid-column-start: 1;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start8\@md_1 {
+                        grid-column-start: 8;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start9\@md_1 {
+                        grid-column-start: 9;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start10\@md_1 {
+                        grid-column-start: 10;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start11\@md_1 {
+                        grid-column-start: 11;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start12\@md_1 {
+                        grid-column-start: 12;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--span1\@md_1 {
+                        grid-column-end: span 1
+                    }
+        
+                    .rds-Grid-item--span2\@md_1 {
+                        grid-column-end: span 2
+                    }
+        
+                    .rds-Grid-item--span3\@md_1 {
+                        grid-column-end: span 3
+                    }
+        
+                    .rds-Grid-item--span4\@md_1 {
+                        grid-column-end: span 4
+                    }
+        
+                    .rds-Grid-item--span5\@md_1 {
+                        grid-column-end: span 5
+                    }
+        
+                    .rds-Grid-item--span6\@md_1 {
+                        grid-column-end: span 12
+                    }
+        
+                    .rds-Grid-item--span7\@md_1 {
+                        grid-column-end: span 7
+                    }
+        
+                    .rds-Grid-item--span8\@md_1 {
+                        grid-column-end: span 8
+                    }
+        
+                    .rds-Grid-item--span9\@md_1 {
+                        grid-column-end: span 9
+                    }
+        
+                    .rds-Grid-item--span10\@md_1 {
+                        grid-column-end: span 10
+                    }
+        
+                    .rds-Grid-item--span11\@md_1 {
+                        grid-column-end: span 11
+                    }
+        
+                    .rds-Grid-item--span12\@md_1 {
+                        grid-column-end: span 12
+                    }
+        
+                    .rds-Grid-item--orderStart\@md_1 {
+                        order: -1
+                    }
+        
+                    .rds-Grid-item--orderEnd\@md_1 {
+                        order: 1
+                    }
+        
+                    .rds-Grid-item--orderReset\@md_1 {
+                        order: 0
+                    }
+                }
+        
+                @media screen and (min-width:75em) {
+                    .rds-Grid-item--start1\@lg_1 {
+                        grid-column-start: 1;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start2\@lg_1 {
+                        grid-column-start: 2;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start3\@lg_1 {
+                        grid-column-start: 3;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start4\@lg_1 {
+                        grid-column-start: 4;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start5\@lg_1 {
+                        grid-column-start: 5;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start6\@lg_1 {
+                        grid-column-start: 6;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start7\@lg_1 {
+                        grid-column-start: 7;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start8\@lg_1 {
+                        grid-column-start: 8;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start9\@lg_1 {
+                        grid-column-start: 9;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start10\@lg_1 {
+                        grid-column-start: 10;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start11\@lg_1 {
+                        grid-column-start: 11;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start12\@lg_1 {
+                        grid-column-start: 12;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--span1\@lg_1 {
+                        grid-column-end: span 1
+                    }
+        
+                    .rds-Grid-item--span2\@lg_1 {
+                        grid-column-end: span 2
+                    }
+        
+                    .rds-Grid-item--span3\@lg_1 {
+                        grid-column-end: span 3
+                    }
+        
+                    .rds-Grid-item--span4\@lg_1 {
+                        grid-column-end: span 4
+                    }
+        
+                    .rds-Grid-item--span5\@lg_1 {
+                        grid-column-end: span 5
+                    }
+        
+                    .rds-Grid-item--span6\@lg_1 {
+                        grid-column-end: span 6
+                    }
+        
+                    .rds-Grid-item--span7\@lg_1 {
+                        grid-column-end: span 7
+                    }
+        
+                    .rds-Grid-item--span8\@lg_1 {
+                        grid-column-end: span 8
+                    }
+        
+                    .rds-Grid-item--span9\@lg_1 {
+                        grid-column-end: span 9
+                    }
+        
+                    .rds-Grid-item--span10\@lg_1 {
+                        grid-column-end: span 10
+                    }
+        
+                    .rds-Grid-item--span11\@lg_1 {
+                        grid-column-end: span 11
+                    }
+        
+                    .rds-Grid-item--span12\@lg_1 {
+                        grid-column-end: span 12
+                    }
+        
+                    .rds-Grid-item--orderStart\@lg_1 {
+                        order: -1
+                    }
+        
+                    .rds-Grid-item--orderEnd\@lg_1 {
+                        order: 1
+                    }
+        
+                    .rds-Grid-item--orderReset\@lg_1 {
+                        order: 0
+                    }
+                }
+        
+                @media screen and (min-width:93.75em) {
+                    .rds-Grid-item--start1\@xl_1 {
+                        grid-column-start: 1;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start2\@xl_1 {
+                        grid-column-start: 2;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start3\@xl_1 {
+                        grid-column-start: 3;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start4\@xl_1 {
+                        grid-column-start: 4;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start5\@xl_1 {
+                        grid-column-start: 5;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start6\@xl_1 {
+                        grid-column-start: 6;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start7\@xl_1 {
+                        grid-column-start: 7;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start8\@xl_1 {
+                        grid-column-start: 8;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start9\@xl_1 {
+                        grid-column-start: 9;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start10\@xl_1 {
+                        grid-column-start: 10;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start11\@xl_1 {
+                        grid-column-start: 11;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start12\@xl_1 {
+                        grid-column-start: 12;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--span1\@xl_1 {
+                        grid-column-end: span 1
+                    }
+        
+                    .rds-Grid-item--span2\@xl_1 {
+                        grid-column-end: span 2
+                    }
+        
+                    .rds-Grid-item--span3\@xl_1 {
+                        grid-column-end: span 3
+                    }
+        
+                    .rds-Grid-item--span4\@xl_1 {
+                        grid-column-end: span 4
+                    }
+        
+                    .rds-Grid-item--span5\@xl_1 {
+                        grid-column-end: span 5
+                    }
+        
+                    .rds-Grid-item--span6\@xl_1 {
+                        grid-column-end: span 6
+                    }
+        
+                    .rds-Grid-item--span7\@xl_1 {
+                        grid-column-end: span 7
+                    }
+        
+                    .rds-Grid-item--span8\@xl_1 {
+                        grid-column-end: span 8
+                    }
+        
+                    .rds-Grid-item--span9\@xl_1 {
+                        grid-column-end: span 9
+                    }
+        
+                    .rds-Grid-item--span10\@xl_1 {
+                        grid-column-end: span 10
+                    }
+        
+                    .rds-Grid-item--span11\@xl_1 {
+                        grid-column-end: span 11
+                    }
+        
+                    .rds-Grid-item--span12\@xl_1 {
+                        grid-column-end: span 12
+                    }
+        
+                    .rds-Grid-item--orderStart\@xl_1 {
+                        order: -1
+                    }
+        
+                    .rds-Grid-item--orderEnd\@xl_1 {
+                        order: 1
+                    }
+        
+                    .rds-Grid-item--orderReset\@xl_1 {
+                        order: 0
+                    }
+                }
+        
+                @media screen and (min-width:112.5em) {
+                    .rds-Grid-item--start1\@2xl_1 {
+                        grid-column-start: 1;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start2\@2xl_1 {
+                        grid-column-start: 2;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start3\@2xl_1 {
+                        grid-column-start: 3;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start4\@2xl_1 {
+                        grid-column-start: 4;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start5\@2xl_1 {
+                        grid-column-start: 5;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start6\@2xl_1 {
+                        grid-column-start: 6;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start7\@2xl_1 {
+                        grid-column-start: 7;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start8\@2xl_1 {
+                        grid-column-start: 8;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start9\@2xl_1 {
+                        grid-column-start: 9;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start10\@2xl_1 {
+                        grid-column-start: 10;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start11\@2xl_1 {
+                        grid-column-start: 11;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--start12\@2xl_1 {
+                        grid-column-start: 12;
+                        grid-column-end: -1
+                    }
+        
+                    .rds-Grid-item--span1\@2xl_1 {
+                        grid-column-end: span 1
+                    }
+        
+                    .rds-Grid-item--span2\@2xl_1 {
+                        grid-column-end: span 2
+                    }
+        
+                    .rds-Grid-item--span3\@2xl_1 {
+                        grid-column-end: span 3
+                    }
+        
+                    .rds-Grid-item--span4\@2xl_1 {
+                        grid-column-end: span 4
+                    }
+        
+                    .rds-Grid-item--span5\@2xl_1 {
+                        grid-column-end: span 5
+                    }
+        
+                    .rds-Grid-item--span6\@2xl_1 {
+                        grid-column-end: span 6
+                    }
+        
+                    .rds-Grid-item--span7\@2xl_1 {
+                        grid-column-end: span 7
+                    }
+        
+                    .rds-Grid-item--span8\@2xl_1 {
+                        grid-column-end: span 8
+                    }
+        
+                    .rds-Grid-item--span9\@2xl_1 {
+                        grid-column-end: span 9
+                    }
+        
+                    .rds-Grid-item--span10\@2xl_1 {
+                        grid-column-end: span 10
+                    }
+        
+                    .rds-Grid-item--span11\@2xl_1 {
+                        grid-column-end: span 11
+                    }
+        
+                    .rds-Grid-item--span12\@2xl_1 {
+                        grid-column-end: span 12
+                    }
+        
+                    .rds-Grid-item--orderStart\@2xl_1 {
+                        order: -1
+                    }
+        
+                    .rds-Grid-item--orderEnd\@2xl_1 {
+                        order: 1
+                    }
+        
+                    .rds-Grid-item--orderReset\@2xl_1 {
+                        order: 0
+                    }
+                }
+            </style>
+        
+            <style>
+                .rds-Heading_1 {
+                    line-height: 1.25;
+                    color: #1f2426;
+                    font-family: Open Sans, Arial, sans-serif;
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    text-indent: 0;
+                    text-transform: none;
+                    text-shadow: none;
+                    letter-spacing: 0;
+                    font-style: normal
+                }
+        
+                .rds-Heading_1 sub,
+                .rds-Heading_1 sup {
+                    line-height: 0;
+                    font-size: .875em
+                }
+        
+                .rds-Heading_1 sup {
+                    top: auto;
+                    vertical-align: super
+                }
+        
+                .rds-Heading_1 sub {
+                    bottom: auto;
+                    vertical-align: sub
+                }
+        
+                .rds-Heading--xsmall_1 {
+                    font-size: 18px
+                }
+        
+                .rds-Heading--small_1 {
+                    font-size: 20px
+                }
+        
+                .rds-Heading--large_1 {
+                    font-size: 28px
+                }
+        
+                @media screen and (min-width:37.5em) {
+                    .rds-Heading--large_1 {
+                        font-size: 34px
+                    }
+                }
+        
+                .rds-Heading--xlarge_1 {
+                    font-size: 34px
+                }
+        
+                @media screen and (min-width:37.5em) {
+                    .rds-Heading--xlarge_1 {
+                        line-height: 1.1;
+                        font-size: 44px
+                    }
+                }
+        
+                .rds-Heading--2xlarge_1 {
+                    font-size: 40px
+                }
+        
+                @media screen and (min-width:37.5em) {
+                    .rds-Heading--2xlarge_1 {
+                        line-height: 1.1;
+                        font-size: 60px
+                    }
+                }
+        
+                .rds-Heading_1 em {
+                    font-style: italic
+                }
+        
+                .rds-Heading_1 a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: inherit;
+                    margin-bottom: 1rem;
+                }
+        
+                .rds-Heading_1 p {
+                    font-weight: 500;
+                    font-size: 14px;
+                    margin-top: 1rem;
+                }
+        
+                .rds-Heading_1 a:hover {
+                    color: #495257
+                }
+        
+                .rds-Heading--alternate_1 {
+                    color: #003561
+                }
+        
+                .rds-Heading--alternate_1 a:hover {
+                    color: #005b98
+                }
+        
+                .rds-Heading--brand_1 {
+                    color: var(--rds-heading-brand-color, #0073b9)
+                }
+        
+                .rds-Heading--brand_1 a:hover {
+                    color: var(--rds-heading-brand-interactive-color, #005b98)
+                }
+        
+                .rds-Heading_1.on-darkCanvas {
+                    color: #fff
+                }
+        
+                .rds-Heading_1.on-darkCanvas a:hover {
+                    color: #f5f7f8
+                }
+            </style>
+        
+            <h2 class="rds-Heading_1 rds-Heading--large_1 u-spacingStack2 u-textAlignCenter ">
+                <div>
+                    Watch Heather's Past Livestreams Here
+                </div>
+        
+            </h2>
+        
+            <div class="
+                                    u-accentLine
+                                    u-spacingStack4 u-textAlignCenter
+                                    
+                                  " style="color: #0073b9">
+            </div>
+        
+            <style>
+                .rs-ContentList {
+                    margin-bottom: 0;
+                    padding-left: 0;
+                    list-style: none
+                }
+        
+                .rs-ContentList-item {
+                    width: 100%
+                }
+        
+                @media screen and (min-width:37.5em) {
+                    .rs-ContentList-item--fullWidth\@sm-gap-lg {
+                        width: calc(100% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@sm-gap-lg {
+                        width: calc(50% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@sm-gap-lg {
+                        width: calc(33.33333% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@sm-gap-lg {
+                        width: calc(25% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@sm-gap-lg {
+                        width: calc(20% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@sm-gap-lg {
+                        width: calc(16.66667% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@sm-gap-lg {
+                        width: calc(14.28571% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@sm-gap-lg {
+                        width: calc(12.5% - 24px)
+                    }
+        
+                    .rs-ContentList-item--fullWidth\@sm-gap-xl {
+                        width: calc(100% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@sm-gap-xl {
+                        width: calc(50% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@sm-gap-xl {
+                        width: calc(33.33333% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@sm-gap-xl {
+                        width: calc(25% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@sm-gap-xl {
+                        width: calc(20% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@sm-gap-xl {
+                        width: calc(16.66667% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@sm-gap-xl {
+                        width: calc(14.28571% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@sm-gap-xl {
+                        width: calc(12.5% - 32px)
+                    }
+        
+                    .rs-ContentList-item--fullWidth\@sm-gap-2xl {
+                        width: calc(100% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@sm-gap-2xl {
+                        width: calc(50% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@sm-gap-2xl {
+                        width: calc(33.33333% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@sm-gap-2xl {
+                        width: calc(25% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@sm-gap-2xl {
+                        width: calc(20% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@sm-gap-2xl {
+                        width: calc(16.66667% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@sm-gap-2xl {
+                        width: calc(14.28571% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@sm-gap-2xl {
+                        width: calc(12.5% - 48px)
+                    }
+                }
+        
+                @media screen and (min-width:56.25em) {
+                    .rs-ContentList-item--fullWidth\@md-gap-lg {
+                        width: calc(100% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@md-gap-lg {
+                        width: calc(50% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@md-gap-lg {
+                        width: calc(33.33333% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@md-gap-lg {
+                        width: calc(25% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@md-gap-lg {
+                        width: calc(20% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@md-gap-lg {
+                        width: calc(16.66667% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@md-gap-lg {
+                        width: calc(14.28571% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@md-gap-lg {
+                        width: calc(12.5% - 24px)
+                    }
+        
+                    .rs-ContentList-item--fullWidth\@md-gap-xl {
+                        width: calc(100% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@md-gap-xl {
+                        width: calc(50% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@md-gap-xl {
+                        width: calc(33.33333% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@md-gap-xl {
+                        width: calc(25% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@md-gap-xl {
+                        width: calc(20% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@md-gap-xl {
+                        width: calc(16.66667% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@md-gap-xl {
+                        width: calc(14.28571% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@md-gap-xl {
+                        width: calc(12.5% - 32px)
+                    }
+        
+                    .rs-ContentList-item--fullWidth\@md-gap-2xl {
+                        width: calc(100% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@md-gap-2xl {
+                        width: calc(50% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@md-gap-2xl {
+                        width: calc(33.33333% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@md-gap-2xl {
+                        width: calc(25% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@md-gap-2xl {
+                        width: calc(20% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@md-gap-2xl {
+                        width: calc(16.66667% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@md-gap-2xl {
+                        width: calc(14.28571% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@md-gap-2xl {
+                        width: calc(12.5% - 48px)
+                    }
+                }
+        
+                @media screen and (min-width:75em) {
+                    .rs-ContentList-item--fullWidth\@lg-gap-lg {
+                        width: calc(100% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@lg-gap-lg {
+                        width: calc(50% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@lg-gap-lg {
+                        width: calc(33.33333% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@lg-gap-lg {
+                        width: calc(25% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@lg-gap-lg {
+                        width: calc(20% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@lg-gap-lg {
+                        width: calc(16.66667% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@lg-gap-lg {
+                        width: calc(14.28571% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@lg-gap-lg {
+                        width: calc(12.5% - 24px)
+                    }
+        
+                    .rs-ContentList-item--fullWidth\@lg-gap-xl {
+                        width: calc(100% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@lg-gap-xl {
+                        width: calc(50% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@lg-gap-xl {
+                        width: calc(33.33333% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@lg-gap-xl {
+                        width: calc(25% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@lg-gap-xl {
+                        width: calc(20% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@lg-gap-xl {
+                        width: calc(16.66667% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@lg-gap-xl {
+                        width: calc(14.28571% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@lg-gap-xl {
+                        width: calc(12.5% - 32px)
+                    }
+        
+                    .rs-ContentList-item--fullWidth\@lg-gap-2xl {
+                        width: calc(100% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf\@lg-gap-2xl {
+                        width: calc(50% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneThird\@lg-gap-2xl {
+                        width: calc(33.33333% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth\@lg-gap-2xl {
+                        width: calc(25% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneFifth\@lg-gap-2xl {
+                        width: calc(20% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneSixth\@lg-gap-2xl {
+                        width: calc(16.66667% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneSeventh\@lg-gap-2xl {
+                        width: calc(14.28571% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneEighth\@lg-gap-2xl {
+                        width: calc(12.5% - 48px)
+                    }
+                }
+        
+                @media screen and (max-width:37.5em) {
+                    .rs-ContentList-item--oneHalf-gap-lg {
+                        width: calc(50% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneThird-gap-lg {
+                        width: calc(33.33333% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth-gap-lg {
+                        width: calc(25% - 24px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf-gap-xl {
+                        width: calc(50% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneThird-gap-xl {
+                        width: calc(33.33333% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth-gap-xl {
+                        width: calc(25% - 32px)
+                    }
+        
+                    .rs-ContentList-item--oneHalf-gap-2xl {
+                        width: calc(50% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneThird-gap-2xl {
+                        width: calc(33.33333% - 48px)
+                    }
+        
+                    .rs-ContentList-item--oneFourth-gap-2xl {
+                        width: calc(25% - 48px)
+                    }
+                }
+            </style>
+        
+        
+            <style>
+                .rds-Stack_3 {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    margin-top: -16px !important;
+                    margin-left: -16px !important
+                }
+        
+                .rds-Stack_3>* {
+                    margin-top: 16px !important;
+                    margin-left: 16px !important;
+                    max-width: calc(100% - 15px)
+                }
+        
+                .rds-Stack--smSpacing_3 {
+                    margin-top: -8px !important;
+                    margin-left: -8px !important
+                }
+        
+                .rds-Stack--smSpacing_3>* {
+                    margin-top: 8px !important;
+                    margin-left: 8px !important;
+                    max-width: calc(100% - 7px)
+                }
+        
+                .rds-Stack--lgSpacing_3 {
+                    margin-top: -24px !important;
+                    margin-left: -24px !important
+                }
+        
+                .rds-Stack--lgSpacing_3>* {
+                    margin-top: 24px !important;
+                    margin-left: 24px !important;
+                    max-width: calc(100% - 23px)
+                }
+        
+                .rds-Stack--xlSpacing_3 {
+                    margin-top: -32px !important;
+                    margin-left: -32px !important
+                }
+        
+                .rds-Stack--xlSpacing_3>* {
+                    margin-top: 32px !important;
+                    margin-left: 32px !important;
+                    max-width: calc(100% - 31px)
+                }
+        
+                .rds-Stack--2xlSpacing_3 {
+                    margin-top: -48px !important;
+                    margin-left: -48px !important
+                }
+        
+                .rds-Stack--2xlSpacing_3>* {
+                    margin-top: 48px !important;
+                    margin-left: 48px !important;
+                    max-width: calc(100% - 47px)
+                }
+        
+                .rds-Stack--topVerticalAlignment_3 {
+                    align-items: flex-start
+                }
+        
+                .rds-Stack--bottomVerticalAlignment_3 {
+                    align-items: flex-end
+                }
+        
+                .rds-Stack--centerHorizontalAlignment_3 {
+                    justify-content: center
+                }
+        
+                .rds-Stack--rightHorizontalAlignment_3 {
+                    justify-content: flex-end
+                }
+        
+                .rds-Stack--vertical_3 {
+                    align-items: flex-start;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 0
+                }
+        
+                .rds-Stack--vertical_3>* {
+                    margin-left: 0;
+                    max-width: 100%
+                }
+        
+                .rds-Stack--vertical_3.rds-Stack--topVerticalAlignment_3 {
+                    justify-content: flex-start
+                }
+        
+                .rds-Stack--vertical_3.rds-Stack--bottomVerticalAlignment_3 {
+                    justify-content: flex-end
+                }
+        
+                .rds-Stack--vertical_3.rds-Stack--centerHorizontalAlignment_3 {
+                    align-items: center
+                }
+        
+                .rds-Stack--vertical_3.rds-Stack--rightHorizontalAlignment_3 {
+                    align-items: flex-end
+                }
+        
+                .rds-Stack--noWrap_3 {
+                    flex-wrap: nowrap
+                }
+            </style>
+        
+            <style>
+                .rds-Stack_1 {
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    margin-top: -16px;
+                    margin-left: -16px
+                }
+        
+                .rds-Stack_1>* {
+                    margin-top: 16px;
+                    margin-left: 16px;
+                    max-width: calc(100% - 15px)
+                }
+        
+                .rds-Stack--smallSpacing_1 {
+                    margin-top: -4px;
+                    margin-left: -4px
+                }
+        
+                .rds-Stack--smallSpacing_1>* {
+                    margin-top: 4px;
+                    margin-left: 4px;
+                    max-width: calc(100% - 3px)
+                }
+        
+                .rds-Stack--largeSpacing_1 {
+                    margin-top: -32px;
+                    margin-left: -32px
+                }
+        
+                .rds-Stack--largeSpacing_1>* {
+                    margin-top: 32px;
+                    margin-left: 32px;
+                    max-width: calc(100% - 31px)
+                }
+        
+                .rds-Stack--topVerticalAlignment_1 {
+                    align-items: flex-start
+                }
+        
+                .rds-Stack--bottomVerticalAlignment_1 {
+                    align-items: flex-end
+                }
+        
+                .rds-Stack--centerHorizontalAlignment_1 {
+                    justify-content: center
+                }
+        
+                .rds-Stack--rightHorizontalAlignment_1 {
+                    justify-content: flex-end
+                }
+        
+                .rds-Stack--vertical_1 {
+                    align-items: flex-start;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-left: 0
+                }
+        
+                .rds-Stack--vertical_1>* {
+                    margin-left: 0;
+                    max-width: 100%
+                }
+        
+                .rds-Stack--vertical_1.rds-Stack--topVerticalAlignment_1 {
+                    justify-content: flex-start
+                }
+        
+                .rds-Stack--vertical_1.rds-Stack--bottomVerticalAlignment_1 {
+                    justify-content: flex-end
+                }
+        
+                .rds-Stack--vertical_1.rds-Stack--centerHorizontalAlignment_1 {
+                    align-items: center
+                }
+        
+                .rds-Stack--vertical_1.rds-Stack--rightHorizontalAlignment_1 {
+                    align-items: flex-end
+                }
+        
+                .rds-Stack--noWrap_1 {
+                    flex-wrap: nowrap
+                }
+            </style>
+        
+            <style>
+                .rds-Button_4 {
+                    box-sizing: border-box;
+                    display: inline-flex;
+                    align-items: center;
+                    flex-shrink: 0;
+                    justify-content: center;
+                    transition: background-color .3s cubic-bezier(.19, 1, .22, 1), border-color .3s cubic-bezier(.19, 1, .22, 1), color .3s cubic-bezier(.19, 1, .22, 1);
+                    border: 1px solid transparent;
+                    border-radius: 4px;
+                    box-shadow: inset #0073b9;
+                    background-color: var(--rds-button-background-color, #0073b9);
+                    cursor: pointer;
+                    padding: 12px 20px;
+                    width: auto;
+                    text-align: center;
+                    text-indent: 0;
+                    text-transform: none;
+                    text-decoration: none;
+                    text-shadow: none;
+                    line-height: 1;
+                    letter-spacing: normal;
+                    color: var(--rds-button-text-color, #fff);
+                    font-family: Open Sans, Arial, sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    font-style: normal;
+                    word-break: break-word
+                }
+        
+                .rds-Button_4:active:not([disabled]),
+                .rds-Button_4:focus:not([disabled]),
+                .rds-Button_4:hover:not([disabled]) {
+                    background-color: var(--rds-button-background-color-interactive, #005b98);
+                    color: #fff
+                }
+        
+                .rds-Button_4.on-darkCanvas {
+                    background-color: #fff;
+                    color: var(--rds-button-background-color, #0073b9)
+                }
+        
+                .rds-Button_4.on-darkCanvas:active:not([disabled]),
+                .rds-Button_4.on-darkCanvas:focus:not([disabled]),
+                .rds-Button_4.on-darkCanvas:hover:not([disabled]) {
+                    background-color: hsla(0, 0%, 100%, .9);
+                    color: var(--rds-button-background-color, #0073b9)
+                }
+        
+                .rds-Button--alternate_4,
+                .rds-Button--alternate_4.on-darkCanvas {
+                    background-color: var(--rds-button-alternate-background-color, #fcd214);
+                    color: var(--rds-button-alternate-text-color, #003561)
+                }
+        
+                .rds-Button--alternate_4.on-darkCanvas:active:not([disabled]),
+                .rds-Button--alternate_4.on-darkCanvas:focus:not([disabled]),
+                .rds-Button--alternate_4.on-darkCanvas:hover:not([disabled]),
+                .rds-Button--alternate_4:active:not([disabled]),
+                .rds-Button--alternate_4:focus:not([disabled]),
+                .rds-Button--alternate_4:hover:not([disabled]) {
+                    background-color: var(--rds-button-alternate-background-color-interactive, #ffe45e);
+                    color: var(--rds-button-alternate-text-color, #003561)
+                }
+        
+                .rds-Button--ghost_4 {
+                    border-color: var(--rds-button-background-color, #0073b9);
+                    box-shadow: 0 0 0 1px var(--rds-button-background-color, #0073b9) inset;
+                    background-color: transparent;
+                    color: var(--rds-button-background-color, #0073b9)
+                }
+        
+                .rds-Button--ghost_4.on-darkCanvas {
+                    border-color: #fff;
+                    box-shadow: inset 0 0 0 1px #fff;
+                    background-color: transparent;
+                    color: #fff
+                }
+        
+                .rds-Button--ghost_4.on-darkCanvas:active:not([disabled]),
+                .rds-Button--ghost_4.on-darkCanvas:focus:not([disabled]),
+                .rds-Button--ghost_4.on-darkCanvas:hover:not([disabled]) {
+                    background-color: hsla(0, 0%, 100%, .1);
+                    color: #fff
+                }
+        
+                .rds-Button--ghost_4:active:not([disabled]),
+                .rds-Button--ghost_4:focus:not([disabled]),
+                .rds-Button--ghost_4:hover:not([disabled]) {
+                    background-color: var(--rds-button-transparent-background-color-interactive, rgba(0, 115, 185, .1));
+                    color: var(--rds-button-background-color, #0073b9)
+                }
+        
+                .rds-Button--subtle_4 {
+                    background-color: transparent;
+                    color: var(--rds-button-background-color, #0073b9)
+                }
+        
+                .rds-Button--subtle_4.on-darkCanvas {
+                    background-color: transparent;
+                    color: #fff
+                }
+        
+                .rds-Button--subtle_4.on-darkCanvas:active:not([disabled]),
+                .rds-Button--subtle_4.on-darkCanvas:focus:not([disabled]),
+                .rds-Button--subtle_4.on-darkCanvas:hover:not([disabled]) {
+                    background-color: hsla(0, 0%, 100%, .1);
+                    color: #fff
+                }
+        
+                .rds-Button--subtle_4:active:not([disabled]),
+                .rds-Button--subtle_4:focus:not([disabled]),
+                .rds-Button--subtle_4:hover:not([disabled]) {
+                    background-color: var(--rds-button-transparent-background-color-interactive, rgba(0, 115, 185, .1));
+                    color: var(--rds-button-background-color, #0073b9)
+                }
+        
+                .rds-Button--danger_4 {
+                    background-color: #e64b40;
+                    color: #fff
+                }
+        
+                .rds-Button--danger_4.on-darkCanvas {
+                    background-color: #fff;
+                    color: #e64b40
+                }
+        
+                .rds-Button--danger_4.on-darkCanvas:active:not([disabled]),
+                .rds-Button--danger_4.on-darkCanvas:focus:not([disabled]),
+                .rds-Button--danger_4.on-darkCanvas:hover:not([disabled]) {
+                    background-color: hsla(0, 0%, 100%, .9);
+                    color: #e64b40
+                }
+        
+                .rds-Button--danger_4:active:not([disabled]),
+                .rds-Button--danger_4:focus:not([disabled]),
+                .rds-Button--danger_4:hover:not([disabled]) {
+                    background-color: #cc392f;
+                    color: #fff
+                }
+        
+                .rds-Button--dangerSubtle_4 {
+                    background-color: transparent;
+                    color: #e64b40
+                }
+        
+                .rds-Button--dangerSubtle_4.on-darkCanvas {
+                    background-color: #fff;
+                    color: #e64b40
+                }
+        
+                .rds-Button--dangerSubtle_4.on-darkCanvas:active:not([disabled]),
+                .rds-Button--dangerSubtle_4.on-darkCanvas:focus:not([disabled]),
+                .rds-Button--dangerSubtle_4.on-darkCanvas:hover:not([disabled]) {
+                    background-color: hsla(0, 0%, 100%, .9);
+                    color: #e64b40
+                }
+        
+                .rds-Button--dangerSubtle_4:active:not([disabled]),
+                .rds-Button--dangerSubtle_4:focus:not([disabled]),
+                .rds-Button--dangerSubtle_4:hover:not([disabled]) {
+                    background: rgba(230, 75, 64, .1);
+                    color: #e64b40
+                }
+        
+                .rds-Button--neutralSubtle_4 {
+                    background-color: transparent;
+                    color: #1f2426
+                }
+        
+                .rds-Button--neutralSubtle_4.on-darkCanvas {
+                    background-color: transparent;
+                    color: #fff
+                }
+        
+                .rds-Button--neutralSubtle_4.on-darkCanvas:active:not([disabled]),
+                .rds-Button--neutralSubtle_4.on-darkCanvas:focus:not([disabled]),
+                .rds-Button--neutralSubtle_4.on-darkCanvas:hover:not([disabled]) {
+                    background-color: hsla(0, 0%, 100%, .1);
+                    color: #fff
+                }
+        
+                .rds-Button--neutralSubtle_4:active:not([disabled]),
+                .rds-Button--neutralSubtle_4:focus:not([disabled]),
+                .rds-Button--neutralSubtle_4:hover:not([disabled]) {
+                    background-color: rgba(232, 236, 237, .44);
+                    color: #1f2426
+                }
+        
+                .rds-Button--small_4 {
+                    padding: 8px 16px;
+                    font-size: 14px
+                }
+        
+                .rds-Button--large_4 {
+                    padding: 16px 24px;
+                    font-size: 18px
+                }
+        
+                .rds-Button--xlarge_4 {
+                    padding: 20px 28px;
+                    font-size: 20px
+                }
+        
+                .rds-Button--fullWidthOnMobile_4 {
+                    width: 100%
+                }
+        
+                @media screen and (min-width:37.5em) {
+                    .rds-Button--fullWidthOnMobile_4 {
+                        width: auto
+                    }
+                }
+        
+                .rds-Button--iconOnly_4 {
+                    padding: 12px
+                }
+        
+                .rds-Button--iconOnly_4.rds-Button--small_4 {
+                    padding: 8px
+                }
+        
+                .rds-Button--iconOnly_4.rds-Button--large_4 {
+                    padding: 13px
+                }
+        
+                .rds-Button--iconOnly_4.rds-Button--xlarge_4 {
+                    padding: 18px
+                }
+        
+                .rds-Button-icon_4 {
+                    flex-shrink: 0;
+                    pointer-events: none
+                }
+        
+                .rds-Button-icon--left_4 {
+                    margin-right: 8px
+                }
+        
+                .rds-Button-icon--right_4 {
+                    margin-left: 8px
+                }
+        
+                .rds-Button_4[disabled] {
+                    cursor: not-allowed !important
+                }
+        
+                .rds-Button_4.is-disabled,
+                .rds-Button_4[disabled] {
+                    opacity: .4 !important;
+                    -webkit-user-select: none !important;
+                    -ms-user-select: none !important;
+                    user-select: none !important
+                }
+        
+                a.rds-Button_4.is-disabled {
+                    pointer-events: none !important
+                }
+        
+                .material-symbols-outlined {
+                    vertical-align: middle;
+                }
+            </style>
+        
+            <style>
+                .youtube-gallery body {
+                    font-family: "Poppins", sans-serif;
+                    color: #141414;
+                    font-size: 16px;
+                    font-weight: 300;
+                    overflow-x: hidden;
+                }
+        
+                .youtube-gallery h1 {
+                    font-size: 1em;
+                }
+        
+                .youtube-gallery h2 {
+                    font-size: 3em;
+                }
+        
+                .youtube-gallery h4 {
+                    font-size: 1em;
+                }
+        
+                .youtube-gallery h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-family: Open Sans, Arial, sans-serif;
+                    font-weight: bold;
+                }
+        
+                .youtube-gallery .font-body {
+                    font-family: "Poppins", sans-serif;
+                }
+        
+                .container-max {
+                    max-width: 1495px;
+                    margin: 0 auto;
+                }
+        
+                .bg-img {
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                }
+        
+                .bg-lines {
+                    background-image: url("images/yt-bg.jpg");
+                }
+        
+                .youtube-gallery {
+                    min-height: 100vh;
+                }
+        
+                .youtube-gallery .video {
+                    background: url("images/yt-placeholder.jpg");
+                    background-position: center;
+                    background-size: cover;
+                }
+        
+                .yt-single {
+                    background: #F5F7F8;
+                    border-radius: 10px;
+                }
+        
+                .yt-single img {
+                    border-bottom: 3px solid #0073B9;
+                    transition: all 0.25s ease-in-out;
+                }
+        
+                .yt-thumb {
+                    max-width: 260px;
+                    width: 100%;
+                    display: flex;
+                    cursor: pointer;
+                    margin-right: 15px;
+                    margin-left: 15px;
+                    min-height: 100%;
+                }
+        
+                .yt-thumb:hover img {
+                    opacity: 0.75;
+                }
+        
+                .date {
+                    color: #808080;
+                    font-size: 0.875em;
+                }
+        
+                .yt-title {
+                    color: #141414;
+                    font-weight: bold;
+                }
+        
+                .yt-img {
+                    position: relative;
+                }
+        
+                .yt-img:before {
+                    content: "";
+                    background-image: url("icons/play-btn.svg");
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    bottom: -20px;
+                    right: 20px;
+                    z-index: 1;
+                    opacity: 0;
+                    transition: all 0.25s ease-in-out;
+                }
+        
+                .ypt-now-playing .yt-img:before {
+                    content: "";
+                    background-image: url("icons/play-btn.svg");
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    bottom: -20px;
+                    right: 20px;
+                    z-index: 1;
+                    opacity: 1;
+                }
+        
+                .flickity-prev-next-button {
+                    top: 50%;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    transform: translateY(-50%);
+                }
+        
+                .flickity-prev-next-button .flickity-button-icon {
+                    position: absolute;
+                    left: 30%;
+                    top: 30%;
+                    width: 40%;
+                    height: 40%;
+                }
+        
+                .flickity-prev-next-button.next {
+                    right: -40px;
+                }
+        
+                .flickity-prev-next-button.previous {
+                    left: -40px;
+                }
+        
+                .flickity-button {
+                    position: absolute;
+                    background: #141414;
+                    border: none;
+                    color: #fff;
+                }
+        
+                .flickity-button:hover {
+                    background: #0073B9;
+                    cursor: pointer;
+                }
+        
+                .flickity-button:disabled {
+                    opacity: 1;
+                    cursor: auto;
+                    pointer-events: none;
+                }
+
+                .flickity-button:focus {
+                    box-shadow: 0 0 0 5px #fcd214;
+                }
+                
+                
+        
+                @media screen and (max-width: 575px) {
+                    .flickity-prev-next-button.next {
+                        right: -32px;
+                    }
+        
+                    .flickity-prev-next-button.previous {
+                        left: -32px;
+                    }
+                }
+            </style>
+        
+        
+            <section class='youtube-gallery py-5 position-relative' id='watch'>
+                <div class='ypt' id='ypt_wrapper'>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='col-12 mb-5'>
+                                <div class='video ratio ratio-16x9'>
+                                    <div class='play' data-pl='PLajmTBAW9LwHz1g9d8lLAz3M7p5KF15a7' id='player'></div>
                                 </div>
-                        
-                                <!-- BEGIN youtubeplaylist CONTAINER  -->
-                        
-                                <div id="youtubeplaylist">
-
-                        
-                                    <button class="lazyload active" style="background-image: url('https://img.youtube.com/vi/YPfEx9jKj_Y/sddefault.jpg');"
-                                        data-iframe="https://www.youtube.com/embed/YPfEx9jKj_Y?autoplay=1"
-                                        data-caption="How to Market to Families with an Auction Date"></button>
-                        
-                                    <!-- MORE VIDEO BUTTONS  -->
-                        
-                                    <button  class="lazyload" style="background-image: url('https://img.youtube.com/vi/SwprwSg2R68/sddefault.jpg');"
-                                        data-iframe="https://www.youtube.com/embed/SwprwSg2R68?autoplay=1"
-                                        data-caption="SPECIAL Launch: Unlock Your County - February 29, 2024"></button>
-                        
-                                    <button class="lazyload" style="background-image: url('https://img.youtube.com/vi/bK_my2Q9WQo/sddefault.jpg');"
-                                        data-iframe="https://www.youtube.com/embed/bK_my2Q9WQo?autoplay=1"
-                                        data-caption="Build a 6-Figure Niche in Distressed Sales (12.21.2023)"></button>
-                        
-                                    <button class="lazyload" style="background-image: url('https://img.youtube.com/vi/iZcWwv1NuSM/sddefault.jpg');"
-                                        data-iframe="https://www.youtube.com/embed/iZcWwv1NuSM?autoplay=1"
-                                        data-caption="10-Important Questions to Ask Your Sellers Up-Front"></button>
-                        
-                        
-                        
-                                    <button class="lazyload" style="background-image: url('https://img.youtube.com/vi/1nOv78JzwCU/sddefault.jpg');"
-                                        data-iframe="https://www.youtube.com/embed/1nOv78JzwCU?autoplay=1"
-                                        data-caption="#1 Short Sale Myth - - - DEBUNKED!"></button>
-                        
-                                    <button class="lazyload" style="background-image: url('https://img.youtube.com/vi/7-8peQa6deg/sddefault.jpg');"
-                                        data-iframe="https://www.youtube.com/embed/7-8peQa6deg?autoplay=1"
-                                        data-caption="How to Determine a “Game Plan” for Your Sellers Facing Foreclosure"></button>
-                        
-                                    <button class="lazyload" style="background-image: url('https://img.youtube.com/vi/nWZ8IOUWfW8/sddefault.jpg');"
-                                        data-iframe="https://www.youtube.com/embed/nWZ8IOUWfW8?autoplay=1"
-                                        data-caption="ONBOARDING Livestream - Thursday, March 7, 2024"></button>
-                        
-                                </div> <!-- END youtubeplaylist CONTAINER  -->
-                        
-                            </aside> <!-- END PLAYER CONTAINER -->
-
-                        </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='container-max'>
+                        <div class='row'>
+                            <div class='col-12 px-5'>
+                                <div class='youtube-carousel' id='ypt_thumbs'></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-            </div>
+            </section>
         </div>
 
 
@@ -17486,40 +17411,6 @@
 
 
 
-                    <a href="https://www.ramseysolutions.com/company/newsroom"
-                        class="rds-Link_1 rds-Link--small_1 rds-Link--inheritColor_1 rs-SiteFooter-link"> Newsroom
-                    </a>
-                </li>
-                <li class="rs-SiteFooter-listItem">
-
-
-
-
-
-
-
-
-
-
-
-
-                    <a href="https://www.ramseysolutions.com/company/ramsey-press"
-                        class="rds-Link_1 rds-Link--small_1 rds-Link--inheritColor_1 rs-SiteFooter-link"> Ramsey Press
-                    </a>
-                </li>
-                <li class="rs-SiteFooter-listItem">
-
-
-
-
-
-
-
-
-
-
-
-
                     <a href="https://www.ramseysolutions.com/company"
                         class="rds-Link_1 rds-Link--small_1 rds-Link--inheritColor_1 rs-SiteFooter-link"> About
                     </a>
@@ -17705,24 +17596,6 @@
 
 
 
-                    <a href="https://www.ramseysolutions.com/company/policies/debit-card-policy"
-                        class="rds-Link_1 rds-Link--small_1 rds-Link--inheritColor_1 rs-SiteFooter-link"> Debit Card
-                        Policy
-                    </a>
-                </li>
-                <li class="rs-SiteFooter-listItem">
-
-
-
-
-
-
-
-
-
-
-
-
                     <a href="https://www.ramseysolutions.com/company/policies/privacy-policy"
                         class="rds-Link_1 rds-Link--small_1 rds-Link--inheritColor_1 rs-SiteFooter-link"> Privacy Policy
                     </a>
@@ -17744,45 +17617,10 @@
                         class="rds-Link_1 rds-Link--small_1 rds-Link--inheritColor_1 rs-SiteFooter-link"> Terms of Use
                     </a>
                 </li>
-                <li class="rs-SiteFooter-listItem">
-
-
-
-
-
-
-
-
-
-
-
-
-                    <a href="https://help.ramseysolutions.com/hc/en-us/articles/8212654663437-Accessibility"
-                        class="rds-Link_1 rds-Link--small_1 rds-Link--inheritColor_1 rs-SiteFooter-link"> Accessibility
-                    </a>
-                </li>
-                <li class="rs-SiteFooter-listItem">
-
-
-
-
-
-
-
-
-
-
-
-
-                    <a href="https://www.ramseysolutions.com/company/policies/editorial-guidelines"
-                        class="rds-Link_1 rds-Link--small_1 rds-Link--inheritColor_1 rs-SiteFooter-link"> Editorial
-                        Guidelines
-                    </a>
-                </li>
             </ul>
 
             <p class="rs-SiteFooter-copyright">
-                &#169;2024 Lampo Licensing, LLC. All rights reserved.
+                &#169;2024 Blue Print Short Sales. All rights reserved.
             </p>
         </div>
     </footer>
@@ -17846,45 +17684,10 @@
         })();
     </script>
 
-    <script>
-        // LAZY LOADED WITH LAZYSIZES - IN JS
-        // https://github.com/aFarkas/lazysizes
-
-        // jQuery  - IN JS
-
-        // Super simple mark-up. On button click overwrite/update iframe src / url 
-        // and video caption with content of the respective data-attribute.
-        // NOTE:  Working on an event listener to do stuff like advance to  
-        // next video on end and shit like that.  Tricky. Stay tuned!
-
-        $("#video-player button").on("click", function () {
-            // Create data attributes for buttons
-            var iframesrc = $(this).attr("data-iframe");
-            var caption = $(this).attr("data-caption");
-            // Target the respective iframe and caption elements in HTML by ID
-            // and update with content of data-attribute in youtubeplaylist BUTTON HTML MARK-UP
-            $("#video-player #video-caption").html(caption);
-            $("#video-player iframe").attr("src", iframesrc);
-
-            // Toggle button active class
-            $(this).addClass("active").siblings().removeClass("active");
-
-
-        });
-
-        // Scroll youtubeplaylist horizontally with mousewheel on hover
-        // Fork from Álvaro
-        // https://codepen.io/alvarotrigo/pen/gOmgRzL
-        // This is slick.
-
-        const scrollContainer = document.querySelector("#youtubeplaylist");
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollTop += evt.deltaY;
-        });
-    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
         jQuery(document).ready(function ($) {
@@ -17913,6 +17716,174 @@
             });
         });
     </script>
+
+    <script>
+        // Load Youtube IFrame Player API code asynchronously.
+        var tag = document.createElement("script");
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName("script")[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+        var ypt_player = document.getElementById("player");
+        var videoUrls = [
+            "https://www.youtube.com/embed/YPfEx9jKj_Y?enablejsapi=1",
+            "https://www.youtube.com/embed/SwprwSg2R68?enablejsapi=1",
+            "https://www.youtube.com/embed/bK_my2Q9WQo?enablejsapi=1",
+            "https://www.youtube.com/embed/iZcWwv1NuSM?enablejsapi=1",
+            "https://www.youtube.com/embed/1nOv78JzwCU?enablejsapi=1",
+            "https://www.youtube.com/embed/7-8peQa6deg?enablejsapi=1",
+            "https://www.youtube.com/embed/nWZ8IOUWfW8?enablejsapi=1",
+        ];
+        var ypt_thumbs = document.getElementById("ypt_thumbs");
+        var nowPlaying = "ypt-now-playing";
+        var nowPlayingClass = "." + nowPlaying;
+        var ypt_index = 0;
+
+        function onPlayerReady(event) {
+            player.cueVideoByUrl(videoUrls[0]);
+            player.playVideo();
+            fetchVideoDetails(videoUrls);
+        }
+
+        window.onYouTubeIframeAPIReady = function () {
+            player = new YT.Player("player", {
+                height: "360",
+                width: "640",
+                playerVars: {
+                    autoplay: 0,
+                    showinfo: 0,
+                    modestbranding: 0,
+                    cc_load_policy: 0,
+                    rel: 0
+                },
+                events: {
+                    onReady: onPlayerReady,
+                    onStateChange: onPlayerStateChange
+                }
+            });
+
+            function onPlayerStateChange(event) {
+                var currentIndex = player.getPlaylistIndex();
+                var the_thumbs = ypt_thumbs.getElementsByClassName("yt-thumb");
+                var currentThumb = the_thumbs[currentIndex];
+
+                if (event.data == YT.PlayerState.PLAYING) {
+                    for (var i = 0; i < the_thumbs.length; i++) {
+                        the_thumbs[i].className = "yt-thumb carousel-cell";
+                    }
+
+                    currentThumb.className = "yt-thumb carousel-cell " + nowPlaying;
+                }
+
+                if (
+                    event.data == YT.PlayerState.ENDED &&
+                    currentIndex == the_thumbs.length - 1 &&
+                    the_thumbs[currentIndex].className == nowPlaying
+                ) {
+                    jQuery.event.trigger("playlistEnd");
+                }
+            }
+
+            jQuery(document).on(
+                "click",
+                '[data-ypt-index]:not(".ypt-now-playing")',
+                function (e) {
+                    ypt_index = Number(jQuery(this).attr("data-ypt-index"));
+                    player.cueVideoByUrl(videoUrls[ypt_index]);
+                    player.playVideo();
+                    jQuery(nowPlayingClass).removeClass(nowPlaying);
+                }
+            );
+        };
+
+        function fetchVideoDetails(videoUrls) {
+            var thumbnailsHTML = "";
+            var requests = [];
+
+            videoUrls.forEach(function (videoUrl, index) {
+                var videoId = getVideoIdFromUrl(videoUrl);
+                var request = fetchVideoInfo(videoId);
+                requests.push(request);
+            });
+
+            Promise.all(requests)
+                .then(function (responses) {
+                    responses.forEach(function (response, index) {
+                        var videoTitle = response.title;
+                        var publishedDate = response.publishedDate;
+                        var videoId = getVideoIdFromUrl(videoUrls[index]);
+                        var thumbnailUrl = `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
+
+                        thumbnailsHTML += `
+              <div class="yt-thumb carousel-cell" data-ypt-index="${index}">
+                <div class="yt-single">
+                  <div class="yt-img">
+                    <img class="img-fluid" src="${thumbnailUrl}" alt="${videoTitle}">
+                  </div>
+                  <div class="yt-single-description p-3 pt-2">
+                    <h4 class="yt-title">${videoTitle}</h4>
+                  </div>
+                </div>
+              </div>
+            `;
+                    });
+
+                    ypt_thumbs.innerHTML = thumbnailsHTML;
+
+                    setTimeout(function () {
+                      var elem = document.querySelector(".youtube-carousel");
+                      var flkty = new Flickity(elem, {
+                        cellAlign: "left",
+                        wrapAround: true,
+                        draggable: false,
+                        pageDots: false
+                      });
+                    }, 1000);
+                })
+                .catch(function (error) {
+                    console.error("Error fetching video details:", error);
+                });
+        }
+
+        function fetchVideoInfo(videoId) {
+            return fetch(`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&format=json`)
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (data) {
+                    var videoTitle = data.title;
+                    var uploadDateSeconds = data.upload_date;
+                    var publishedDate = formatUnixTimestamp(uploadDateSeconds);
+        
+                    return {
+                        title: videoTitle,
+                        publishedDate: publishedDate
+                    };
+                });
+        }
+        
+        function formatUnixTimestamp(unixTimestamp) {
+            const milliseconds = unixTimestamp * 1000;
+            const dateObject = new Date(milliseconds);
+            const year = dateObject.getFullYear();
+            const month = String(dateObject.getMonth() + 1).padStart(2, '0');
+            const day = String(dateObject.getDate()).padStart(2, '0');
+            return `${month}/${day}/${year}`;
+        }
+
+        function getVideoIdFromUrl(url) {
+            var videoId = "";
+            var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+            var match = url.match(regExp);
+            if (match && match[7].length == 11) {
+                videoId = match[7];
+            }
+            return videoId;
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 
