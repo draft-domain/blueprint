@@ -4993,6 +4993,7 @@
       width: 100%;
       overflow-x: hidden;
       overflow-y: auto;
+      align-items: center;
     }
 
     @media screen and (min-width: 75em) {
@@ -8658,6 +8659,8 @@
       transition: opacity 0.2s 0, visibility 0 0.2s;
     }
 
+
+
     .cd-form .cd-error-message::after {
       /* triangle */
       content: "";
@@ -8813,7 +8816,7 @@
       border-radius: 4px;
       padding: 10px;
       margin-top: 10px;
-      max-height: 200px;
+      max-height: 300px;
       overflow-y: auto;
       transition: 0.5s ease;
       z-index: 999;
@@ -8836,11 +8839,12 @@
 
     .select-dropdown li label {
       width: 100%;
-      padding: 8px 10px;
+      padding: 18px 5px;
       cursor: pointer;
       display: flex;
       gap: 1rem;
       align-items: center;
+      font-size: 16px;
     }
 
     .select-dropdown::-webkit-scrollbar {
@@ -8913,23 +8917,27 @@
                   <input type="radio" id="attorney" name="profession" />
                   <label for="attorney"><i class="bx bxl-attorney-circle"></i>Attorney</label>
                 </li>
+                <li role="option">
+                  <input type="radio" id="other" name="profession" />
+                  <label for="other"><i class="bx bxl-other-circle"></i>Other</label>
+                </li>
               </ul>
             </div>
           </p>
 
           <p class="fieldset">
             <label class="image-replace cd-email" for="email">E-mail</label>
-            <input class="full-width has-padding has-border" id="email" type="email" placeholder="E-mail">
-            <span class="cd-error-message">Error message here!</span>
+            <input class="full-width has-padding has-border" id="email" type="email" placeholder="E-mail" required>
+            <span class="cd-error-message">Please Enter your Email!</span>
           </p>
 
           <p class="fieldset">
             <label class="image-replace cd-password" for="password">Password</label>
-            <input class="full-width has-padding has-border" id="password" type="password" placeholder="Password">
+            <input class="full-width has-padding has-border" id="password" type="password" placeholder="Password" required>
             <a href="#0" class="hide-password"><span class="material-symbols-outlined">
               visibility
               </span></a>
-            <span class="cd-error-message">Error message here!</span>
+            <span class="cd-error-message">Please Enter your Password!</span>
           </p>
 
           <p class="fieldset">
@@ -8968,33 +8976,46 @@
                   <input type="radio" id="attorney" name="profession" />
                   <label for="attorney"><i class="bx bxl-attorney-circle"></i>Attorney</label>
                 </li>
+                <li role="option">
+                  <input type="radio" id="other" name="profession" />
+                  <label for="other"><i class="bx bxl-other-circle"></i>Other</label>
+                </li>
               </ul>
             </div>
           </p>
 
           <p class="fieldset">
             <label class="image-replace cd-username" for="name">Username</label>
-            <input class="full-width has-padding has-border" id="name" type="text" placeholder="Username">
-            <span class="cd-error-message">Error message here!</span>
+            <input class="full-width has-padding has-border" id="name" type="text" placeholder="Username" required>
+            <span class="cd-error-message">Please Enter your Username!</span>
           </p>
 
           <p class="fieldset">
             <label class="image-replace cd-email" for="email">E-mail</label>
-            <input class="full-width has-padding has-border" id="email" type="email" placeholder="E-mail">
-            <span class="cd-error-message">Error message here!</span>
+            <input class="full-width has-padding has-border" id="email" type="email" placeholder="E-mail" required>
+            <span class="cd-error-message">Please Enter your Email!</span>
           </p>
 
           <p class="fieldset">
             <label class="image-replace cd-password" for="password">Password</label>
-            <input class="full-width has-padding has-border" id="password" type="password" placeholder="Password">
+            <input class="full-width has-padding has-border" id="password" type="password" placeholder="Password" required>
             <a href="#0" class="hide-password"><span class="material-symbols-outlined">
               visibility
               </span></a>
-            <span class="cd-error-message">Error message here!</span>
+            <span class="cd-error-message">Please Enter your Password!</span>
           </p>
 
           <p class="fieldset">
-            <input type="checkbox" id="accept-terms">
+            <label class="image-replace cd-password" for="password">Password</label>
+            <input class="full-width has-padding has-border" id="password" type="password" placeholder="Re-enter password" required>
+            <a href="#0" class="hide-password"><span class="material-symbols-outlined">
+              visibility
+              </span></a>
+            <span class="cd-error-message">Please Re-enter your Passowrd !</span>
+          </p>
+
+          <p class="fieldset">
+            <input type="checkbox" id="accept-terms" required>
             <label for="accept-terms">I agree to the <a href="#0">Terms of Use</a> </label>
           </p>
 
@@ -9013,7 +9034,7 @@
         <form class="cd-form">
           <p class="fieldset">
             <label class="image-replace cd-email" for="email">E-mail</label>
-            <input class="full-width has-padding has-border" id="email" type="email" placeholder="E-mail">
+            <input class="full-width has-padding has-border" id="email" type="email" placeholder="E-mail" required>
             <span class="cd-error-message">Error message here!</span>
           </p>
 
@@ -9030,7 +9051,7 @@
 
   <style>
     nav .nav-button {
-      margin: 12px;
+      margin-right: 12px;
     }
 
     nav .nav-invisible {
@@ -9333,13 +9354,16 @@
       </li>
     </ul>
 
+    <a href="#0"
+    class="rds-Link_1 rs-Masthead-desktopSignin u-show@deskAndUp u-spacingInlineXl nav-button nav-invisible">Sign In</a>
+
     <a href="#"
       class="rds-Button_2 rs-Masthead-primaryCta u-show@deskAndUp nav-button nav-invisible">Get Started</a>
 
     <div class="rs-PrimaryNav-mobileLinks">
       <a href="#0" class="rs-Masthead-mobileSignin u-hide@deskAndUp">Sign In</a>
 
-      <a href="https://www.ramseysolutions.com/get-started/gs/app/assessment?int_fmt=button&amp;int_lctn=homepage-bottom_cta&amp;int_dscpn=rs_mast_getstarted_button&amp;int_cmpgn=rs_mast_getstarted_button_2024&amp;int_dept=rscom_bu"
+      <a href="#"
         class="rds-Button_2 rs-Masthead-mobileCta u-hide@deskAndUp">Get Started</a>
     </div>
     <div class="rs-PrimaryNav-mobileCareersLink">
@@ -16814,16 +16838,67 @@
         $form_forgot_password.addClass('is-selected');
       }
 
-      //REMOVE THIS - it's just to show error messages
-      $form_login.find('input[type="submit"]').on('click', function (event) {
-        event.preventDefault();
-        $form_login.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
-      });
-      $form_signup.find('input[type="submit"]').on('click', function (event) {
-        event.preventDefault();
-        $form_signup.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
+      // For showing error messages
+
+      // Disable default HTML5 form validation
+      $form_login.find('form').attr('novalidate', 'novalidate');
+      $form_signup.find('form').attr('novalidate', 'novalidate');
+
+      // Add event listener for form submission
+      $form_login.find('form').on('submit', function (event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Clear previous error messages
+        $form_login.find('.cd-error-message').removeClass('is-visible');
+
+        // Check if input fields are empty
+        $form_login.find('input:not([type="password"])').each(function () {
+          if ($(this).val().trim() === '') {
+            $(this).addClass('has-error');
+            $(this).next('.cd-error-message').addClass('is-visible');
+          }
+        });
+
+        $form_login.find('input[type="password"]').each(function () {
+          if ($(this).val() === '') {
+            $(this).addClass('has-error');
+            $(this).siblings('.cd-error-message').addClass('is-visible');
+          }
+        });
       });
 
+      $form_signup.find('form').on('submit', function (event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Clear previous error messages
+        $form_signup.find('.cd-error-message').removeClass('is-visible');
+
+        // Check if input fields are empty
+        $form_signup.find('input:not([type="password"])').each(function () {
+          if ($(this).val().trim() === '') {
+            $(this).addClass('has-error');
+            $(this).next('.cd-error-message').addClass('is-visible');
+          }
+        });
+
+        $form_signup.find('input[type="password"]').each(function () {
+          if ($(this).val() === '') {
+            $(this).addClass('has-error');
+            $(this).siblings('.cd-error-message').addClass('is-visible');
+          }
+        });
+      });
+
+      // Add event listener for input fields
+      $form_login.find('input').on('input', function () {
+        $(this).removeClass('has-error');
+        $(this).siblings('.cd-error-message').removeClass('is-visible');
+      });
+
+      $form_signup.find('input').on('input', function () {
+        $(this).removeClass('has-error');
+        $(this).siblings('.cd-error-message').removeClass('is-visible');
+      });
 
       //IE9 placeholder fallback
       //credits http://www.hagenburger.net/BLOG/HTML5-Input-Placeholder-Fix-With-jQuery.html
