@@ -16925,6 +16925,18 @@
     const optionsLists = document.querySelectorAll(".select-dropdown");
     const form = document.querySelector(".cd-form");
 
+    // Close dropdown function
+    function closeDropdown(e) {
+      customSelects.forEach((customSelect) => {
+        if (!customSelect.contains(e.target)) {
+          customSelect.classList.remove("active");
+        }
+      });
+    }
+
+    // Add click event listener to the document
+    document.addEventListener("click", closeDropdown);
+
     selectBtns.forEach((selectBtn, index) => {
       const customSelect = customSelects[index];
       const selectedValue = selectedValues[index];
