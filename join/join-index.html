@@ -979,7 +979,7 @@
     }
 
     a {
-      color: #0073b9;
+      color: #fff;
     }
 
     a:hover,
@@ -1464,6 +1464,7 @@
     .u-typesetBodySmall {
       line-height: 1.5;
       font-size: 1rem;
+      color: #fff;
     }
 
     .u-typesetBodyLargeShort {
@@ -1776,13 +1777,13 @@
       font-weight: 600;
       word-break: break-word;
       background-color: #0073b9;
-      color: #ffffff;
+      color: #fff;
     }
 
-    .gzl-Button:hover,
-    .gzl-Button:focus {
+    .gzl-Button:focus,
+    .gzl-Button:hover {
       background-color: #005b98;
-      color: #ffffff;
+      color: #fff;
     }
 
     .gzl-Button--ghost {
@@ -1791,8 +1792,8 @@
       color: #0073b9;
     }
 
-    .gzl-Button--ghost:hover,
-    .gzl-Button--ghost:focus {
+    .gzl-Button--ghost:focus,
+    .gzl-Button--ghost:hover {
       background-color: rgba(0, 115, 185, 0.1);
       color: #005b98;
     }
@@ -1803,10 +1804,10 @@
       color: #1f2426;
     }
 
-    .gzl-Button--alternate:hover,
     .gzl-Button--alternate:focus,
-    a.gzl-Button--alternate:hover,
-    a.gzl-Button--alternate:focus {
+    .gzl-Button--alternate:hover,
+    a.gzl-Button--alternate:focus,
+    a.gzl-Button--alternate:hover {
       background-color: #ffe45e;
       color: #1f2426;
     }
@@ -1817,8 +1818,8 @@
       color: #fcd214;
     }
 
-    .gzl-Button--alternate.gzl-Button--ghost:hover,
-    .gzl-Button--alternate.gzl-Button--ghost:focus {
+    .gzl-Button--alternate.gzl-Button--ghost:focus,
+    .gzl-Button--alternate.gzl-Button--ghost:hover {
       background-color: rgba(252, 210, 20, 0.1);
       color: #ffe45e;
     }
@@ -1833,8 +1834,8 @@
       color: #0073b9;
     }
 
-    .gzl-Button--borderless:hover,
-    .gzl-Button--borderless:focus {
+    .gzl-Button--borderless:focus,
+    .gzl-Button--borderless:hover {
       box-shadow: 0 2px 0 currentColor;
       background-color: transparent;
       color: #005b98;
@@ -1857,29 +1858,26 @@
       box-shadow: 0 1px 0 currentColor;
     }
 
-    .in-modeDark .gzl-Button--ghost,
-    .gzl-Button--ghost.in-modeDark {
-      color: #ffffff;
+    .gzl-Button--ghost.in-modeDark,
+    .in-modeDark .gzl-Button--ghost {
+      color: #fff;
     }
 
-    .in-modeDark .gzl-Button--ghost:hover,
-    .in-modeDark .gzl-Button--ghost:focus,
+    .gzl-Button--ghost.in-modeDark:focus,
     .gzl-Button--ghost.in-modeDark:hover,
-    .gzl-Button--ghost.in-modeDark:focus {
-      background-color: rgba(255, 255, 255, 0.2);
-      color: #ffffff;
+    .in-modeDark .gzl-Button--ghost:focus,
+    .in-modeDark .gzl-Button--ghost:hover {
+      background-color: hsla(0, 0%, 100%, 0.2);
+      color: #fff;
     }
 
-    .in-modeDark .gzl-Button--borderless,
-    .gzl-Button--borderless.in-modeDark {
-      color: #ffffff;
-    }
-
-    .in-modeDark .gzl-Button--borderless:hover,
-    .in-modeDark .gzl-Button--borderless:focus,
+    .gzl-Button--borderless.in-modeDark,
+    .gzl-Button--borderless.in-modeDark:focus,
     .gzl-Button--borderless.in-modeDark:hover,
-    .gzl-Button--borderless.in-modeDark:focus {
-      color: #ffffff;
+    .in-modeDark .gzl-Button--borderless,
+    .in-modeDark .gzl-Button--borderless:focus,
+    .in-modeDark .gzl-Button--borderless:hover {
+      color: #fff;
     }
 
     .gzl-Button-icon--left {
@@ -1891,46 +1889,46 @@
     }
 
     .gzl-Button--comfortable,
-    .in-modeComfortable .gzl-Button,
-    .gzl-Button.in-modeComfortable {
+    .gzl-Button.in-modeComfortable,
+    .in-modeComfortable .gzl-Button {
       padding: 0.375rem 1.5rem;
       line-height: 2rem;
       font-size: 1.125rem;
     }
 
     .gzl-Button--borderless.gzl-Button--comfortable,
-    .in-modeComfortable .gzl-Button--borderless,
-    .gzl-Button--borderless.in-modeComfortable {
+    .gzl-Button--borderless.in-modeComfortable,
+    .in-modeComfortable .gzl-Button--borderless {
       padding: 0;
       height: auto;
     }
 
     .gzl-Button--compact,
-    .in-modeCompact .gzl-Button,
-    .gzl-Button.in-modeCompact {
+    .gzl-Button.in-modeCompact,
+    .in-modeCompact .gzl-Button {
       padding: 0.375rem 1rem;
       line-height: 1rem;
       font-size: 0.875rem;
     }
 
     .gzl-Button--borderless.gzl-Button--compact,
-    .in-modeCompact .gzl-Button--borderless,
-    .gzl-Button--borderless.in-modeCompact {
+    .gzl-Button--borderless.in-modeCompact,
+    .in-modeCompact .gzl-Button--borderless {
       height: auto;
     }
 
     @media (min-width: 37.5em) {
 
       .gzl-Button--mergeable:not(:first-child),
-      .in-modeMergeable .gzl-Button:not(:first-child),
-      .gzl-Button.in-modeMergeable:not(:first-child) {
+      .gzl-Button.in-modeMergeable:not(:first-child),
+      .in-modeMergeable .gzl-Button:not(:first-child) {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
       }
 
       .gzl-Button--mergeable:not(:last-child),
-      .in-modeMergeable .gzl-Button:not(:last-child),
-      .gzl-Button.in-modeMergeable:not(:last-child) {
+      .gzl-Button.in-modeMergeable:not(:last-child),
+      .in-modeMergeable .gzl-Button:not(:last-child) {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
       }
@@ -1940,8 +1938,8 @@
       pointer-events: none !important;
     }
 
-    .gzl-Button[disabled],
-    .gzl-Button.is-disabled {
+    .gzl-Button.is-disabled,
+    .gzl-Button[disabled] {
       background-color: #e8eced !important;
       cursor: not-allowed !important;
       color: #8e999e !important;
@@ -3624,6 +3622,46 @@
 
     @media (min-width: 112.5em) {
       .gzl-Slice--small {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+    }
+
+    .banner-only {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    @media (min-width: 37.5em) {
+      .banner-only {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+      }
+    }
+
+    @media (min-width: 56.25em) {
+      .banner-only {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+      }
+    }
+
+    @media (min-width: 75em) {
+      .banner-only {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+      }
+    }
+
+    @media (min-width: 87.5em) {
+      .banner-only {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+    }
+
+    @media (min-width: 112.5em) {
+      .banner-only {
         padding-top: 3rem;
         padding-bottom: 3rem;
       }
@@ -9835,7 +9873,7 @@
   <a class="rs-SkipLink gzl-Link--standalone" tabindex="1" href="#" data-elastic-exclude="">Skip to Main Content</a>
   <header role="banner" id="banner" class="rs-Masthead" data-analytics-navigation-masthead data-elastic-exclude>
     <div class="rs-Masthead-body">
-      <a class="rs-Masthead-logo" href="#">
+      <a class="rs-Masthead-logo" href="../index.html" target="_blank">
         <img src="../images/logo.png" class="u-show@deskAndUp" width="222" height="auto" alt="BluePrint Short Sales" />
         <img src="../images/logo.png" class="u-hide@deskAndUp" width="179.59" height="auto"
           alt="BluePrint Short Sales" />
@@ -13631,59 +13669,6 @@
 
   <script src="./join-files/masthead.min~2024-05-14-14-39-58-000~cache.js.download" defer=""></script>
 
-  <div class="Subnav Subnav--sticky Subnav--showBodyOnDesk Subnav--large Subnav--darkMode"
-    data-id="c5f52c41-0dfb-40a7-b109-a6c4102a3215" data-subnav="brandedSubnav">
-    <div class="Subnav-container" data-analytics-navigation-subnavigation="">
-      <picture>
-        <source srcset="../images/logo-white.png" media="only screen and (min-width: 37.5em)" />
-        <img class="Subnav-label" style="vertical-align: middle" src="../images/logo-white.png" alt="Heather J Keller"
-          loading="eager" height="26" />
-      </picture>
-
-      <div class="Subnav-trigger" data-subnav-trigger="">
-        <button class="Subnav-triggerLink" data-subnav-trigger-link="">
-          <svg data-dropdown-icon="closed" role="img" class="rds-Icon_2 rds-Icon--large_2" viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>Expand</title>
-
-            <use
-              href="/.resources/magnolia-ramsey-design-system/assets/dist/img/icons/ramsey-icons.svg#icon-chevron-down">
-            </use>
-          </svg>
-        </button>
-        <div class="Subnav-body" data-subnav-body="closed">
-          <nav class="NavList on-dark" role="navigation">
-            <ol class="NavList-list" data-subnav-list-items="" data-elastic-exclude="" tabindex="-1">
-              <li class="NavList-item">
-                <a class="NavList-link" href="#">
-                  Events
-                </a>
-              </li>
-              <li class="NavList-item">
-                <a class="NavList-link" href="#" target="_blank">
-                  Free Resources
-                </a>
-              </li>
-              <li class="NavList-item">
-                <a class="NavList-link" href="#" target="_blank">
-                  Books
-                </a>
-              </li>
-            </ol>
-          </nav>
-        </div>
-      </div>
-
-      <div class="Subnav-actionMenu Subnav-actionMenu--desk">
-        <a id="" href="https://www.facebook.com/BluePrintShortSales" class="rds-Button_2 on-darkCanvas Subnav-primaryCta">Join Us</a>
-      </div>
-      <div class="Subnav-actionMenu Subnav-actionMenu--lap">
-        <a id="" href="https://www.facebook.com/BluePrintShortSales"
-          class="rds-Button_2 rds-Button--small_2 on-darkCanvas Subnav-primaryCta">Join Us</a>
-      </div>
-    </div>
-  </div>
-
   <style>
     /*
 * Scut, a collection of Sass utilities
@@ -14231,7 +14216,7 @@
 
   <main role="main" id="main">
     <div data-mgnl-id="4d00d39c-f0ca-43fb-828e-80c077439a9a"
-      class="gzl-Slice u-spacePrependLarge u-spaceAppendLarge u-hide@lapWideOnly u-hide@lapOnly u-hide@deskOnly u-hide@wallOnly">
+      class="gzl-Slice u-spacePrependLarge u-spaceAppendLarge u-hide@lapWideOnly u-hide@lapOnly u-hide@deskOnly u-hide@wallOnly banner-only">
       <style>
         [data-mgnl-id="c595c8fb-f66d-4239-9084-4460ec24efdb"] {
           position: relative;
@@ -14269,9 +14254,9 @@
           }
           .link-button {
             position: absolute;
-            right: 5%;
-            top: 30%;
-            width: 360px;
+            right: 3%;
+            top: 34%;
+            width: 320px;
           }
         }
 
@@ -14282,9 +14267,9 @@
           }
           .link-button {
             position: absolute;
-            right: 15%;
-            top: 30%;
-            width: 400px;
+            right: 8%;
+            top: 36%;
+            width: 360px;
           }
         }
       </style>
@@ -14293,7 +14278,7 @@
     </div>
 
     <div data-mgnl-id="40d517f7-39b4-487e-8cdd-8bf55999018e"
-      class="gzl-Slice u-spacePrependMedium u-spaceAppendMedium u-hide@lapWideOnly u-hide@deskOnly u-hide@wallOnly u-hide@palmOnly">
+      class="gzl-Slice u-spacePrependMedium u-spaceAppendMedium u-hide@lapWideOnly u-hide@deskOnly u-hide@wallOnly u-hide@palmOnly banner-only">
       <style>
         @media only screen and (min-width: 37.5em) {
           [data-mgnl-id="c595c8fb-f66d-4239-9084-4460ec24efdb"] {
@@ -14326,9 +14311,9 @@
           }
           .link-button {
             position: absolute;
-            right: 5%;
-            top: 30%;
-            width: 360px;
+            right: 3%;
+            top: 34%;
+            width: 320px;
           }
         }
 
@@ -14339,9 +14324,9 @@
           }
           .link-button {
             position: absolute;
-            right: 15%;
-            top: 30%;
-            width: 400px;
+            right: 8%;
+            top: 36%;
+            width: 360px;
           }
         }
       </style>
@@ -14350,7 +14335,7 @@
     </div>
 
     <div data-mgnl-id="7a5fe4ad-841d-4145-a8e2-d6c028ca3a8c"
-      class="gzl-Slice gzl-Slice--small u-spacePrependSmall u-spaceAppendSmall u-hide@lapOnly u-hide@deskOnly u-hide@wallOnly u-hide@palmOnly">
+      class="gzl-Slice gzl-Slice--small u-spacePrependSmall u-spaceAppendSmall u-hide@lapOnly u-hide@deskOnly u-hide@wallOnly u-hide@palmOnly banner-only">
       <style>
         @media only screen and (min-width: 56.25em) {
           [data-mgnl-id="c595c8fb-f66d-4239-9084-4460ec24efdb"] {
@@ -14370,9 +14355,9 @@
           }
           .link-button {
             position: absolute;
-            right: 5%;
-            top: 30%;
-            width: 360px;
+            right: 3%;
+            top: 34%;
+            width: 320px;
           }
         }
 
@@ -14383,9 +14368,9 @@
           }
           .link-button {
             position: absolute;
-            right: 15%;
-            top: 30%;
-            width: 400px;
+            right: 8%;
+            top: 36%;
+            width: 360px;
           }
         }
       </style>
@@ -14394,7 +14379,7 @@
     </div>
 
     <div data-mgnl-id="c595c8fb-f66d-4239-9084-4460ec24efdb"
-      class="gzl-Slice gzl-Slice--small u-spacePrependSmall u-spaceAppendSmall u-hide@lapWideOnly u-hide@lapOnly u-hide@palmOnly">
+      class="gzl-Slice gzl-Slice--small u-spacePrependSmall u-spaceAppendSmall u-hide@lapWideOnly u-hide@lapOnly u-hide@palmOnly banner-only">
       <style>
         @media only screen and (min-width: 75em) {
           [data-mgnl-id="c595c8fb-f66d-4239-9084-4460ec24efdb"] {
@@ -14402,9 +14387,9 @@
           }
           .link-button {
             position: absolute;
-            right: 5%;
-            top: 30%;
-            width: 360px;
+            right: 3%;
+            top: 34%;
+            width: 320px;
           }
         }
 
@@ -14415,9 +14400,9 @@
           }
           .link-button {
             position: absolute;
-            right: 15%;
-            top: 30%;
-            width: 400px;
+            right: 8%;
+            top: 36%;
+            width: 360px;
           }
         }
       </style>
@@ -14811,20 +14796,28 @@
 
           <div class="rds-RichText_1 u-spacingStack3">
             <p>
-              Welcome to the FB Group - - - [BluePrint Short Sales] Thrive in
-              Real Estate as a Short Sale Expert. This Group is Specifically
-              Designed to Educate + Support Real Estate Agents, New or
-              Seasoned, to Create a Long-Lasting 6-Figure Real Estate Business
-              and Thrive in the Niche of Short Sales with a Detailed
-              BluePrint.
+              Welcome to the FB Group: Secrets to Achieving Financial Success + a Positive Impact as a Short
+              Sale Specialist
             </p>
 
             <p>
-              If You’re Not a Real Estate Agent… We Love Ya, But You Won’t Be
-              Allowed into the FB Group. If You’re a Real Estate Agent… This
-              Might Be the Most Valuable Group You’re Ever Apart Of. Here’s a
-              “Sneak Peak” of Just a Few of Hundreds of Topics Discussed
-              Inside the FB Group…
+              This Group is Meticulously Crafted to Empower and Guide You, as the Real Estate Agent, Whether
+              New to the Field or a Seasoned Veteran, in Forging an Enduring Path to Financial Prosperity While
+              Leaving an Uplifting Imprint on the Lives of Clients and Communities You Serve.
+            </p>
+
+            <p>
+              <b>Our Mission:</b>
+              <p>
+                ➡️ Equip You with the Knowledge, Strategies, and Inspiration Necessary to Achieve Remarkable
+                Personal, Long-Term Financial Success
+              </p>
+              <p>
+                ➡️ Assist You with Positively Transforming the Lives of Families in Your Community as the Go-To
+                Distressed Specialist
+                If You’re Not a Real Estate Agent… We Love You, But You Won’t Be Allowed into the FB Group. If
+                You’re a Real Estate Agent… This Might Be the Most Valuable Group You’re Ever Apart Of.
+              </p>
             </p>
           </div>
 
@@ -14849,6 +14842,10 @@
           </div>
 
           <div class="rds-RichText_1 u-spacingStack3">
+            <p>
+              Here’s a “Sneak Peak of Just a Few of Hundreds of Topics Discussed Inside the FB Group During
+              Our Weekly Power Hour…
+            </p>
             <ul>
               <li>Everything A to Z for Short Sales + “Equity” Sales</li>
               <li>
@@ -14857,12 +14854,10 @@
               <li>Automation + Delegation</li>
               <li>Thriving in All Types of Markets</li>
               <li>
-                How to Be the Go-To Real Estate Agent for Attorneys to Hand
-                You Listings
+                How to Be the Go-To Real Estate Agent for Attorneys to Hand You Listings
               </li>
               <li>
-                Tips, Tricks, and Resources to Help You Create a 6-Figure
-                Business
+                Tips, Tricks, and Resources to Help You Create a 6-Figure Business
               </li>
               <li>Behind the Scenes Videos</li>
               <li>
@@ -14872,20 +14867,28 @@
             </ul>
 
             <p>
-              To Get the Most Out of this Group… Don’t Be Shy, Contribute to
-              the Conversation. The More You Give the Group, the More You’ll
-              GET OUT OF the Group! This Group is Owned and Run by BluePrint
-              Short Sales (Heather J Keller). If You’re Looking to Become a
-              Short Sale (Distressed) Expert, BluePrint Short Sales is
-              Currently Searching for Real Estate Agents Across the Country
-              for the Exclusive BluePrint Short Sales Coaching Program. See
-              You in the Group!
+              To Get the Most Out of this Group… Don’t Be Shy, Contribute to the Conversation. The More You
+              Give the Group, the More You’ll GET OUT OF the Group!
+              This Group is Owned and Run by BluePrint Short Sales.
+              If You’re Looking to Become a Short Sale (Distressed) Specialist, BluePrint Short Sales is Currently
+              Interviewing Real Estate Agents Across the Country for the Exclusive BluePrint Short Sales Coaching
+              Community.
+            </p>
+
+            <p>
+              See You in the Group,
             </p>
           </div>
 
           <div class="rs-Image u-spacingBlockMd">
             <picture>
               <img src="images/sig.png" alt="Heather J Keller&#39;s signature" class="rs-Image-element rs-Image-element"
+                width="250" loading="eager" fetchpriority="auto" />
+            </picture>
+          </div>
+          <div class="rs-Image u-spacingBlockMd">
+            <picture>
+              <img src="images/bp.png" alt="BluePrint Short Sales" class="rs-Image-element rs-Image-element"
                 width="250" loading="eager" fetchpriority="auto" />
             </picture>
           </div>
@@ -15293,98 +15296,106 @@
         flex-wrap: nowrap;
       }
     </style>
+  </div>
 
-    <div data-mgnl-id="bc3cae1b-b2f9-401a-989f-6e2aca03b267"
-      class="gzl-Slice gzl-Slice--small u-hide@lapOnly u-hide@palmOnly">
+    <div data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250" class="gzl-Slice gzl-Slice--small book-img">
+
       <style>
-        [data-mgnl-id="bc3cae1b-b2f9-401a-989f-6e2aca03b267"] {
-          background: #005b98;
+        [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before,
+        [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
+          content: '';
+          position: absolute;
+          width: 180px;
+          height: 360px;
+          top: 20%;
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+        [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
+          background-image: url("images/alt-left-arrow.png");
+          left: 20%;
+        }
+
+        [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
+          background-image: url("images/alt-right-arrow.png");
+          right: 20%;
         }
 
         @media only screen and (min-width: 37.5em) {
-          [data-mgnl-id="bc3cae1b-b2f9-401a-989f-6e2aca03b267"] {
-            background: #005b98;
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
+            background-image: url("images/alt-left-arrow.png");
+            left: 20%;
+          }
+
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
+            background-image: url("images/alt-right-arrow.png");
+            right: 20%;
           }
         }
 
         @media only screen and (min-width: 56.25em) {
-          [data-mgnl-id="bc3cae1b-b2f9-401a-989f-6e2aca03b267"] {
-            background: #005b98;
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
+            background-image: url("images/alt-left-arrow.png");
+            left: 20%;
+          }
+
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
+            background-image: url("images/alt-right-arrow.png");
+            right: 20%;
           }
         }
 
         @media only screen and (min-width: 75em) {
-          [data-mgnl-id="bc3cae1b-b2f9-401a-989f-6e2aca03b267"] {
-            background: #005b98;
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
+            background-image: url("images/alt-left-arrow.png");
+            left: 10%;
+          }
+
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
+            background-image: url("images/alt-right-arrow.png");
+            right: 10%;
+          }
+        }
+
+        @media only screen and (min-width: 87.5em) {
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
+            background-image: url("images/alt-left-arrow.png");
+            left: 10%;
+          }
+
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
+            background-image: url("images/alt-right-arrow.png");
+            right: 10%;
           }
         }
 
         @media only screen and (min-width: 112.5em) {
-          [data-mgnl-id="bc3cae1b-b2f9-401a-989f-6e2aca03b267"] {
-            background: #005b98;
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
+            background-image: url("images/alt-left-arrow.png");
+            left: 20%;
+          }
+
+          [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
+            background-image: url("images/alt-right-arrow.png");
+            right: 20%;
           }
         }
       </style>
 
-      <div class="gzl-Slice-container">
-        <div class="gzl-Spread">
-          <div class="gzl-Spread-mediaContainer">
-            <img class="
-
-
-      " style="vertical-align: middle" src="images/heather.png"
-              alt="Photo of Heather J Keller" loading="eager" width="440" />
-          </div>
-
-          <div class="gzl-Spread-contentContainer">
-            <h1 class="rds-Heading_1 on-darkCanvas rds-Heading--large_1 u-spacingStack2">
-              <div>Who is Heather J Keller?</div>
-            </h1>
-
-            <div class="rds-RichText_1 on-darkCanvas u-spacingStack2">
-              <p>
-                Heather made the decision in 2006 to take action, “make herself feel uncomfortable”, and moved to Chicago where she landed a job as a Mortgage Banker. That decision turned out to be the best one. She met her husband while working at the bank. They both saw the coming wave of Short Sales. Being at the forefront of boom, she has gained valuable experience in growing with the banks as they change policy and grow.
-                <br><br>
-                In the end, the most gratifying part of the Short Sale is after the closing when the families, whom Heather assisted in avoiding Foreclosure, say “Thank You.” It is a small gesture, a sincere one, and a great feeling of accomplishment and that she made a difference. All those stressful days and nights of the Short Sale make it all worth it in the end. “It is the ‘little things in life that truly matter,” says Heather.
-              </p>
-            </div>
-
-            <p class="rds-Text_1">&nbsp; &nbsp;</p>
-
-            <a style="text-decoration: none" href="https://www.youtube.com/channel/UCTqXaYwx3HYVJXwj9gpizdA" target="_blank"
-              rel="noopener">
-              <img class="u-spacingStackNone" style="vertical-align: middle"
-                src="./join-files/YouTube-logo-navy.png" alt="YouTube" loading="eager" width="50"
-                height="50" />
-            </a>
-
-            <a style="text-decoration: none" href="https://www.instagram.com/blueprintshortsales/" target="_blank"
-              rel="noopener">
-              <img class="u-spacingStackNone" style="vertical-align: middle"
-                src="./join-files/IG-logo-navy.png" alt="Instagram" loading="eager" width="50"
-                height="50" />
-            </a>
-
-            <a style="text-decoration: none" href="https://www.facebook.com/BluePrintShortSales" target="_blank" rel="noopener">
-              <img class="u-spacingStackNone" style="vertical-align: middle"
-                src="./join-files/FB-logo-navy.png" alt="Facebook" loading="eager" width="50"
-                height="50" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250" class="gzl-Slice gzl-Slice--small book-img">
       <style>
-        .book-img{
+        .book-img {
           text-align: center;
           overflow: auto;
-          -ms-overflow-style: none; /* IE and Edge */
-          scrollbar-width: none; /* Firefox */
+          -ms-overflow-style: none;
+          /* IE and Edge */
+          scrollbar-width: none;
+          /* Firefox */
         }
+
         .book-img::-webkit-scrollbar {
-          display: none; /* Hide scrollbars in WebKit-based browsers */
+          display: none;
+          /* Hide scrollbars in WebKit-based browsers */
         }
 
         [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"] {
@@ -15421,7 +15432,7 @@
           <style>
             .rds-Heading_1 {
               line-height: 1.25;
-              color: #1f2426;
+              color: #fff;
               font-family: Open Sans, Arial, sans-serif;
               font-size: 24px;
               font-weight: 600;
@@ -15526,21 +15537,23 @@
             .rds-Heading_1.on-darkCanvas a:hover {
               color: #f5f7f8;
             }
-          </style>
-          <style>
+
             .free-book{
-              display: inline-flex;
+              margin-top: 3rem;
             }
           </style>
 
           <h2 class="rds-Heading_1 rds-Heading--alternate_1 rds-Heading--large_1 u-spacingStack1 u-textAlignCenter">
-            <div>JOIN THE FACEBOOK GROUP</div>
-            <div class="free-book">
-              <p><span>&#11190;</span>GET FREE BOOK UPON JOINING<span>&#11191;</span></p>
+            <div>
+              <picture>
+                <img src="images/book-h2.png" alt="book-header-2" class="rs-Image-element rs-Image-element"
+                   loading="eager" fetchpriority="auto" />
+              </picture>
             </div>
           </h2>
 
           <div class="u-accentLine u-spacingStack4 u-textAlignCenter" style="color: #0073b9"></div>
+
 
           <style>
             .wrap {
@@ -15550,12 +15563,14 @@
               text-align: center;
               position: relative;
             }
+
             .wrap .perspective {
               width: 100%;
               height: 100%;
               perspective: 1000px;
               transform-style: preserve-3d;
             }
+
             .book-wrap {
               height: 100%;
               width: 100%;
@@ -15566,6 +15581,7 @@
               -ms-transition: all ease-out 0.6s;
               -o-transition: all ease-out 0.6s;
             }
+
             .book {
               width: 464px;
               height: 600px;
@@ -15578,6 +15594,7 @@
               margin: auto;
               cursor: pointer;
             }
+
             .title {
               content: "";
               height: 600px;
@@ -15591,6 +15608,7 @@
               background: #0c3e6b;
               transform: rotateY(-80deg) translateX(-14px);
             }
+
             .book-back {
               width: 464px;
               height: 600px;
@@ -15605,9 +15623,11 @@
               cursor: pointer;
               transform: rotate(180deg) translateZ(-30px) translateX(5px);
             }
+
             .rotate {
               transform: rotateY(20deg);
             }
+
             .flip {
               transform: rotateY(180deg);
             }
@@ -15625,12 +15645,19 @@
           </div>
 
           <style>
-            .bottom-button{
+            .bottom-button {
               margin-top: 3rem;
               display: inline-flex;
               width: 400px;
             }
           </style>
+
+          <div>
+            <picture>
+              <img src="images/book-h1.png" alt="book-header-1" class="rs-Image-element rs-Image-element free-book"
+                 loading="eager" fetchpriority="auto" />
+            </picture>
+          </div>
 
           <a href="https://www.facebook.com/BluePrintShortSales" target="_blank" class="bottom-button">
             <img class="button-img" src="images/button.png" alt="Join Here">
@@ -17292,31 +17319,35 @@
     <div data-mgnl-id="3a95a632-021f-45b6-96cf-8af7dcf7f99f" class="gzl-Slice">
       <style>
         [data-mgnl-id="3a95a632-021f-45b6-96cf-8af7dcf7f99f"] {
-          background: #fff;
+          background: #0073b9;
         }
 
         @media only screen and (min-width: 37.5em) {
           [data-mgnl-id="3a95a632-021f-45b6-96cf-8af7dcf7f99f"] {
-            background: #fff;
+            background: #0073b9;
           }
         }
 
         @media only screen and (min-width: 56.25em) {
           [data-mgnl-id="3a95a632-021f-45b6-96cf-8af7dcf7f99f"] {
-            background: #fff;
+            background: #0073b9;
           }
         }
 
         @media only screen and (min-width: 75em) {
           [data-mgnl-id="3a95a632-021f-45b6-96cf-8af7dcf7f99f"] {
-            background: #fff;
+            background: #0073b9;
           }
         }
 
         @media only screen and (min-width: 112.5em) {
           [data-mgnl-id="3a95a632-021f-45b6-96cf-8af7dcf7f99f"] {
-            background: #fff;
+            background: #0073b9;
           }
+        }
+
+        .newsletter-note {
+          color: #fff;
         }
       </style>
 
@@ -17326,7 +17357,7 @@
             <div>Sign Up for BluePrint's Newsletter</div>
           </h2>
 
-          <div class="rds-RichText_1 rds-RichText--small_1 u-spacingStack3">
+          <div class="rds-RichText_1 rds-RichText--small_1 u-spacingStack3 newsletter-note">
             <p>
               &nbsp;Unlock Exclusive Insights Every Week - Join Our BluePrint
               Insider Newsletter Today!
@@ -17348,12 +17379,12 @@
 
             <div class="gzl-InlineForm-control in-modeMergeable in-modeComfortable">
               <div class="gds-Input gzl-Input">
-                <input placeholder="Enter Your Email" autocomplete="email" autocorrect="off" spellcheck="false"
-                  type="email" required="required"
-                  id="email-subscription-form-e750a772-7a26-4729-ba61-0ccb00d2cf89-email" name="email" />
+                <input placeholder="Enter Your Email" autocomplete="email" autocorrect="off" spellcheck="false" type="email"
+                  required="required" id="email-subscription-form-e750a772-7a26-4729-ba61-0ccb00d2cf89-email"
+                  name="email" />
               </div>
 
-              <button type="submit" class="gds-Button gzl-Button g-recaptcha">
+              <button type="submit" class="gds-Button gds-Button--alternate gzl-Button gzl-Button--alternate g-recaptcha">
                 Sign Up
               </button>
             </div>
@@ -17367,17 +17398,17 @@
 
             <div class="recaptcha-holder" data-sitekey="6LdONboUAAAAAGyFtiQr4Z1aqHc8dfCeJrkPBpDK">
               <div class="grecaptcha-badge" data-style="bottomleft" style="
-                    width: 256px;
-                    height: 60px;
-                    display: block;
-                    transition: left 0.3s ease 0s;
-                    position: fixed;
-                    bottom: 14px;
-                    left: -186px;
-                    box-shadow: gray 0px 0px 5px;
-                    border-radius: 2px;
-                    overflow: hidden;
-                  ">
+                        width: 256px;
+                        height: 60px;
+                        display: block;
+                        transition: left 0.3s ease 0s;
+                        position: fixed;
+                        bottom: 14px;
+                        left: -186px;
+                        box-shadow: gray 0px 0px 5px;
+                        border-radius: 2px;
+                        overflow: hidden;
+                      ">
                 <div class="grecaptcha-logo">
                   <iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-m233yhr7qjy0"
                     frameborder="0" scrolling="no"
@@ -17386,20 +17417,19 @@
                 </div>
                 <div class="grecaptcha-error"></div>
                 <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="
-                      width: 250px;
-                      height: 40px;
-                      border: 1px solid rgb(193, 193, 193);
-                      margin: 10px 25px;
-                      padding: 0px;
-                      resize: none;
-                      display: none;
-                    "></textarea>
+                          width: 250px;
+                          height: 40px;
+                          border: 1px solid rgb(193, 193, 193);
+                          margin: 10px 25px;
+                          padding: 0px;
+                          resize: none;
+                          display: none;
+                        "></textarea>
               </div>
               <iframe style="display: none" src="./join-files/saved_resource(2).html"></iframe>
             </div>
 
-            <script src="./join-files/recaptchaV2.min~2024-03-27-16-14-35-000~cache.js.download"
-              async=""></script>
+            <script src="./join-files/recaptchaV2.min~2024-03-27-16-14-35-000~cache.js.download" async=""></script>
           </form>
         </div>
       </div>
@@ -17444,33 +17474,28 @@
           </h2>
 
           <a style="text-decoration: none" href="https://www.youtube.com/@TheRamseyShow" target="_blank" rel="noopener">
-            <img class="u-spacingStackNone" style="vertical-align: middle"
-              src="./join-files/YT-logo-navy.png" alt="YouTube" loading="eager" width="50"
-              height="50" />
+            <img class="u-spacingStackNone" style="vertical-align: middle" src="./join-files/YT-logo-navy.png" alt="YouTube"
+              loading="eager" width="50" height="50" />
           </a>
 
           <a style="text-decoration: none" href="https://www.instagram.com/daveramsey/" target="_blank" rel="noopener">
-            <img class="u-spacingStackNone" style="vertical-align: middle"
-              src="./join-files/IG-logo-navy.png" alt="Instagram" loading="eager" width="50"
-              height="50" />
+            <img class="u-spacingStackNone" style="vertical-align: middle" src="./join-files/IG-logo-navy.png"
+              alt="Instagram" loading="eager" width="50" height="50" />
           </a>
 
           <a style="text-decoration: none" href="https://www.tiktok.com/@daveramsey" target="_blank" rel="noopener">
-            <img class="u-spacingStackNone" style="vertical-align: middle"
-              src="./join-files/TikTok-logo-navy.png" alt="TikTok" loading="eager" width="50"
-              height="50" />
+            <img class="u-spacingStackNone" style="vertical-align: middle" src="./join-files/TikTok-logo-navy.png"
+              alt="TikTok" loading="eager" width="50" height="50" />
           </a>
 
           <a style="text-decoration: none" href="https://www.facebook.com/daveramsey" target="_blank" rel="noopener">
-            <img class="u-spacingStackNone" style="vertical-align: middle"
-              src="./join-files/FB-logo-navy.png" alt="Facebook" loading="eager" width="50"
-              height="50" />
+            <img class="u-spacingStackNone" style="vertical-align: middle" src="./join-files/FB-logo-navy.png"
+              alt="Facebook" loading="eager" width="50" height="50" />
           </a>
 
           <a style="text-decoration: none" href="https://twitter.com/daveramsey" target="_blank" rel="noopener">
-            <img class="u-spacingStackNone" style="vertical-align: middle"
-              src="./join-files/dr-x-logo-blue.png" alt="Twitter" loading="eager" width="50"
-              height="50" />
+            <img class="u-spacingStackNone" style="vertical-align: middle" src="./join-files/dr-x-logo-blue.png"
+              alt="Twitter" loading="eager" width="50" height="50" />
           </a>
         </div>
 
@@ -17479,75 +17504,6 @@
             <p>
               <a href="https://www.ramseysolutions.com/personalities/book-a-personality" target="_blank">Contact us</a>
               for media inquiries.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div data-mgnl-id="546a7081-a253-4d10-9864-c81bbead6787"
-      class="gzl-Slice gzl-Slice--small in-modeDark u-hide@lapOnly u-hide@palmOnly">
-      <style>
-        [data-mgnl-id="546a7081-a253-4d10-9864-c81bbead6787"] {
-          background: #003561;
-        }
-
-        @media only screen and (min-width: 37.5em) {
-          [data-mgnl-id="546a7081-a253-4d10-9864-c81bbead6787"] {
-            background: #003561;
-          }
-        }
-
-        @media only screen and (min-width: 56.25em) {
-          [data-mgnl-id="546a7081-a253-4d10-9864-c81bbead6787"] {
-            background: #003561;
-          }
-        }
-
-        @media only screen and (min-width: 75em) {
-          [data-mgnl-id="546a7081-a253-4d10-9864-c81bbead6787"] {
-            background: #003561;
-          }
-        }
-
-        @media only screen and (min-width: 112.5em) {
-          [data-mgnl-id="546a7081-a253-4d10-9864-c81bbead6787"] {
-            background: #003561;
-          }
-        }
-      </style>
-
-      <div class="gzl-Slice-container">
-        <div class="gzl-Block u-spacingStack1 u-textAlignCenter">
-          <h2 class="rds-Heading_1 on-darkCanvas rds-Heading--large_1 u-spacingStack1">
-            <div>Connect with Heather</div>
-          </h2>
-
-          <a style="text-decoration: none" href="https://www.youtube.com/channel/UCTqXaYwx3HYVJXwj9gpizdA" target="_blank" rel="noopener">
-            <img class="u-spacingStackNone" style="vertical-align: middle"
-              src="./join-files/YT-logo-navy.png" alt="YouTube" loading="eager" width="50"
-              height="50" />
-          </a>
-
-          <a style="text-decoration: none" href="https://www.instagram.com/blueprintshortsales/" target="_blank" rel="noopener">
-            <img class="u-spacingStackNone" style="vertical-align: middle"
-              src="./join-files/IG-logo-navy.png" alt="Instagram" loading="eager" width="50"
-              height="50" />
-          </a>
-
-          <a style="text-decoration: none" href="https://www.facebook.com/BluePrintShortSales" target="_blank" rel="noopener">
-            <img class="u-spacingStackNone" style="vertical-align: middle"
-              src="./join-files/FB-logo-navy.png" alt="Facebook" loading="eager" width="50"
-              height="50" />
-          </a>
-
-        </div>
-
-        <div class="gzl-Block u-spacingStackNone u-textAlignCenter">
-          <div class="rds-RichText_1 on-darkCanvas u-spacingStackNone">
-            <p>
-              <a href="#" target="_blank">Contact us</a>
-              for any inquiries.
             </p>
           </div>
         </div>
