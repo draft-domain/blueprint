@@ -4994,7 +4994,7 @@
 
     .rs-PrimaryNav {
       position: fixed;
-      top: 64px;
+      top: 48px;
       left: 0;
       display: flex;
       flex-direction: column;
@@ -5183,7 +5183,7 @@
     .rs-Submenu-title {
       display: inline-block;
       cursor: pointer;
-      padding: 16px 48px;
+      padding: 16px 0;
       text-decoration: none;
       color: #0073b9;
       font-weight: bold;
@@ -5273,7 +5273,7 @@
 
     .rs-Submenu-container {
       position: fixed;
-      top: 64px;
+      top: 48px;
       right: -100%;
       bottom: 0;
       transition: right 0.5s ease;
@@ -7879,11 +7879,11 @@
         <script>
           window.HEADER_SEARCH_CONTENT = {
             placeholder: "What are you looking for?",
-            searchAction: "#",
-            engineName: "#",
+            searchAction: "",
+            engineName: "",
             searchKey: "search-jre4u12hqsb9r5bsixw584he",
             endpointBase:
-              "#",
+              "",
             ...window.HEADER_SEARCH_CONTENT,
           };
         </script>
@@ -8388,16 +8388,20 @@
               pointer-events: none !important;
             }
           </style>
-
+        <!--
           <a href="#0"
             class="rds-Link_1 rs-Masthead-desktopSignin u-show@deskAndUp u-spacingInlineXl">Sign In</a>
+        -->
+        
+        <a href="https://blueprint-shortsales.mykajabi.com/login">Sign In</a>
 
           <a href="#"
             class="rds-Button_2 rs-Masthead-primaryCta u-show@deskAndUp">Get Started</a>
         </div>
 
-        <button data-rs-toggle-menu="#nav-primary" type="button" aria-label="Menu" class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Masthead-menuButton">
-          <span data-rs-toggle-menu="#nav-primary" class="material-symbols-outlined"> menu </span>
+        <button data-rs-toggle-menu="#nav-primary" type="button" aria-label="Menu"
+          class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Masthead-menuButton">
+          <span class="material-symbols-outlined"> menu </span>
         </button>
       </div>
     </div>
@@ -9086,7 +9090,7 @@
 
         <button data-rs-child-visibility-toggle="Events" type="button" aria-label="Expand Events submenu"
           class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-          <span data-rs-child-visibility-toggle="Events" class="material-symbols-outlined"> chevron_right </span>
+          <span class="material-symbols-outlined"> chevron_right </span>
         </button>
         <div class="rs-Submenu-container" data-rs-child-menu="Events"
           data-rs-analytics-element-visibility="main navigation:Events">
@@ -9094,7 +9098,7 @@
             <div class="rs-Submenu-containerHeader">
               <button data-rs-child-visibility-toggle="Events" type="button" aria-label="Collapse Events submenu"
                 class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                <span data-rs-child-visibility-toggle="Events" class="material-symbols-outlined"> chevron_right </span>
+                <span class="material-symbols-outlined"> chevron_right </span>
               </button>
               <span class="rs-Submenu-containerTitle">Events</span>
             </div>
@@ -9137,7 +9141,7 @@
 
         <button data-rs-child-visibility-toggle="agents" type="button" aria-label="Expand agents submenu"
           class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-          <span data-rs-child-visibility-toggle="agents" class="material-symbols-outlined"> chevron_right </span>
+          <span class="material-symbols-outlined"> chevron_right </span>
         </button>
         <div class="rs-Submenu-container" data-rs-child-menu="agents"
           data-rs-analytics-element-visibility="main navigation:agents">
@@ -9145,7 +9149,7 @@
             <div class="rs-Submenu-containerHeader">
               <button data-rs-child-visibility-toggle="agents" type="button" aria-label="Collapse agents submenu"
                 class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                <span data-rs-child-visibility-toggle="agents" class="material-symbols-outlined"> chevron_right </span>
+                <span class="material-symbols-outlined"> chevron_right </span>
               </button>
               <span class="rs-Submenu-containerTitle">Real Estate Agents</span>
             </div>
@@ -9188,7 +9192,7 @@
 
         <button data-rs-child-visibility-toggle="homeowners" type="button" aria-label="Expand homeowners submenu"
           class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-          <span data-rs-child-visibility-toggle="homeowners" class="material-symbols-outlined"> chevron_right </span>
+          <span class="material-symbols-outlined"> chevron_right </span>
         </button>
         <div class="rs-Submenu-container" data-rs-child-menu="homeowners"
           data-rs-analytics-element-visibility="main navigation:homeowners">
@@ -9197,7 +9201,7 @@
               <button data-rs-child-visibility-toggle="homeowners" type="button"
                 aria-label="Collapse homeowners submenu"
                 class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                <span data-rs-child-visibility-toggle="homeowners" class="material-symbols-outlined"> chevron_right </span>
+                <span class="material-symbols-outlined"> chevron_right </span>
               </button>
               <span class="rs-Submenu-containerTitle">Homeowners</span>
             </div>
@@ -9245,7 +9249,7 @@
 
         <button data-rs-child-visibility-toggle="Attorneys" type="button" aria-label="Expand Attorneys submenu"
           class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-          <span data-rs-child-visibility-toggle="Attorneys" class="material-symbols-outlined"> chevron_right </span>
+          <span class="material-symbols-outlined"> chevron_right </span>
         </button>
         <div class="rs-Submenu-container" data-rs-child-menu="Attorneys"
           data-rs-analytics-element-visibility="main navigation:Attorneys">
@@ -9253,7 +9257,7 @@
             <div class="rs-Submenu-containerHeader">
               <button data-rs-child-visibility-toggle="Attorneys" type="button" aria-label="Collapse Attorneys submenu"
                 class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                <span data-rs-child-visibility-toggle="Attorneys" class="material-symbols-outlined"> chevron_right </span>
+                <span class="material-symbols-outlined"> chevron_right </span>
               </button>
               <span class="rs-Submenu-containerTitle">Attorneys</span>
             </div>
@@ -9296,7 +9300,7 @@
 
         <button data-rs-child-visibility-toggle="Resources" type="button" aria-label="Expand Resources submenu"
           class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-          <span data-rs-child-visibility-toggle="Resources" class="material-symbols-outlined"> chevron_right </span>
+          <span class="material-symbols-outlined"> chevron_right </span>
         </button>
         <div class="rs-Submenu-container" data-rs-child-menu="Resources"
           data-rs-analytics-element-visibility="main navigation:Resources">
@@ -9304,7 +9308,7 @@
             <div class="rs-Submenu-containerHeader">
               <button data-rs-child-visibility-toggle="Resources" type="button" aria-label="Collapse Resources submenu"
                 class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                <span data-rs-child-visibility-toggle="Resources" class="material-symbols-outlined"> chevron_left </span>
+                <span class="material-symbols-outlined"> chevron_left </span>
               </button>
               <span class="rs-Submenu-containerTitle">Free Resources</span>
             </div>
@@ -9358,7 +9362,7 @@
 
         <button data-rs-child-visibility-toggle="About" type="button" aria-label="Expand About submenu"
           class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-          <span data-rs-child-visibility-toggle="About" class="material-symbols-outlined"> chevron_right </span>
+          <span class="material-symbols-outlined"> chevron_right </span>
         </button>
         <div class="rs-Submenu-container" data-rs-child-menu="About"
           data-rs-analytics-element-visibility="main navigation:About">
@@ -9366,7 +9370,7 @@
             <div class="rs-Submenu-containerHeader">
               <button data-rs-child-visibility-toggle="About" type="button" aria-label="Collapse About submenu"
                 class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                <span data-rs-child-visibility-toggle="About" class="material-symbols-outlined"> chevron_left </span>
+                <span class="material-symbols-outlined"> chevron_left </span>
               </button>
               <span class="rs-Submenu-containerTitle">About</span>
             </div>
@@ -9404,9 +9408,11 @@
         </style>
       </li>
     </ul>
-
+<!--
     <a href="#0"
     class="rds-Link_1 rs-Masthead-desktopSignin u-show@deskAndUp u-spacingInlineXl nav-button nav-invisible">Sign In</a>
+-->
+    <a href="https://blueprint-shortsales.mykajabi.com/login">Sign In</a>
 
     <a href="#"
       class="rds-Button_2 rs-Masthead-primaryCta u-show@deskAndUp nav-button nav-invisible">Get Started</a>
@@ -9702,7 +9708,7 @@
       data-optly="first-section hero" data-mgnl-id="79ef9ccf-8330-414e-ab80-52e560f66b3a">
       <style>
         [data-mgnl-id="79ef9ccf-8330-414e-ab80-52e560f66b3a"] {
-          background: scroll url("/blueprint/assets/images/flag-main.png") 100% 10% / 100px no-repeat,
+          background: scroll url("/blueprint/assets/images/flag-main.png") 8% top / 100px no-repeat,
             scroll url("/blueprint/assets/images/banner-main.png") bottom center / cover no-repeat,
             #f5f7f8;
         }
