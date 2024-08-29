@@ -11637,11 +11637,11 @@ the passion that drives me in this field." />
                 border-color 0.3s cubic-bezier(0.19, 1, 0.22, 1),
                 color 0.3s cubic-bezier(0.19, 1, 0.22, 1);
               border: 2px solid transparent;
-              border-radius: 24px;
+              border-radius: 4px;
               box-shadow: none;
-              background-color: #000000;
+              background-color: var(--rds-button-background-color, #0073b9);
               cursor: pointer;
-              padding: 6px 16px;
+              padding: 6px 10px;
               width: auto;
               text-align: center;
               text-indent: 0;
@@ -11661,7 +11661,8 @@ the passion that drives me in this field." />
             .rds-Button_2:active:not([disabled]),
             .rds-Button_2:focus:not([disabled]),
             .rds-Button_2:hover:not([disabled]) {
-              background-color: #005b98;
+              background-color: var(--rds-button-background-color-interactive,
+                  #005b98);
               color: #fff;
             }
 
@@ -11826,7 +11827,7 @@ the passion that drives me in this field." />
             }
 
             .rds-Button--large_2 {
-              padding: 20px 30px;
+              padding: 6px 24px;
               line-height: 32px;
               font-size: 18px;
             }
