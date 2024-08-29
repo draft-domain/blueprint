@@ -5454,7 +5454,7 @@
 
     .rs-PrimaryNav {
       position: fixed;
-      top: 48px;
+      top: 64px;
       left: 0;
       display: flex;
       flex-direction: column;
@@ -5643,7 +5643,7 @@
     .rs-Submenu-title {
       display: inline-block;
       cursor: pointer;
-      padding: 16px 0;
+      padding: 16px 48px;
       text-decoration: none;
       color: #0073b9;
       font-weight: bold;
@@ -5733,7 +5733,7 @@
 
     .rs-Submenu-container {
       position: fixed;
-      top: 48px;
+      top: 64px;
       right: -100%;
       bottom: 0;
       transition: right 0.5s ease;
@@ -6023,6 +6023,11 @@
       color: #b6bec2;
       font-weight: 600;
     }
+
+    .logo-padding {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
   </style>
 
     <a class="rs-SkipLink gzl-Link--standalone" tabindex="1" href="#"
@@ -6035,9 +6040,7 @@
           <img src="/blueprint/assets/images/logo.png" class="u-show@deskAndUp"
             width="186" height="auto"
             alt="BluePrint Listings" />
-          <img src="/blueprint/assets/images/logo.png" class="u-hide@deskAndUp"
-            width="150.59" height="auto"
-            alt="BluePrint Listings" />
+            <img src="/blueprint/assets/images/logo.png" class="logo-padding u-hide@deskAndUp" width="130.59" height="auto" alt="BluePrint Listings" />
         </a>
         <div class="rs-Masthead-resources">
           <style>
@@ -8896,9 +8899,7 @@
             }
           </style>
 
-            <a href="#0"
-              class="rds-Link_1 rs-Masthead-desktopSignin u-show@deskAndUp u-spacingInlineXl">Sign
-              In</a>
+          <a href="https://blueprint-shortsales.mykajabi.com/login" class="rds-Link_1 rs-Masthead-desktopSignin u-show@deskAndUp u-spacingInlineXl">Sign In</a>
 
             <a href="#"
               class="rds-Button_2 rs-Masthead-primaryCta u-show@deskAndUp blue-button">Get
@@ -9580,377 +9581,365 @@
       </div> <!-- cd-user-modal-container -->
     </div>
 
-    <nav role="navigation" id="nav-primary" class="rs-PrimaryNav"
-      data-analytics-page-region="nav-primary"
-      data-rs-menu-wrapper data-analytics-navigation-main data-elastic-exclude>
-      <ul class="rs-PrimaryNav-menu">
-        <li class="rs-Submenu" data-rs-parent-menu>
+    <nav role="navigation" id="nav-primary" class="rs-PrimaryNav page-nav" data-analytics-page-region="nav-primary"
+    data-rs-menu-wrapper data-analytics-navigation-main data-elastic-exclude>
+    <a class="rs-Masthead-logo nav-invisible" href="/blueprint/index.html">
+      <img src="/blueprint/assets/images/logo.png" class="u-show@deskAndUp" width="186" height="auto" alt="BluePrint Listings" />
+      <img src="/blueprint/assets/images/logo.png" class="u-hide@deskAndUp" width="150.59" height="auto" alt="BluePrint Listings" />
+    </a>
+
+    <ul class="rs-PrimaryNav-menu">
+      <li class="rs-Submenu" data-rs-parent-menu>
           <a href="/blueprint/index.html"
             class="rs-Submenu-title" target="_blank">Home</a>
-        </li>
+      </li>
 
-        <li class="rs-Submenu" data-rs-parent-menu>
-          <a href="#" class="rs-Submenu-title"> Events </a>
+      <li class="rs-Submenu" data-rs-parent-menu>
+        <a href="#" class="rs-Submenu-title"> Events </a>
 
-          <button data-rs-child-visibility-toggle="Events" type="button"
-            aria-label="Expand Events submenu"
-            class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </button>
-          <div class="rs-Submenu-container" data-rs-child-menu="Events"
-            data-rs-analytics-element-visibility="main navigation:Events">
-            <div class="rs-Submenu-innerContainer">
-              <div class="rs-Submenu-containerHeader">
-                <button data-rs-child-visibility-toggle="Events" type="button"
-                  aria-label="Collapse Events submenu"
-                  class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                  <span class="material-symbols-outlined"> chevron_right </span>
-                </button>
-                <span class="rs-Submenu-containerTitle">Events</span>
-              </div>
-              <ul>
-                <li class="rs-MenuItem">
-                  <span class="rs-MenuItem-header">Events</span>
-                  <ul class="rs-MenuItem-content">
-                    <li>
-                      <a href="/blueprint/nav/events/live/index.html" class="rs-MenuItem-subheader">
-                        Live Events
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blueprint/nav/events/virtual/index.html" class="rs-MenuItem-subheader">
-                        Virtual Events
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+        <button data-rs-child-visibility-toggle="Events" type="button" aria-label="Expand Events submenu"
+          class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
+          <span data-rs-child-visibility-toggle="Events" class="material-symbols-outlined"> chevron_right </span>
+        </button>
+        <div class="rs-Submenu-container" data-rs-child-menu="Events"
+          data-rs-analytics-element-visibility="main navigation:Events">
+          <div class="rs-Submenu-innerContainer">
+            <div class="rs-Submenu-containerHeader">
+              <button data-rs-child-visibility-toggle="Events" type="button" aria-label="Collapse Events submenu"
+                class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
+                <span data-rs-child-visibility-toggle="Events" class="material-symbols-outlined"> chevron_right </span>
+              </button>
+              <span class="rs-Submenu-containerTitle">Events</span>
             </div>
-            <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
-              data-component-id="4666a7c5-8dfd-448a-ab7f-5b0322ecb6ea">
-              <li class="rs-MenuItem-listItem">
-                <a href="#" class="rds-Link_1 rs-MenuItem-link">See All
-                  Events<span class="material-symbols-outlined">
-                    chevron_right
-                  </span></a>
+            <ul>
+              <li class="rs-MenuItem">
+                <span class="rs-MenuItem-header">Events</span>
+                <ul class="rs-MenuItem-content">
+                  <li>
+                    <a href="/blueprint/nav/events/live/index.html" class="rs-MenuItem-subheader">
+                      Live Events
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/events/virtual/index.html" class="rs-MenuItem-subheader">
+                      Virtual Events
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
-          <style>
+          <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
+            data-component-id="4666a7c5-8dfd-448a-ab7f-5b0322ecb6ea">
+            <li class="rs-MenuItem-listItem">
+              <a href="#" class="rds-Link_1 rs-MenuItem-link">See All Events<span class="material-symbols-outlined">
+                  chevron_right
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <style>
           [data-component-id="4666a7c5-8dfd-448a-ab7f-5b0322ecb6ea"] {
             columns: 1;
           }
         </style>
-        </li>
+      </li>
 
-        <li class="rs-Submenu" data-rs-parent-menu>
-          <a href="#" class="rs-Submenu-title"> Real Estate Agents </a>
+      <li class="rs-Submenu" data-rs-parent-menu>
+        <a href="#" class="rs-Submenu-title"> Real Estate Agents </a>
 
-          <button data-rs-child-visibility-toggle="agents" type="button"
-            aria-label="Expand agents submenu"
-            class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </button>
-          <div class="rs-Submenu-container" data-rs-child-menu="agents"
-            data-rs-analytics-element-visibility="main navigation:agents">
-            <div class="rs-Submenu-innerContainer">
-              <div class="rs-Submenu-containerHeader">
-                <button data-rs-child-visibility-toggle="agents" type="button"
-                  aria-label="Collapse agents submenu"
-                  class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                  <span class="material-symbols-outlined"> chevron_right </span>
-                </button>
-                <span class="rs-Submenu-containerTitle">Real Estate
-                  Agents</span>
-              </div>
-              <ul>
-                <li class="rs-MenuItem">
-                  <span class="rs-MenuItem-header">Real Estate Agents</span>
-                  <ul class="rs-MenuItem-content">
-                    <li>
-                      <a href="/blueprint/nav/agent/join/index.html"
-                        class="rs-MenuItem-subheader">
-                        Join Free Group
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="rs-MenuItem-subheader">
-                        Become a Specialist Today
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+        <button data-rs-child-visibility-toggle="agents" type="button" aria-label="Expand agents submenu"
+          class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
+          <span data-rs-child-visibility-toggle="agents" class="material-symbols-outlined"> chevron_right </span>
+        </button>
+        <div class="rs-Submenu-container" data-rs-child-menu="agents"
+          data-rs-analytics-element-visibility="main navigation:agents">
+          <div class="rs-Submenu-innerContainer">
+            <div class="rs-Submenu-containerHeader">
+              <button data-rs-child-visibility-toggle="agents" type="button" aria-label="Collapse agents submenu"
+                class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
+                <span data-rs-child-visibility-toggle="agents" class="material-symbols-outlined"> chevron_right </span>
+              </button>
+              <span class="rs-Submenu-containerTitle">Real Estate Agents</span>
             </div>
-            <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
-              data-component-id="4666a7c5-8dfd-448a-ab7f-5b0322ecb6ea">
-              <li class="rs-MenuItem-listItem">
-                <a href="#" class="rds-Link_1 rs-MenuItem-link">FAQ<span
-                    class="material-symbols-outlined">
-                    chevron_right
-                  </span></a>
+            <ul>
+              <li class="rs-MenuItem">
+                <span class="rs-MenuItem-header">Real Estate Agents</span>
+                <ul class="rs-MenuItem-content">
+                  <li>
+                    <a href="/blueprint/nav/agent/join/index.html" class="rs-MenuItem-subheader">
+                      Join Free Group
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/agent/test/index.html" class="rs-MenuItem-subheader">
+                      Become a Specialist Today
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
-          <style>
+          <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
+            data-component-id="4666a7c5-8dfd-448a-ab7f-5b0322ecb6ea">
+            <li class="rs-MenuItem-listItem">
+              <a href="#" class="rds-Link_1 rs-MenuItem-link">FAQ<span class="material-symbols-outlined">
+                  chevron_right
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <style>
           [data-component-id="4666a7c5-8dfd-448a-ab7f-5b0322ecb6ea"] {
             columns: 1;
           }
         </style>
-        </li>
+      </li>
 
-        <li class="rs-Submenu" data-rs-parent-menu>
-          <a href="#" class="rs-Submenu-title"> Homeowners </a>
+      <li class="rs-Submenu" data-rs-parent-menu>
+        <a href="#" class="rs-Submenu-title"> Homeowners </a>
 
-          <button data-rs-child-visibility-toggle="homeowners" type="button"
-            aria-label="Expand homeowners submenu"
-            class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </button>
-          <div class="rs-Submenu-container" data-rs-child-menu="homeowners"
-            data-rs-analytics-element-visibility="main navigation:homeowners">
-            <div class="rs-Submenu-innerContainer">
-              <div class="rs-Submenu-containerHeader">
-                <button data-rs-child-visibility-toggle="homeowners"
-                  type="button"
-                  aria-label="Collapse homeowners submenu"
-                  class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                  <span class="material-symbols-outlined"> chevron_right </span>
-                </button>
-                <span class="rs-Submenu-containerTitle">Homeowners</span>
-              </div>
-              <ul>
-                <li class="rs-MenuItem">
-                  <span class="rs-MenuItem-header">Homeowners</span>
-                  <ul class="rs-MenuItem-content">
-                    <li>
-                      <a href="/blueprint/nav/homeowner/join/index.html"
-                        class="rs-MenuItem-subheader">
-                        Join Free Group - Behind on Mortgage
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blueprint/nav/homeowner/join-sell/index.html" class="rs-MenuItem-subheader">
-                        Join Free Group - Interested in Selling
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blueprint/nav/homeowner/test/index.html"
-                        class="rs-MenuItem-subheader">
-                        Connect with a Specialist Today
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+        <button data-rs-child-visibility-toggle="homeowners" type="button" aria-label="Expand homeowners submenu"
+          class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
+          <span data-rs-child-visibility-toggle="homeowners" class="material-symbols-outlined"> chevron_right </span>
+        </button>
+        <div class="rs-Submenu-container" data-rs-child-menu="homeowners"
+          data-rs-analytics-element-visibility="main navigation:homeowners">
+          <div class="rs-Submenu-innerContainer">
+            <div class="rs-Submenu-containerHeader">
+              <button data-rs-child-visibility-toggle="homeowners" type="button"
+                aria-label="Collapse homeowners submenu"
+                class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
+                <span data-rs-child-visibility-toggle="homeowners" class="material-symbols-outlined"> chevron_right </span>
+              </button>
+              <span class="rs-Submenu-containerTitle">Homeowners</span>
             </div>
-            <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
-              data-component-id="4ba92630-be5a-4505-9c67-36c9da3edb67">
-              <li class="rs-MenuItem-listItem">
-                <a href="#" class="rds-Link_1 rs-MenuItem-link">FAQ<span
-                    class="material-symbols-outlined">
-                    chevron_right
-                  </span></a>
+            <ul>
+              <li class="rs-MenuItem">
+                <span class="rs-MenuItem-header">Homeowners</span>
+                <ul class="rs-MenuItem-content">
+                  <li>
+                    <a href="/blueprint/nav/homeowner/join/index.html" class="rs-MenuItem-subheader">
+                      Join Free Group - Behind on Mortgage
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/homeowner/join-sell/index.html" class="rs-MenuItem-subheader">
+                      Join Free Group - Interested in Selling
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/homeowner/test/index.html" class="rs-MenuItem-subheader">
+                      Connect with a Specialist Today
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
-          <style>
+          <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
+            data-component-id="4ba92630-be5a-4505-9c67-36c9da3edb67">
+            <li class="rs-MenuItem-listItem">
+              <a href="#" class="rds-Link_1 rs-MenuItem-link">FAQ<span class="material-symbols-outlined">
+                  chevron_right
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <style>
           [data-component-id="4ba92630-be5a-4505-9c67-36c9da3edb67"] {
             columns: 1;
           }
         </style>
-        </li>
+      </li>
 
-        <li class="rs-Submenu" data-rs-parent-menu>
-          <a href="#" class="rs-Submenu-title"> Attorneys </a>
+      <li class="rs-Submenu" data-rs-parent-menu>
+        <a href="#" class="rs-Submenu-title"> Attorneys </a>
 
-          <button data-rs-child-visibility-toggle="Attorneys" type="button"
-            aria-label="Expand Attorneys submenu"
-            class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </button>
-          <div class="rs-Submenu-container" data-rs-child-menu="Attorneys"
-            data-rs-analytics-element-visibility="main navigation:Attorneys">
-            <div class="rs-Submenu-innerContainer">
-              <div class="rs-Submenu-containerHeader">
-                <button data-rs-child-visibility-toggle="Attorneys"
-                  type="button" aria-label="Collapse Attorneys submenu"
-                  class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                  <span class="material-symbols-outlined"> chevron_right </span>
-                </button>
-                <span class="rs-Submenu-containerTitle">Attorneys</span>
-              </div>
-              <ul>
-                <li class="rs-MenuItem">
-                  <span class="rs-MenuItem-header">Attorneys</span>
-                  <ul class="rs-MenuItem-content">
-                    <li>
-                      <a href="/blueprint/nav/attorney/join/index.html"
-                        class="rs-MenuItem-subheader">
-                        Join Free Group
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blueprint/nav/attorney/test/index.html"
-                        class="rs-MenuItem-subheader">
-                        Partner with Us Today
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+        <button data-rs-child-visibility-toggle="Attorneys" type="button" aria-label="Expand Attorneys submenu"
+          class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
+          <span data-rs-child-visibility-toggle="Attorneys" class="material-symbols-outlined"> chevron_right </span>
+        </button>
+        <div class="rs-Submenu-container" data-rs-child-menu="Attorneys"
+          data-rs-analytics-element-visibility="main navigation:Attorneys">
+          <div class="rs-Submenu-innerContainer">
+            <div class="rs-Submenu-containerHeader">
+              <button data-rs-child-visibility-toggle="Attorneys" type="button" aria-label="Collapse Attorneys submenu"
+                class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
+                <span data-rs-child-visibility-toggle="Attorneys" class="material-symbols-outlined"> chevron_right </span>
+              </button>
+              <span class="rs-Submenu-containerTitle">Attorneys</span>
             </div>
-            <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
-              data-component-id="17cb3953-1725-41e1-b73b-f397ddbeb4a1">
-              <li class="rs-MenuItem-listItem">
-                <a href="#" class="rds-Link_1 rs-MenuItem-link">FAQ<span
-                    class="material-symbols-outlined">
-                    chevron_right
-                  </span></a>
+            <ul>
+              <li class="rs-MenuItem">
+                <span class="rs-MenuItem-header">Attorneys</span>
+                <ul class="rs-MenuItem-content">
+                  <li>
+                    <a href="/blueprint/nav/attorney/join/index.html" class="rs-MenuItem-subheader">
+                      Join Free Group
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/attorney/test/index.html" class="rs-MenuItem-subheader">
+                      Partner with Us Today
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
-          <style>
+          <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
+            data-component-id="17cb3953-1725-41e1-b73b-f397ddbeb4a1">
+            <li class="rs-MenuItem-listItem">
+              <a href="#" class="rds-Link_1 rs-MenuItem-link">FAQ<span class="material-symbols-outlined">
+                  chevron_right
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <style>
           [data-component-id="17cb3953-1725-41e1-b73b-f397ddbeb4a1"] {
             columns: 1;
           }
         </style>
-        </li>
+      </li>
 
-        <li class="rs-Submenu" data-rs-parent-menu>
-          <a href="#" class="rs-Submenu-title"> Free Resources </a>
+      <li class="rs-Submenu" data-rs-parent-menu="">
+        <a href="#" class="rs-Submenu-title"> Free Resources </a>
 
-          <button data-rs-child-visibility-toggle="Resources" type="button"
-            aria-label="Expand Resources submenu"
-            class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </button>
-          <div class="rs-Submenu-container" data-rs-child-menu="Resources"
-            data-rs-analytics-element-visibility="main navigation:Resources">
-            <div class="rs-Submenu-innerContainer">
-              <div class="rs-Submenu-containerHeader">
-                <button data-rs-child-visibility-toggle="Resources"
-                  type="button" aria-label="Collapse Resources submenu"
-                  class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                  <span class="material-symbols-outlined"> chevron_left </span>
-                </button>
-                <span class="rs-Submenu-containerTitle">Free Resources</span>
-              </div>
-              <ul>
-                <li class="rs-MenuItem">
-                  <span class="rs-MenuItem-header">Free Resources</span>
-                  <ul class="rs-MenuItem-content">
-                    <li>
-                      <a href="/blueprint/nav/resources/agents/index.html" class="rs-MenuItem-subheader">
-                        for Real Estate Agents
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blueprint/nav/resources/homeowners/index.html" class="rs-MenuItem-subheader">
-                        for Homeowners (Behind on Mortgage)
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blueprint/nav/resources/homeowners-sell/index.html" class="rs-MenuItem-subheader">
-                        for Homeowners (Interested in Selling)
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blueprint/nav/resources/attorneys/index.html" class="rs-MenuItem-subheader">
-                        for Bankruptcy Attorneys
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+        <button data-rs-child-visibility-toggle="Resources" type="button" aria-label="Expand Resources submenu"
+          class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
+          <span data-rs-child-visibility-toggle="Resources" class="material-symbols-outlined"> chevron_right </span>
+        </button>
+        <div class="rs-Submenu-container" data-rs-child-menu="Resources"
+          data-rs-analytics-element-visibility="main navigation:Resources">
+          <div class="rs-Submenu-innerContainer">
+            <div class="rs-Submenu-containerHeader">
+              <button data-rs-child-visibility-toggle="Resources" type="button" aria-label="Collapse Resources submenu"
+                class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
+                <span data-rs-child-visibility-toggle="Resources" class="material-symbols-outlined"> chevron_left </span>
+              </button>
+              <span class="rs-Submenu-containerTitle">Free Resources</span>
             </div>
-            <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
-              data-component-id="dcfa2b47-3c58-4a31-af6d-7ef7f3dcf1a6">
-              <li class="rs-MenuItem-listItem">
-                <a href="#" class="rds-Link_1 rs-MenuItem-link">See All
-                  Resources<span class="material-symbols-outlined">
-                    chevron_right
-                  </span></a>
+            <ul>
+              <li class="rs-MenuItem">
+                <span class="rs-MenuItem-header">Free Resources</span>
+                <ul class="rs-MenuItem-content">
+                  <li>
+                    <a href="/blueprint/nav/resources/agents/index.html" class="rs-MenuItem-subheader">
+                      for Real Estate Agents
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/resources/homeowners/index.html" class="rs-MenuItem-subheader">
+                      for Homeowners (Behind on Mortgage)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/resources/homeowners-sell/index.html" class="rs-MenuItem-subheader">
+                      for Homeowners (Interested in Selling)
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/resources/attorneys/index.html"
+                      class="rs-MenuItem-subheader">
+                      for Bankruptcy Attorneys
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
-          <style>
+          <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
+            data-component-id="dcfa2b47-3c58-4a31-af6d-7ef7f3dcf1a6">
+            <li class="rs-MenuItem-listItem">
+              <a href="#" class="rds-Link_1 rs-MenuItem-link">See All Resources<span class="material-symbols-outlined">
+                  chevron_right
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <style>
           [data-component-id="dcfa2b47-3c58-4a31-af6d-7ef7f3dcf1a6"] {
             columns: 1;
           }
         </style>
-        </li>
+      </li>
 
-        <li class="rs-Submenu" data-rs-parent-menu>
-          <a href="#" class="rs-Submenu-title"> About </a>
+      <li class="rs-Submenu" data-rs-parent-menu="">
+        <a href="#" class="rs-Submenu-title"> About </a>
 
-          <button data-rs-child-visibility-toggle="About" type="button"
-            aria-label="Expand About submenu"
-            class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </button>
-          <div class="rs-Submenu-container" data-rs-child-menu="About"
-            data-rs-analytics-element-visibility="main navigation:About">
-            <div class="rs-Submenu-innerContainer">
-              <div class="rs-Submenu-containerHeader">
-                <button data-rs-child-visibility-toggle="About" type="button"
-                  aria-label="Collapse About submenu"
-                  class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
-                  <span class="material-symbols-outlined"> chevron_left </span>
-                </button>
-                <span class="rs-Submenu-containerTitle">About</span>
-              </div>
-              <ul>
-                <li class="rs-MenuItem">
-                  <span class="rs-MenuItem-header">About</span>
-                  <ul class="rs-MenuItem-content">
-                    <li>
-                      <a href="/blueprint/nav/about/blueprint-listings/index.html" class="rs-MenuItem-subheader">
-                        BluePrint Listings
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/blueprint/nav/about/heather/index.html" class="rs-MenuItem-subheader">
-                        Heather J Keller
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+        <button data-rs-child-visibility-toggle="About" type="button" aria-label="Expand About submenu"
+          class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-expandContainer">
+          <span data-rs-child-visibility-toggle="About" class="material-symbols-outlined"> chevron_right </span>
+        </button>
+        <div class="rs-Submenu-container" data-rs-child-menu="About"
+          data-rs-analytics-element-visibility="main navigation:About">
+          <div class="rs-Submenu-innerContainer">
+            <div class="rs-Submenu-containerHeader">
+              <button data-rs-child-visibility-toggle="About" type="button" aria-label="Collapse About submenu"
+                class="rds-Button_2 rds-Button--subtle_2 rds-Button--large_2 rds-Button--iconOnly_2 rs-Submenu-closeContainer">
+                <span data-rs-child-visibility-toggle="About" class="material-symbols-outlined"> chevron_left </span>
+              </button>
+              <span class="rs-Submenu-containerTitle">About</span>
             </div>
-            <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
-              data-component-id="dcfa2b47-3c58-4a31-af6d-7ef7f3dcf1a6">
-              <li class="rs-MenuItem-listItem">
-                <a href="#" class="rds-Link_1 rs-MenuItem-link">See More<span
-                    class="material-symbols-outlined">
-                    chevron_right
-                  </span></a>
+            <ul>
+              <li class="rs-MenuItem">
+                <span class="rs-MenuItem-header">About</span>
+                <ul class="rs-MenuItem-content">
+                  <li>
+                    <a href="/blueprint/nav/about/blueprint-listings/index.html" class="rs-MenuItem-subheader">
+                      BluePrint Listings
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/blueprint/nav/about/heather/index.html" class="rs-MenuItem-subheader">
+                      Heather J Keller
+                    </a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
-          <style>
+          <ul class="rs-MenuItem-content rs-MenuItem-content--grid"
+            data-component-id="dcfa2b47-3c58-4a31-af6d-7ef7f3dcf1a6">
+            <li class="rs-MenuItem-listItem">
+              <a href="#" class="rds-Link_1 rs-MenuItem-link">See More<span class="material-symbols-outlined">
+                  chevron_right
+                </span></a>
+            </li>
+          </ul>
+        </div>
+        <style>
           [data-component-id="dcfa2b47-3c58-4a31-af6d-7ef7f3dcf1a6"] {
             columns: 1;
           }
         </style>
-        </li>
-      </ul>
+      </li>
+    </ul>
+<!--
+    <a href="#0"
+    class="rds-Link_1 rs-Masthead-desktopSignin u-show@deskAndUp u-spacingInlineXl nav-button nav-invisible">Sign In</a>
+-->
+    <a href="https://blueprint-shortsales.mykajabi.com/login" class="rds-Link_1 rs-Masthead-desktopSignin u-show@deskAndUp u-spacingInlineXl nav-button nav-invisible">Sign In</a>
 
-      <div class="rs-PrimaryNav-mobileLinks">
-        <a href="#0" class="rs-Masthead-mobileSignin u-hide@deskAndUp">Sign
-          In</a>
+    <a href="#"
+      class="rds-Button_2 rs-Masthead-primaryCta u-show@deskAndUp nav-button nav-invisible">Get Started</a>
 
-        <a href="#"
-          class="rds-Button_2 rs-Masthead-mobileCta u-hide@deskAndUp">Get
-          Started</a>
-      </div>
-      <div class="rs-PrimaryNav-mobileCareersLink">
-        <a href="#" class="rds-Button_2 rds-Button--subtle_2">We're Hiring! See
-          Openings<span
-            class="material-symbols-outlined">
-            chevron_right
-          </span></a>
-      </div>
+    <div class="rs-PrimaryNav-mobileLinks">
+      <!-- <a href="#0" class="rs-Masthead-mobileSignin u-hide@deskAndUp">Sign In</a> -->
+
+      <a href="https://blueprint-shortsales.mykajabi.com/login" class="rs-Masthead-mobileSignin u-hide@deskAndUp">Sign In</a>
+
+      <a href="#"
+        class="rds-Button_2 rs-Masthead-mobileCta u-hide@deskAndUp">Get Started</a>
+    </div>
+    <div class="rs-PrimaryNav-mobileCareersLink">
+      <a href="#" class="rds-Button_2 rds-Button--subtle_2">We're Hiring!
+        See Openings<span class="material-symbols-outlined">
+          chevron_right
+        </span></a>
+    </div>
     </nav>
 
     <script src="./index-files/masthead.min~2024-05-23-18-43-49-000~cache.js"
