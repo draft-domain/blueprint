@@ -13356,6 +13356,41 @@
     </div> <!-- cd-user-modal-container -->
   </div>
 
+  <style>
+    nav .nav-button {
+      margin-right: 12px;
+    }
+
+    nav .nav-invisible {
+      display: none;
+    }
+
+    .nav-visible {
+      display: block;
+      margin: 12px;
+    }
+
+    .page-nav.is-sticky {
+      position: fixed;
+      box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+      animation: slideDown 0.35s ease-out;
+    }
+
+    .page-nav.is-sticky img {
+      max-width: 70%;
+    }
+
+    @keyframes slideDown {
+      from {
+        transform: translateY(-100%);
+      }
+
+      to {
+        transform: translateY(0);
+      }
+    }
+  </style>
+
   <nav role="navigation" id="nav-primary" class="rs-PrimaryNav page-nav" data-analytics-page-region="nav-primary"
     data-rs-menu-wrapper data-analytics-navigation-main data-elastic-exclude>
     <a class="rs-Masthead-logo nav-invisible" href="/blueprint/index.html">
