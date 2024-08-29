@@ -17685,6 +17685,50 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!--============== END OF NECESSARY CDN LINKS =============-->
 
+  <script>
+    //sticky nav
+    const nav = document.querySelector(".page-nav");
+    const toggleClass = "is-sticky";
+    const visibleClass = "nav-visible";
+    const navInvisClass = "nav-invisible";
+    const titleElements = nav.querySelectorAll(".nav-invisible");
+
+    let prevScrollPos = window.pageYOffset;
+
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset;
+
+      if (currentScroll > 210) {
+        nav.classList.add(toggleClass);
+        titleElements.forEach((element) => {
+          element.classList.add(visibleClass);
+          element.classList.remove(navInvisClass);
+        });
+      } else {
+        nav.classList.remove(toggleClass);
+        titleElements.forEach((element) => {
+          element.classList.remove(visibleClass);
+          element.classList.add(navInvisClass);
+        });
+      }
+      prevScrollPos = currentScroll;
+    });
+    // Handle scroll direction
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset;
+
+      if (prevScrollPos > currentScroll && prevScrollPos > 210) {
+        // User scrolled up after going down past 210px
+        nav.classList.remove(toggleClass);
+        titleElements.forEach((element) => {
+          element.classList.remove(visibleClass);
+          element.classList.add(navInvisClass);
+        });
+      }
+      prevScrollPos = currentScroll;
+    });
+  </script>
+
   <!--================= SIGN IN ================-->
   <script>
     jQuery(document).ready(function ($) {
