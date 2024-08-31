@@ -15065,6 +15065,20 @@
               margin-bottom: 3rem;
             }
 
+            @media only screen and (max-width: 37.5em) {
+              #wrap-book .owlcontent {
+                padding: 0px 50px;
+                margin-bottom: 36px;
+              }
+            }
+
+            @media only screen and (min-width: 37.5em) {
+              #wrap-book .owlcontent {
+                padding: 0px 50px;
+                margin-bottom: 80px;
+              }
+            }
+
             #wrap-book .owlcontent {
               padding: 0px 50px;
               margin-bottom: 80px;
@@ -17961,7 +17975,7 @@
 
       // Function to initialize Owl Carousel with conditional nav
       function initializeOwlCarousel() {
-        let isMobile = window.matchMedia("(max-width: 37.5em)").matches; // Checks if the screen width is 767px or less
+        let isMobile = window.matchMedia("(max-width: 37.5em)").matches;
 
         $("#wrap-book").owlCarousel({
           loop: true,
