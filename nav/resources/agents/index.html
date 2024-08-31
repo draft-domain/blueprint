@@ -15122,8 +15122,26 @@
               color: #f5f7f8;
             }
 
-            .free-book{
-              margin-bottom: 3rem;
+            @media only screen and (max-width: 37.5em) {
+              #wrap-book .owlcontent {
+                padding: 0px 50px;
+                margin-bottom: 36px;
+              }
+
+              .free-book {
+                margin-bottom: 1rem;
+              }
+            }
+
+            @media only screen and (min-width: 37.5em) {
+              #wrap-book .owlcontent {
+                padding: 0px 50px;
+                margin-bottom: 80px;
+              }
+
+              .free-book {
+                margin-bottom: 3rem;
+              }
             }
           </style>
 

@@ -13977,6 +13977,13 @@
           background: url("/blueprint/assets/images/mobile-banner-join-homeowner.png") top center / cover no-repeat;
         }
 
+        .link-button {
+          position: absolute;
+          right: 50%;
+          top: 90%;
+          width: 240px;
+        }
+
         @media only screen and (min-width: 37.5em) {
           [data-mgnl-id="4d00d39c-f0ca-43fb-828e-80c077439a9a"] {
             background: url("/blueprint/assets/images/mobile-banner-join-homeowner.png") top center / cover no-repeat;
@@ -14031,6 +14038,10 @@
           }
         }
       </style>
+
+      <a href="https://www.facebook.com/groups/ideastoavoidforeclosure" target="_blank" class="link-button">
+        <img class="button-img" src="/blueprint/assets/images/button.png" alt="Join Here">
+      </a>
 
       <div class="gzl-Slice-container"></div>
     </div>
@@ -15201,15 +15212,6 @@
               color: #f5f7f8;
             }
 
-            .free-book {
-              margin-bottom: 3rem;
-            }
-
-            #wrap-book .owlcontent {
-              padding: 0px 50px;
-              margin-bottom: 80px;
-            }
-
             #wrap-book.owl-carousel .owl-dots .owl-dot.active span,
             #wrap-book.owl-carousel .owl-dots .owl-dot:hover span {
               background: #0073b9 none repeat scroll 0 0;
@@ -15238,16 +15240,39 @@
               border-radius: 30px;
             }
 
-            .owl-prev {
-              position: absolute;
-              right: 85%;
-              top: 55%;
+            @media only screen and (max-width: 37.5em) {
+              #wrap-book .owlcontent {
+                padding: 0px 50px;
+                margin-bottom: 36px;
+              }
+
+              .free-book {
+                margin-bottom: 1rem;
+              }
+
             }
 
-            .owl-next {
-              position: absolute;
-              left: 85%;
-              top: 55%;
+            @media only screen and (min-width: 37.5em) {
+              #wrap-book .owlcontent {
+                padding: 0px 50px;
+                margin-bottom: 80px;
+              }
+
+              .free-book {
+                margin-bottom: 3rem;
+              }
+
+              .owl-prev {
+                position: absolute;
+                right: 85%;
+                top: 55%;
+              }
+
+              .owl-next {
+                position: absolute;
+                left: 85%;
+                top: 55%;
+              }
             }
 
             .md {
@@ -15295,16 +15320,6 @@
                   top: 18%;
                   background-size: contain;
                   background-repeat: no-repeat;
-                }
-
-                [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
-                  background-image: url("/blueprint/assets/images/left-arrow.png");
-                  left: 3%;
-                }
-
-                [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
-                  background-image: url("/blueprint/assets/images/right-arrow.png");
-                  right: 3%;
                 }
 
                 @media only screen and (min-width: 37.5em) {
@@ -15408,46 +15423,92 @@
                   -o-transition: all ease-out 0.6s;
                 }
 
-                .book {
-                  width: 464px;
-                  height: 704px;
-                  background: url(/blueprint/assets/images/book-1-front-homeowner.jpg) no-repeat center center;
-                  background-size: cover;
-                  top: 0;
-                  left: 0;
-                  right: 0;
-                  bottom: 0;
-                  margin: auto;
-                  cursor: pointer;
+                @media only screen and (max-width: 37.5em) {
+                  .book {
+                    width: 280px;
+                    height: 425px;
+                    background: url(/blueprint/assets/images/book-1-front-homeowner.jpg) no-repeat center center;
+                    background-size: cover;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    cursor: pointer;
+                  }
+
+                  .title {
+                    content: "";
+                    height: 425px;
+                    width: 30px;
+                    position: absolute;
+                    right: 0;
+                    left: -280px;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    background: #0c3e6b;
+                    transform: rotateY(-80deg) translateX(-14px);
+                  }
+
+                  .book-back {
+                    width: 280px;
+                    height: 425px;
+                    background: url(/blueprint/assets/images/book-1-back-reverse-homeowner.png) no-repeat center center;
+                    background-size: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    cursor: pointer;
+                    transform: rotate(180deg) translateZ(-30px) translateX(5px);
+                  }
                 }
 
-                .title {
-                  content: "";
-                  height: 704px;
-                  width: 30px;
-                  position: absolute;
-                  right: 0;
-                  left: -464px;
-                  top: 0;
-                  bottom: 0;
-                  margin: auto;
-                  background: #0c3e6b;
-                  transform: rotateY(-80deg) translateX(-14px);
-                }
+                @media only screen and (min-width: 37.5em) {
+                  .book {
+                    width: 464px;
+                    height: 704px;
+                    background: url(/blueprint/assets/images/book-1-front-homeowner.jpg) no-repeat center center;
+                    background-size: cover;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    cursor: pointer;
+                  }
 
-                .book-back {
-                  width: 464px;
-                  height: 704px;
-                  background: url(/blueprint/assets/images/book-1-back-reverse-homeowner.png) no-repeat center center;
-                  background-size: cover;
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  right: 0;
-                  bottom: 0;
-                  margin: auto;
-                  cursor: pointer;
-                  transform: rotate(180deg) translateZ(-30px) translateX(5px);
+                  .title {
+                    content: "";
+                    height: 704px;
+                    width: 30px;
+                    position: absolute;
+                    right: 0;
+                    left: -464px;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    background: #0c3e6b;
+                    transform: rotateY(-80deg) translateX(-14px);
+                  }
+
+                  .book-back {
+                    width: 464px;
+                    height: 704px;
+                    background: url(/blueprint/assets/images/book-1-back-reverse-homeowner.png) no-repeat center center;
+                    background-size: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    cursor: pointer;
+                    transform: rotate(180deg) translateZ(-30px) translateX(5px);
+                  }
                 }
 
                 .rotate {
@@ -15458,10 +15519,20 @@
                   transform: rotateY(180deg);
                 }
 
-                .bottom-button {
-                  margin-top: 3rem;
-                  display: inline-flex;
-                  width: 400px;
+                @media only screen and (max-width: 37.5em) {
+                  .bottom-button {
+                    margin-top: 1rem;
+                    display: inline-flex;
+                    width: 360px;
+                  }
+                }
+
+                @media only screen and (min-width: 37.5em) {
+                  .bottom-button {
+                    margin-top: 3rem;
+                    display: inline-flex;
+                    width: 400px;
+                  }
                 }
               </style>
 
@@ -15498,16 +15569,6 @@
                   top: 18%;
                   background-size: contain;
                   background-repeat: no-repeat;
-                }
-
-                [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
-                  background-image: url("/blueprint/assets/images/left-arrow.png");
-                  left: 3%;
-                }
-
-                [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
-                  background-image: url("/blueprint/assets/images/right-arrow.png");
-                  right: 3%;
                 }
 
                 @media only screen and (min-width: 37.5em) {
@@ -15611,46 +15672,92 @@
                   -o-transition: all ease-out 0.6s;
                 }
 
-                .book-2 {
-                  width: 464px;
-                  height: 704px;
-                  background: url(/blueprint/assets/images/book-2-front-homeowner.jpg) no-repeat center center;
-                  background-size: cover;
-                  top: 0;
-                  left: 0;
-                  right: 0;
-                  bottom: 0;
-                  margin: auto;
-                  cursor: pointer;
+                @media only screen and (max-width: 37.5em) {
+                  .book-2 {
+                    width: 280px;
+                    height: 425px;
+                    background: url(/blueprint/assets/images/book-2-front-homeowner.jpg) no-repeat center center;
+                    background-size: cover;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    cursor: pointer;
+                  }
+
+                  .title-2 {
+                    content: "";
+                    height: 425px;
+                    width: 30px;
+                    position: absolute;
+                    right: 0;
+                    left: -280px;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    background: #0c3e6b;
+                    transform: rotateY(-80deg) translateX(-14px);
+                  }
+
+                  .book-back-2 {
+                    width: 280px;
+                    height: 425px;
+                    background: url(/blueprint/assets/images/book-2-back-reverse-homeowner.png) no-repeat center center;
+                    background-size: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    cursor: pointer;
+                    transform: rotate(180deg) translateZ(-30px) translateX(5px);
+                  }
                 }
 
-                .title-2 {
-                  content: "";
-                  height: 704px;
-                  width: 30px;
-                  position: absolute;
-                  right: 0;
-                  left: -464px;
-                  top: 0;
-                  bottom: 0;
-                  margin: auto;
-                  background: #0c3e6b;
-                  transform: rotateY(-80deg) translateX(-14px);
-                }
+                @media only screen and (min-width: 37.5em) {
+                  .book-2 {
+                    width: 464px;
+                    height: 704px;
+                    background: url(/blueprint/assets/images/book-2-front-homeowner.jpg) no-repeat center center;
+                    background-size: cover;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    cursor: pointer;
+                  }
 
-                .book-back-2 {
-                  width: 464px;
-                  height: 704px;
-                  background: url(/blueprint/assets/images/book-2-back-reverse-homeowner.png) no-repeat center center;
-                  background-size: cover;
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  right: 0;
-                  bottom: 0;
-                  margin: auto;
-                  cursor: pointer;
-                  transform: rotate(180deg) translateZ(-30px) translateX(5px);
+                  .title-2 {
+                    content: "";
+                    height: 704px;
+                    width: 30px;
+                    position: absolute;
+                    right: 0;
+                    left: -464px;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                    background: #0c3e6b;
+                    transform: rotateY(-80deg) translateX(-14px);
+                  }
+
+                  .book-back-2 {
+                    width: 464px;
+                    height: 704px;
+                    background: url(/blueprint/assets/images/book-2-back-reverse-homeowner.png) no-repeat center center;
+                    background-size: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    cursor: pointer;
+                    transform: rotate(180deg) translateZ(-30px) translateX(5px);
+                  }
                 }
 
                 .rotate {
@@ -15661,11 +15768,22 @@
                   transform: rotateY(180deg);
                 }
 
-                .bottom-button {
-                  margin-top: 3rem;
-                  display: inline-flex;
-                  width: 400px;
+                @media only screen and (max-width: 37.5em) {
+                  .bottom-button {
+                    margin-top: 1rem;
+                    display: inline-flex;
+                    width: 360px;
+                  }
                 }
+
+                @media only screen and (min-width: 37.5em) {
+                  .bottom-button {
+                    margin-top: 3rem;
+                    display: inline-flex;
+                    width: 400px;
+                  }
+                }
+
               </style>
 
               <div class="wrap-2">
