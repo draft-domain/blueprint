@@ -17955,23 +17955,39 @@
   <script>
     const nextIcon = '<ion-icon name="arrow-forward-circle-outline"></ion-icon>';
     const prevIcon = '<ion-icon name="arrow-back-circle-outline"></ion-icon>';
+
     jQuery(document).ready(function ($) {
       "use strict";
-      //  Book CAROUSEL HOOK
-      $("#wrap-book").owlCarousel({
-        loop: true,
-        center: true,
-        items: 1,
-        margin: 0,
-        autoplay: true,
-        dots: true,
-        nav: true,
-        navText: [prevIcon, nextIcon],
-        autoplayTimeout: 20000,
-        smartSpeed: 850,
+
+      // Function to initialize Owl Carousel with conditional nav
+      function initializeOwlCarousel() {
+        let isMobile = window.matchMedia("(max-width: 37.5em)").matches; // Checks if the screen width is 767px or less
+
+        $("#wrap-book").owlCarousel({
+          loop: true,
+          center: true,
+          items: 1,
+          margin: 0,
+          autoplay: true,
+          dots: true,
+          nav: !isMobile, // Disable nav if on mobile
+          navText: [prevIcon, nextIcon],
+          autoplayTimeout: 20000,
+          smartSpeed: 850,
+        });
+      }
+
+      // Initialize the carousel
+      initializeOwlCarousel();
+
+      // Optional: Reinitialize on window resize to handle dynamic resizing
+      $(window).resize(function () {
+        $("#wrap-book").trigger('destroy.owl.carousel'); // Destroy the existing carousel
+        initializeOwlCarousel(); // Reinitialize the carousel with updated settings
       });
     });
   </script>
+
   <!--============== END OF Carousel =============-->
 
 
