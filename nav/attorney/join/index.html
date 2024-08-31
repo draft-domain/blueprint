@@ -15047,15 +15047,6 @@
           background-repeat: no-repeat;
         }
 
-        [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
-          background-image: url("/blueprint/assets/images/left-arrow.png");
-          left: 3%;
-        }
-
-        [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::after {
-          background-image: url("/blueprint/assets/images/right-arrow.png");
-          right: 3%;
-        }
 
         @media only screen and (min-width: 37.5em) {
           [data-mgnl-id="3dffa19b-7f13-463e-a990-203d853b1250"]::before {
@@ -15284,10 +15275,6 @@
             .rds-Heading_1.on-darkCanvas a:hover {
               color: #f5f7f8;
             }
-
-            .free-book{
-              margin-bottom: 3rem;
-            }
           </style>
 
           <div>
@@ -15336,46 +15323,113 @@
               -o-transition: all ease-out 0.6s;
             }
 
-            .book {
-              width: 464px;
-              height: 600px;
-              background: url(/blueprint/assets/images/book-front-attorney.png) no-repeat center center;
-              background-size: cover;
-              top: 0;
-              left: 0;
-              right: 0;
-              bottom: 0;
-              margin: auto;
-              cursor: pointer;
+            @media only screen and (max-width: 37.5em) {
+              .book {
+                width: 360px;
+                height: 465px;
+                background: url(/blueprint/assets/images/book-front-attorney.png) no-repeat center center;
+                background-size: cover;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+              }
+
+              .title {
+                content: "";
+                height: 465px;
+                width: 30px;
+                position: absolute;
+                right: 0;
+                left: -360px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: #0c3e6b;
+                transform: rotateY(-80deg) translateX(-14px);
+              }
+
+              .book-back {
+                width: 360px;
+                height: 465px;
+                background: url(/blueprint/assets/images/book-back-reverse-attorney.png) no-repeat center center;
+                background-size: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+                transform: rotate(180deg) translateZ(-30px) translateX(5px);
+              }
+
+              .bottom-button {
+                margin-top: 1rem;
+                display: inline-flex;
+                width: 360px;
+              }
+
+              .free-book{
+                margin-bottom: 1rem;
+              }
+
             }
 
-            .title {
-              content: "";
-              height: 600px;
-              width: 30px;
-              position: absolute;
-              right: 0;
-              left: -464px;
-              top: 0;
-              bottom: 0;
-              margin: auto;
-              background: #0c3e6b;
-              transform: rotateY(-80deg) translateX(-14px);
-            }
+            @media only screen and (min-width: 37.5em) {
+              .book {
+                width: 464px;
+                height: 600px;
+                background: url(/blueprint/assets/images/book-front-attorney.png) no-repeat center center;
+                background-size: cover;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+              }
 
-            .book-back {
-              width: 464px;
-              height: 600px;
-              background: url(/blueprint/assets/images/book-back-reverse-attorney.png) no-repeat center center;
-              background-size: cover;
-              position: absolute;
-              top: 0;
-              left: 0;
-              right: 0;
-              bottom: 0;
-              margin: auto;
-              cursor: pointer;
-              transform: rotate(180deg) translateZ(-30px) translateX(5px);
+              .title {
+                content: "";
+                height: 600px;
+                width: 30px;
+                position: absolute;
+                right: 0;
+                left: -464px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: #0c3e6b;
+                transform: rotateY(-80deg) translateX(-14px);
+              }
+
+              .book-back {
+                width: 464px;
+                height: 600px;
+                background: url(/blueprint/assets/images/book-back-reverse-attorney.png) no-repeat center center;
+                background-size: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+                transform: rotate(180deg) translateZ(-30px) translateX(5px);
+              }
+
+              .bottom-button {
+                margin-top: 3rem;
+                display: inline-flex;
+                width: 400px;
+              }
+
+              .free-book{
+                margin-bottom: 3rem;
+              }
             }
 
             .rotate {
@@ -15397,15 +15451,6 @@
               </div>
             </div>
           </div>
-
-          <style>
-            .bottom-button {
-              margin-top: 3rem;
-              display: inline-flex;
-              width: 400px;
-            }
-          </style>
-
 
           <a href="https://www.facebook.com/groups/bankruptcybusiness" target="_blank" class="bottom-button">
             <img class="button-img" src="/blueprint/assets/images/button.png" alt="Join Here">
