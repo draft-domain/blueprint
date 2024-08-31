@@ -15184,46 +15184,105 @@
               -o-transition: all ease-out 0.6s;
             }
 
-            .book {
-              width: 464px;
-              height: 600px;
-              background: url(/blueprint/assets/images/book-front-attorney.png) no-repeat center center;
-              background-size: cover;
-              top: 0;
-              left: 0;
-              right: 0;
-              bottom: 0;
-              margin: auto;
-              cursor: pointer;
+            @media only screen and (max-width: 37.5em) {
+              .book {
+                width: 360px;
+                height: 465px;
+                background: url(/blueprint/assets/images/book-front-attorney.png) no-repeat center center;
+                background-size: cover;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+              }
+
+              .title {
+                content: "";
+                height: 465px;
+                width: 30px;
+                position: absolute;
+                right: 0;
+                left: -360px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: #0c3e6b;
+                transform: rotateY(-80deg) translateX(-14px);
+              }
+
+              .book-back {
+                width: 360px;
+                height: 465px;
+                background: url(/blueprint/assets/images/book-back-reverse-attorney.png) no-repeat center center;
+                background-size: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+                transform: rotate(180deg) translateZ(-30px) translateX(5px);
+              }
+
+              .bottom-button {
+                margin-top: 1rem;
+                display: inline-flex;
+                width: 360px;
+              }
+
             }
 
-            .title {
-              content: "";
-              height: 600px;
-              width: 30px;
-              position: absolute;
-              right: 0;
-              left: -464px;
-              top: 0;
-              bottom: 0;
-              margin: auto;
-              background: #0c3e6b;
-              transform: rotateY(-80deg) translateX(-14px);
-            }
+            @media only screen and (min-width: 37.5em) {
+              .book {
+                width: 464px;
+                height: 600px;
+                background: url(/blueprint/assets/images/book-front-attorney.png) no-repeat center center;
+                background-size: cover;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+              }
 
-            .book-back {
-              width: 464px;
-              height: 600px;
-              background: url(/blueprint/assets/images/book-back-reverse-attorney.png) no-repeat center center;
-              background-size: cover;
-              position: absolute;
-              top: 0;
-              left: 0;
-              right: 0;
-              bottom: 0;
-              margin: auto;
-              cursor: pointer;
-              transform: rotate(180deg) translateZ(-30px) translateX(5px);
+              .title {
+                content: "";
+                height: 600px;
+                width: 30px;
+                position: absolute;
+                right: 0;
+                left: -464px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: #0c3e6b;
+                transform: rotateY(-80deg) translateX(-14px);
+              }
+
+              .book-back {
+                width: 464px;
+                height: 600px;
+                background: url(/blueprint/assets/images/book-back-reverse-attorney.png) no-repeat center center;
+                background-size: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                cursor: pointer;
+                transform: rotate(180deg) translateZ(-30px) translateX(5px);
+              }
+
+              .bottom-button {
+                margin-top: 3rem;
+                display: inline-flex;
+                width: 400px;
+              }
             }
 
             .rotate {
@@ -15245,14 +15304,6 @@
               </div>
             </div>
           </div>
-
-          <style>
-            .bottom-button {
-              margin-top: 3rem;
-              display: inline-flex;
-              width: 400px;
-            }
-          </style>
 
           <div class="rds-Stack_1 rds-Stack--centerHorizontalAlignment_1 ">
 
