@@ -1,0 +1,2850 @@
+.authenticatedEngagementComponent *, .authenticatedEngagementComponent ::before, .authenticatedEngagementComponent ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+.authenticatedEngagementComponent ::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.13 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+.authenticatedEngagementComponent *,
+.authenticatedEngagementComponent ::before,
+.authenticatedEngagementComponent ::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: currentColor; /* 2 */
+}
+
+.authenticatedEngagementComponent ::before,
+.authenticatedEngagementComponent ::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+.authenticatedEngagementComponent html,
+.authenticatedEngagementComponent :host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+.authenticatedEngagementComponent body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+.authenticatedEngagementComponent hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+.authenticatedEngagementComponent abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+.authenticatedEngagementComponent h1,
+.authenticatedEngagementComponent h2,
+.authenticatedEngagementComponent h3,
+.authenticatedEngagementComponent h4,
+.authenticatedEngagementComponent h5,
+.authenticatedEngagementComponent h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+.authenticatedEngagementComponent a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+.authenticatedEngagementComponent b,
+.authenticatedEngagementComponent strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+.authenticatedEngagementComponent code,
+.authenticatedEngagementComponent kbd,
+.authenticatedEngagementComponent samp,
+.authenticatedEngagementComponent pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+.authenticatedEngagementComponent small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+.authenticatedEngagementComponent sub,
+.authenticatedEngagementComponent sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.authenticatedEngagementComponent sub {
+  bottom: -0.25em;
+}
+
+.authenticatedEngagementComponent sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+.authenticatedEngagementComponent table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+.authenticatedEngagementComponent button,
+.authenticatedEngagementComponent input,
+.authenticatedEngagementComponent optgroup,
+.authenticatedEngagementComponent select,
+.authenticatedEngagementComponent textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+.authenticatedEngagementComponent button,
+.authenticatedEngagementComponent select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+.authenticatedEngagementComponent button,
+.authenticatedEngagementComponent input:where([type='button']),
+.authenticatedEngagementComponent input:where([type='reset']),
+.authenticatedEngagementComponent input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+.authenticatedEngagementComponent :-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+.authenticatedEngagementComponent :-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+.authenticatedEngagementComponent progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+.authenticatedEngagementComponent ::-webkit-inner-spin-button,
+.authenticatedEngagementComponent ::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+.authenticatedEngagementComponent [type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+.authenticatedEngagementComponent ::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+.authenticatedEngagementComponent ::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+.authenticatedEngagementComponent summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+.authenticatedEngagementComponent blockquote,
+.authenticatedEngagementComponent dl,
+.authenticatedEngagementComponent dd,
+.authenticatedEngagementComponent h1,
+.authenticatedEngagementComponent h2,
+.authenticatedEngagementComponent h3,
+.authenticatedEngagementComponent h4,
+.authenticatedEngagementComponent h5,
+.authenticatedEngagementComponent h6,
+.authenticatedEngagementComponent hr,
+.authenticatedEngagementComponent figure,
+.authenticatedEngagementComponent p,
+.authenticatedEngagementComponent pre {
+  margin: 0;
+}
+
+.authenticatedEngagementComponent fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+.authenticatedEngagementComponent legend {
+  padding: 0;
+}
+
+.authenticatedEngagementComponent ol,
+.authenticatedEngagementComponent ul,
+.authenticatedEngagementComponent menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+.authenticatedEngagementComponent dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+.authenticatedEngagementComponent textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+.authenticatedEngagementComponent input::-moz-placeholder, .authenticatedEngagementComponent textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+.authenticatedEngagementComponent input::placeholder,
+.authenticatedEngagementComponent textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+.authenticatedEngagementComponent button,
+.authenticatedEngagementComponent [role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+.authenticatedEngagementComponent :disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+.authenticatedEngagementComponent img,
+.authenticatedEngagementComponent svg,
+.authenticatedEngagementComponent video,
+.authenticatedEngagementComponent canvas,
+.authenticatedEngagementComponent audio,
+.authenticatedEngagementComponent iframe,
+.authenticatedEngagementComponent embed,
+.authenticatedEngagementComponent object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+.authenticatedEngagementComponent img,
+.authenticatedEngagementComponent video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+.authenticatedEngagementComponent [hidden] {
+  display: none;
+}
+.authenticatedEngagementComponent html {
+  box-sizing: border-box;
+}
+.authenticatedEngagementComponent *,
+.authenticatedEngagementComponent *::before,
+.authenticatedEngagementComponent *::after {
+  box-sizing: inherit;
+}
+.authenticatedEngagementComponent body {
+  -webkit-font-smoothing: antialiased;
+}
+.authenticatedEngagementComponent *,
+.authenticatedEngagementComponent *::before,
+.authenticatedEngagementComponent *::after {
+  -webkit-font-smoothing: inherit;
+}
+.authenticatedEngagementComponent label,
+.authenticatedEngagementComponent select,
+.authenticatedEngagementComponent option,
+.authenticatedEngagementComponent button {
+  cursor: pointer;
+}
+.authenticatedEngagementComponent fieldset {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.authenticatedEngagementComponent textarea {
+  resize: vertical;
+}
+.authenticatedEngagementComponent button,
+.authenticatedEngagementComponent [type=button],
+.authenticatedEngagementComponent [type=submit],
+.authenticatedEngagementComponent [type=reset] {
+  margin: 0;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  width: auto;
+  color: inherit;
+  font: inherit;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.authenticatedEngagementComponent button::-moz-focus-inner,
+.authenticatedEngagementComponent [type=button]::-moz-focus-inner,
+.authenticatedEngagementComponent [type=submit]::-moz-focus-inner,
+.authenticatedEngagementComponent [type=reset]::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.authenticatedEngagementComponent img,
+.authenticatedEngagementComponent canvas,
+.authenticatedEngagementComponent iframe,
+.authenticatedEngagementComponent video,
+.authenticatedEngagementComponent svg,
+.authenticatedEngagementComponent select {
+  max-width: 100%;
+}
+.authenticatedEngagementComponent img,
+.authenticatedEngagementComponent video {
+  height: auto;
+}
+.authenticatedEngagementComponent figure {
+  margin: 0;
+}
+.authenticatedEngagementComponent html {
+  background-color: #f5f7f8;
+  color: #1f2426;
+}
+.authenticatedEngagementComponent body {
+  line-height: 1.5;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 18px;
+}
+.authenticatedEngagementComponent blockquote,
+.authenticatedEngagementComponent dl,
+.authenticatedEngagementComponent ol,
+.authenticatedEngagementComponent h1,
+.authenticatedEngagementComponent h2,
+.authenticatedEngagementComponent h3,
+.authenticatedEngagementComponent h4,
+.authenticatedEngagementComponent h5,
+.authenticatedEngagementComponent h6,
+.authenticatedEngagementComponent hr,
+.authenticatedEngagementComponent menu,
+.authenticatedEngagementComponent p,
+.authenticatedEngagementComponent pre,
+.authenticatedEngagementComponent ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.authenticatedEngagementComponent blockquote:last-child,
+.authenticatedEngagementComponent dl:last-child,
+.authenticatedEngagementComponent ol:last-child,
+.authenticatedEngagementComponent h1:last-child,
+.authenticatedEngagementComponent h2:last-child,
+.authenticatedEngagementComponent h3:last-child,
+.authenticatedEngagementComponent h4:last-child,
+.authenticatedEngagementComponent h5:last-child,
+.authenticatedEngagementComponent h6:last-child,
+.authenticatedEngagementComponent hr:last-child,
+.authenticatedEngagementComponent menu:last-child,
+.authenticatedEngagementComponent p:last-child,
+.authenticatedEngagementComponent pre:last-child,
+.authenticatedEngagementComponent ul:last-child {
+  margin-bottom: 0;
+}
+.authenticatedEngagementComponent h1,
+.authenticatedEngagementComponent h2,
+.authenticatedEngagementComponent h3,
+.authenticatedEngagementComponent h4,
+.authenticatedEngagementComponent h5,
+.authenticatedEngagementComponent h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.authenticatedEngagementComponent b,
+.authenticatedEngagementComponent strong {
+  font-weight: 600;
+}
+.authenticatedEngagementComponent a {
+  color: #0073b9;
+}
+.authenticatedEngagementComponent a:hover, .authenticatedEngagementComponent a:focus {
+  text-decoration: none;
+  color: #005b98;
+}
+.authenticatedEngagementComponent small,
+.authenticatedEngagementComponent sub,
+.authenticatedEngagementComponent sup {
+  font-size: 14px;
+}
+.authenticatedEngagementComponent button,
+.authenticatedEngagementComponent input,
+.authenticatedEngagementComponent optgroup,
+.authenticatedEngagementComponent select,
+.authenticatedEngagementComponent textarea {
+  line-height: 1.25;
+}
+/**
+ * Do not edit directly
+ * Generated on Wed, 11 Sep 2024 13:02:44 GMT
+ */
+.authenticatedEngagementComponent .rds-Avatar {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #0073b9;
+  width: 52px;
+  height: 52px;
+  overflow: hidden;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorWhite {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlack {
+  color: #000000;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray10 {
+  color: #f5f7f8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray20 {
+  color: #e8eced;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray30 {
+  color: #d5d9db;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray40 {
+  color: #b6bec2;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray50 {
+  color: #8e999e;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray60 {
+  color: #69757a;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray70 {
+  color: #495257;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray80 {
+  color: #333a3d;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGray90 {
+  color: #1f2426;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta5 {
+  color: #fef1f8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta8 {
+  color: #fee5f3;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta10 {
+  color: #ffc6e6;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta20 {
+  color: #ff93cf;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta30 {
+  color: #f863b7;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta40 {
+  color: #ed3d9f;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta50 {
+  color: #e30a8d;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta60 {
+  color: #c40879;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta70 {
+  color: #9c085c;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta80 {
+  color: #770644;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorMagenta90 {
+  color: #55022e;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple5 {
+  color: #f8eff6;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple8 {
+  color: #fae2f5;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple10 {
+  color: #ffc7f2;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple20 {
+  color: #f59de2;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple30 {
+  color: #e07ecb;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple40 {
+  color: #d160b7;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple50 {
+  color: #b34fa0;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple60 {
+  color: #964286;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple70 {
+  color: #773569;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple80 {
+  color: #5b284f;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorPurple90 {
+  color: #401c36;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet5 {
+  color: #f3f1f9;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet8 {
+  color: #ece7fb;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet10 {
+  color: #d8c7ff;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet20 {
+  color: #b69df5;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet30 {
+  color: #9379e0;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet40 {
+  color: #7b62cc;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet50 {
+  color: #634fb3;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet60 {
+  color: #534296;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet70 {
+  color: #44367b;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet80 {
+  color: #352a60;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorViolet90 {
+  color: #271f47;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue5 {
+  color: #ebf4fa;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue8 {
+  color: #d8f1fc;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue10 {
+  color: #ade9ff;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue20 {
+  color: #61d5ff;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue30 {
+  color: #00b2f6;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue40 {
+  color: #0091d9;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue50 {
+  color: #0073b9;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue60 {
+  color: #005b98;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue70 {
+  color: #004477;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue80 {
+  color: #003561;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorBlue90 {
+  color: #002342;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua5 {
+  color: #e5f7f9;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua8 {
+  color: #d6f9fb;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua10 {
+  color: #adffff;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua20 {
+  color: #75f8fc;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua30 {
+  color: #3bebf5;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua40 {
+  color: #00d6e6;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua50 {
+  color: #00b6c7;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua60 {
+  color: #0097a8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua70 {
+  color: #007384;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua80 {
+  color: #005362;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAqua90 {
+  color: #003540;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal5 {
+  color: #e7f6f4;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal8 {
+  color: #d2f9f4;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal10 {
+  color: #adfff4;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal20 {
+  color: #67f5e2;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal30 {
+  color: #2de0c8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal40 {
+  color: #1cc8b4;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal50 {
+  color: #16a597;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal60 {
+  color: #0e8e7e;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal70 {
+  color: #077565;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal80 {
+  color: #035a4b;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorTeal90 {
+  color: #004033;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen5 {
+  color: #eaf8ee;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen8 {
+  color: #d9fae1;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen10 {
+  color: #adffbe;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen20 {
+  color: #83f295;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen30 {
+  color: #5ae072;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen40 {
+  color: #48ce65;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen50 {
+  color: #35bd59;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen60 {
+  color: #24a344;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen70 {
+  color: #1b8533;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen80 {
+  color: #106621;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorGreen90 {
+  color: #094212;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime5 {
+  color: #f3f9eb;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime8 {
+  color: #edfccd;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime10 {
+  color: #e5ffa8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime20 {
+  color: #cdf383;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime30 {
+  color: #b3e65c;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime40 {
+  color: #a0d64a;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime50 {
+  color: #8ec738;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime60 {
+  color: #73ab29;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime70 {
+  color: #588f1a;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime80 {
+  color: #3b6610;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorLime90 {
+  color: #234208;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow5 {
+  color: #fefae7;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow8 {
+  color: #fef9d0;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow10 {
+  color: #fff6a8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow20 {
+  color: #ffec82;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow30 {
+  color: #ffe45e;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow40 {
+  color: #ffda47;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow50 {
+  color: #fcd214;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow60 {
+  color: #e3b409;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow70 {
+  color: #b88907;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow80 {
+  color: #805203;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorYellow90 {
+  color: #4d2d02;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber5 {
+  color: #fef6e8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber8 {
+  color: #fef0d1;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber10 {
+  color: #ffe6a8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber20 {
+  color: #ffd784;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber30 {
+  color: #ffc95e;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber40 {
+  color: #fdba40;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber50 {
+  color: #faab19;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber60 {
+  color: #e3900b;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber70 {
+  color: #b86b07;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber80 {
+  color: #804103;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorAmber90 {
+  color: #4d2502;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange5 {
+  color: #fcf0e8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange8 {
+  color: #fde5d3;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange10 {
+  color: #ffd3ad;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange20 {
+  color: #feb881;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange30 {
+  color: #fa9f5a;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange40 {
+  color: #f58331;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange50 {
+  color: #e66f20;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange60 {
+  color: #c95a14;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange70 {
+  color: #a6400d;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange80 {
+  color: #7d2c09;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorOrange90 {
+  color: #571c03;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed5 {
+  color: #fcedeb;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed8 {
+  color: #fdded8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed10 {
+  color: #ffc4b8;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed20 {
+  color: #ff9c8c;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed30 {
+  color: #fa7c69;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed40 {
+  color: #f26552;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed50 {
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed60 {
+  color: #cc392f;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed70 {
+  color: #a62b24;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed80 {
+  color: #821d1a;
+}
+.authenticatedEngagementComponent .rds-Avatar--foregroundColorRed90 {
+  color: #520d0b;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorWhite {
+  background-color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlack {
+  background-color: #000000;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray10 {
+  background-color: #f5f7f8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray20 {
+  background-color: #e8eced;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray30 {
+  background-color: #d5d9db;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray40 {
+  background-color: #b6bec2;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray50 {
+  background-color: #8e999e;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray60 {
+  background-color: #69757a;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray70 {
+  background-color: #495257;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray80 {
+  background-color: #333a3d;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGray90 {
+  background-color: #1f2426;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta5 {
+  background-color: #fef1f8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta8 {
+  background-color: #fee5f3;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta10 {
+  background-color: #ffc6e6;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta20 {
+  background-color: #ff93cf;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta30 {
+  background-color: #f863b7;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta40 {
+  background-color: #ed3d9f;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta50 {
+  background-color: #e30a8d;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta60 {
+  background-color: #c40879;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta70 {
+  background-color: #9c085c;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta80 {
+  background-color: #770644;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorMagenta90 {
+  background-color: #55022e;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple5 {
+  background-color: #f8eff6;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple8 {
+  background-color: #fae2f5;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple10 {
+  background-color: #ffc7f2;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple20 {
+  background-color: #f59de2;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple30 {
+  background-color: #e07ecb;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple40 {
+  background-color: #d160b7;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple50 {
+  background-color: #b34fa0;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple60 {
+  background-color: #964286;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple70 {
+  background-color: #773569;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple80 {
+  background-color: #5b284f;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorPurple90 {
+  background-color: #401c36;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet5 {
+  background-color: #f3f1f9;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet8 {
+  background-color: #ece7fb;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet10 {
+  background-color: #d8c7ff;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet20 {
+  background-color: #b69df5;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet30 {
+  background-color: #9379e0;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet40 {
+  background-color: #7b62cc;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet50 {
+  background-color: #634fb3;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet60 {
+  background-color: #534296;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet70 {
+  background-color: #44367b;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet80 {
+  background-color: #352a60;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorViolet90 {
+  background-color: #271f47;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue5 {
+  background-color: #ebf4fa;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue8 {
+  background-color: #d8f1fc;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue10 {
+  background-color: #ade9ff;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue20 {
+  background-color: #61d5ff;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue30 {
+  background-color: #00b2f6;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue40 {
+  background-color: #0091d9;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue50 {
+  background-color: #0073b9;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue60 {
+  background-color: #005b98;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue70 {
+  background-color: #004477;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue80 {
+  background-color: #003561;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorBlue90 {
+  background-color: #002342;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua5 {
+  background-color: #e5f7f9;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua8 {
+  background-color: #d6f9fb;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua10 {
+  background-color: #adffff;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua20 {
+  background-color: #75f8fc;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua30 {
+  background-color: #3bebf5;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua40 {
+  background-color: #00d6e6;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua50 {
+  background-color: #00b6c7;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua60 {
+  background-color: #0097a8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua70 {
+  background-color: #007384;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua80 {
+  background-color: #005362;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAqua90 {
+  background-color: #003540;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal5 {
+  background-color: #e7f6f4;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal8 {
+  background-color: #d2f9f4;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal10 {
+  background-color: #adfff4;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal20 {
+  background-color: #67f5e2;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal30 {
+  background-color: #2de0c8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal40 {
+  background-color: #1cc8b4;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal50 {
+  background-color: #16a597;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal60 {
+  background-color: #0e8e7e;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal70 {
+  background-color: #077565;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal80 {
+  background-color: #035a4b;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorTeal90 {
+  background-color: #004033;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen5 {
+  background-color: #eaf8ee;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen8 {
+  background-color: #d9fae1;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen10 {
+  background-color: #adffbe;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen20 {
+  background-color: #83f295;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen30 {
+  background-color: #5ae072;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen40 {
+  background-color: #48ce65;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen50 {
+  background-color: #35bd59;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen60 {
+  background-color: #24a344;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen70 {
+  background-color: #1b8533;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen80 {
+  background-color: #106621;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorGreen90 {
+  background-color: #094212;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime5 {
+  background-color: #f3f9eb;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime8 {
+  background-color: #edfccd;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime10 {
+  background-color: #e5ffa8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime20 {
+  background-color: #cdf383;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime30 {
+  background-color: #b3e65c;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime40 {
+  background-color: #a0d64a;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime50 {
+  background-color: #8ec738;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime60 {
+  background-color: #73ab29;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime70 {
+  background-color: #588f1a;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime80 {
+  background-color: #3b6610;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorLime90 {
+  background-color: #234208;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow5 {
+  background-color: #fefae7;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow8 {
+  background-color: #fef9d0;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow10 {
+  background-color: #fff6a8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow20 {
+  background-color: #ffec82;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow30 {
+  background-color: #ffe45e;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow40 {
+  background-color: #ffda47;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow50 {
+  background-color: #fcd214;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow60 {
+  background-color: #e3b409;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow70 {
+  background-color: #b88907;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow80 {
+  background-color: #805203;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorYellow90 {
+  background-color: #4d2d02;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber5 {
+  background-color: #fef6e8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber8 {
+  background-color: #fef0d1;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber10 {
+  background-color: #ffe6a8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber20 {
+  background-color: #ffd784;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber30 {
+  background-color: #ffc95e;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber40 {
+  background-color: #fdba40;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber50 {
+  background-color: #faab19;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber60 {
+  background-color: #e3900b;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber70 {
+  background-color: #b86b07;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber80 {
+  background-color: #804103;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorAmber90 {
+  background-color: #4d2502;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange5 {
+  background-color: #fcf0e8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange8 {
+  background-color: #fde5d3;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange10 {
+  background-color: #ffd3ad;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange20 {
+  background-color: #feb881;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange30 {
+  background-color: #fa9f5a;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange40 {
+  background-color: #f58331;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange50 {
+  background-color: #e66f20;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange60 {
+  background-color: #c95a14;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange70 {
+  background-color: #a6400d;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange80 {
+  background-color: #7d2c09;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorOrange90 {
+  background-color: #571c03;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed5 {
+  background-color: #fcedeb;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed8 {
+  background-color: #fdded8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed10 {
+  background-color: #ffc4b8;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed20 {
+  background-color: #ff9c8c;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed30 {
+  background-color: #fa7c69;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed40 {
+  background-color: #f26552;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed50 {
+  background-color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed60 {
+  background-color: #cc392f;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed70 {
+  background-color: #a62b24;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed80 {
+  background-color: #821d1a;
+}
+.authenticatedEngagementComponent .rds-Avatar--backgroundColorRed90 {
+  background-color: #520d0b;
+}
+.authenticatedEngagementComponent .rds-Avatar-icon {
+  transform-origin: center;
+  pointer-events: none;
+}
+.authenticatedEngagementComponent .rds-Avatar-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.authenticatedEngagementComponent .rds-Avatar--xs {
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+}
+.authenticatedEngagementComponent .rds-Avatar--sm {
+  width: 42px;
+  height: 42px;
+  font-size: 16px;
+}
+.authenticatedEngagementComponent .rds-Avatar--lg {
+  width: 62px;
+  height: 62px;
+  font-size: 20px;
+}
+.authenticatedEngagementComponent .rds-Avatar--xl {
+  width: 96px;
+  height: 96px;
+  font-size: 34px;
+}
+.authenticatedEngagementComponent .rds-Avatar--2xl {
+  width: 128px;
+  height: 128px;
+  font-size: 40px;
+}
+.authenticatedEngagementComponent .rds-Button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  transition: background-color 0.3s cubic-bezier(0.19, 1, 0.22, 1), border-color 0.3s cubic-bezier(0.19, 1, 0.22, 1), color 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: #0073b9 inset;
+  background-color: var(--rds-button-background-color, #0073b9);
+  cursor: pointer;
+  padding: 12px 20px;
+  width: auto;
+  text-align: center;
+  text-indent: 0;
+  text-transform: none;
+  text-decoration: none;
+  text-shadow: none;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--rds-button-text-color, #ffffff);
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  word-break: break-word;
+}
+.authenticatedEngagementComponent .rds-Button:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button:active:not([disabled]) {
+  background-color: var(--rds-button-background-color-interactive, #005b98);
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button.is-loading {
+  background-color: var(--rds-button-background-color-interactive, #005b98);
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button.on-darkCanvas {
+  background-color: #ffffff;
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button.on-darkCanvas:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button.on-darkCanvas:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button.on-darkCanvas:active:not([disabled]) {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button.on-darkCanvas.is-loading {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button--alternate, .authenticatedEngagementComponent .rds-Button--alternate.on-darkCanvas {
+  background-color: var(--rds-button-alternate-background-color, #fcd214);
+  color: var(--rds-button-alternate-text-color, #003561);
+}
+.authenticatedEngagementComponent .rds-Button--alternate:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--alternate:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--alternate:active:not([disabled]), .authenticatedEngagementComponent .rds-Button--alternate.on-darkCanvas:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--alternate.on-darkCanvas:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--alternate.on-darkCanvas:active:not([disabled]) {
+  background-color: var(--rds-button-alternate-background-color-interactive, #ffe45e);
+  color: var(--rds-button-alternate-text-color, #003561);
+}
+.authenticatedEngagementComponent .rds-Button--alternate.is-loading, .authenticatedEngagementComponent .rds-Button--alternate.on-darkCanvas.is-loading {
+  background-color: var(--rds-button-alternate-background-color-interactive, #ffe45e);
+  color: var(--rds-button-alternate-text-color, #003561);
+}
+.authenticatedEngagementComponent .rds-Button--ghost {
+  border-color: var(--rds-button-background-color, #0073b9);
+  box-shadow: 0 0 0 1px var(--rds-button-background-color, #0073b9) inset;
+  background-color: transparent;
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button--ghost.on-darkCanvas {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 1px #ffffff inset;
+  background-color: transparent;
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--ghost.on-darkCanvas:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--ghost.on-darkCanvas:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--ghost.on-darkCanvas:active:not([disabled]) {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--ghost.on-darkCanvas.is-loading {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--ghost:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--ghost:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--ghost:active:not([disabled]) {
+  background-color: var(--rds-button-transparent-background-color-interactive, rgba(0, 115, 185, 0.1));
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button--ghost.is-loading {
+  background-color: var(--rds-button-transparent-background-color-interactive, rgba(0, 115, 185, 0.1));
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button--subtle {
+  background-color: transparent;
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button--subtle.on-darkCanvas {
+  background-color: transparent;
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--subtle.on-darkCanvas:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--subtle.on-darkCanvas:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--subtle.on-darkCanvas:active:not([disabled]) {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--subtle.on-darkCanvas.is-loading {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--subtle:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--subtle:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--subtle:active:not([disabled]) {
+  background-color: var(--rds-button-transparent-background-color-interactive, rgba(0, 115, 185, 0.1));
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button--subtle.is-loading {
+  background-color: var(--rds-button-transparent-background-color-interactive, rgba(0, 115, 185, 0.1));
+  color: var(--rds-button-background-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Button--danger {
+  background-color: #e64b40;
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--danger.on-darkCanvas {
+  background-color: #ffffff;
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--danger.on-darkCanvas:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--danger.on-darkCanvas:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--danger.on-darkCanvas:active:not([disabled]) {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--danger.on-darkCanvas.is-loading {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--danger:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--danger:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--danger:active:not([disabled]) {
+  background-color: #cc392f;
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--danger.is-loading {
+  background-color: #cc392f;
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--dangerSubtle {
+  background-color: transparent;
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--dangerSubtle.on-darkCanvas {
+  background-color: #ffffff;
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--dangerSubtle.on-darkCanvas:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--dangerSubtle.on-darkCanvas:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--dangerSubtle.on-darkCanvas:active:not([disabled]) {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--dangerSubtle.on-darkCanvas.is-loading {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--dangerSubtle:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--dangerSubtle:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--dangerSubtle:active:not([disabled]) {
+  background: rgba(230, 75, 64, 0.1);
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--dangerSubtle.is-loading {
+  background: rgba(230, 75, 64, 0.1);
+  color: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Button--neutralSubtle {
+  background-color: transparent;
+  color: #1f2426;
+}
+.authenticatedEngagementComponent .rds-Button--neutralSubtle.on-darkCanvas {
+  background-color: transparent;
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--neutralSubtle.on-darkCanvas:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--neutralSubtle.on-darkCanvas:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--neutralSubtle.on-darkCanvas:active:not([disabled]) {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--neutralSubtle.on-darkCanvas.is-loading {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Button--neutralSubtle:hover:not([disabled]), .authenticatedEngagementComponent .rds-Button--neutralSubtle:focus:not([disabled]), .authenticatedEngagementComponent .rds-Button--neutralSubtle:active:not([disabled]) {
+  background-color: rgba(232, 236, 237, 0.44);
+  color: #1f2426;
+}
+.authenticatedEngagementComponent .rds-Button--neutralSubtle.is-loading {
+  background-color: rgba(232, 236, 237, 0.44);
+  color: #1f2426;
+}
+.authenticatedEngagementComponent .rds-Button--small {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+.authenticatedEngagementComponent .rds-Button--large {
+  padding: 16px 24px;
+  font-size: 18px;
+}
+.authenticatedEngagementComponent .rds-Button--xlarge {
+  padding: 20px 28px;
+  font-size: 20px;
+}
+.authenticatedEngagementComponent .rds-Button--fullWidthOnMobile {
+  width: 100%;
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-Button--fullWidthOnMobile {
+    width: auto;
+  }
+}
+.authenticatedEngagementComponent .rds-Button--iconOnly {
+  padding: 12px;
+}
+.authenticatedEngagementComponent .rds-Button--iconOnly.rds-Button--small {
+  padding: 8px;
+}
+.authenticatedEngagementComponent .rds-Button--iconOnly.rds-Button--large {
+  padding: 13px;
+}
+.authenticatedEngagementComponent .rds-Button--iconOnly.rds-Button--xlarge {
+  padding: 18px;
+}
+.authenticatedEngagementComponent .rds-Button-icon {
+  flex-shrink: 0;
+  pointer-events: none;
+  transform-origin: center;
+}
+.authenticatedEngagementComponent .rds-Button-icon--left {
+  margin-right: 8px;
+}
+.authenticatedEngagementComponent .rds-Button-icon--right {
+  margin-left: 8px;
+}
+.authenticatedEngagementComponent .rds-Button[disabled] {
+  cursor: not-allowed;
+}
+.authenticatedEngagementComponent .rds-Button[disabled], .authenticatedEngagementComponent .rds-Button.is-disabled {
+  opacity: 0.4;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.authenticatedEngagementComponent a.rds-Button.is-disabled, .authenticatedEngagementComponent a.rds-Button.is-loading {
+  pointer-events: none;
+}
+.authenticatedEngagementComponent .rds-Button.is-loading {
+  opacity: 1;
+}
+.authenticatedEngagementComponent .rds-Button.is-loading .rds-Button-icon {
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.authenticatedEngagementComponent .rds-Heading {
+  line-height: 1.25;
+  color: #1f2426;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+  text-transform: none;
+  text-shadow: none;
+  letter-spacing: 0;
+  font-style: normal;
+}
+.authenticatedEngagementComponent .rds-Heading sup,
+.authenticatedEngagementComponent .rds-Heading sub {
+  line-height: 0;
+  font-size: 0.875em;
+}
+.authenticatedEngagementComponent .rds-Heading sup {
+  top: initial;
+  vertical-align: super;
+}
+.authenticatedEngagementComponent .rds-Heading sub {
+  bottom: initial;
+  vertical-align: sub;
+}
+.authenticatedEngagementComponent .rds-Heading--xsmall {
+  font-size: 18px;
+}
+.authenticatedEngagementComponent .rds-Heading--small {
+  font-size: 20px;
+}
+.authenticatedEngagementComponent .rds-Heading--large {
+  font-size: 28px;
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-Heading--large {
+    font-size: 34px;
+  }
+}
+.authenticatedEngagementComponent .rds-Heading--xlarge {
+  font-size: 34px;
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-Heading--xlarge {
+    line-height: 1.1;
+    font-size: 48px;
+  }
+}
+.authenticatedEngagementComponent .rds-Heading--2xlarge {
+  font-size: 40px;
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-Heading--2xlarge {
+    line-height: 1.1;
+    font-size: 60px;
+  }
+}
+.authenticatedEngagementComponent .rds-Heading em {
+  font-style: italic;
+}
+.authenticatedEngagementComponent .rds-Heading a {
+  text-decoration: none;
+  color: inherit;
+}
+.authenticatedEngagementComponent .rds-Heading a:hover {
+  color: #495257;
+}
+.authenticatedEngagementComponent .rds-Heading sup,
+.authenticatedEngagementComponent .rds-Heading sub {
+  font-size: 0.6em;
+}
+.authenticatedEngagementComponent .rds-Heading--alternate {
+  color: #003561;
+}
+.authenticatedEngagementComponent .rds-Heading--alternate a:hover {
+  color: #005b98;
+}
+.authenticatedEngagementComponent .rds-Heading--brand {
+  color: var(--rds-heading-brand-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Heading--brand a:hover {
+  color: var(--rds-heading-brand-interactive-color, #005b98);
+}
+.authenticatedEngagementComponent .rds-Heading.on-darkCanvas {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Heading.on-darkCanvas a:hover {
+  color: #f5f7f8;
+}
+.authenticatedEngagementComponent .rds-Icon {
+  width: 16px;
+  max-width: 100%;
+  height: auto;
+  fill: currentColor;
+  vertical-align: middle;
+}
+.authenticatedEngagementComponent .rds-Icon--xsmall {
+  width: 12px;
+}
+.authenticatedEngagementComponent .rds-Icon--small {
+  width: 14px;
+}
+.authenticatedEngagementComponent .rds-Icon--large {
+  width: 24px;
+}
+.authenticatedEngagementComponent .rds-Icon--xlarge {
+  width: 32px;
+}
+.authenticatedEngagementComponent .rds-Icon--2xlarge {
+  width: 48px;
+}
+.authenticatedEngagementComponent .rds-Icon--3xlarge {
+  width: 64px;
+}
+.authenticatedEngagementComponent .rds-Icon--primary {
+  fill: var(--rds-icon-primary-fill-color, #0073b9);
+}
+.authenticatedEngagementComponent .rds-Icon--alternate {
+  fill: var(--rds-icon-alternate-fill-color, #00b2f6);
+}
+.authenticatedEngagementComponent .rds-Icon--neutral {
+  fill: #b6bec2;
+}
+.authenticatedEngagementComponent .rds-Icon--light {
+  fill: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Icon--positive {
+  fill: #35bd59;
+}
+.authenticatedEngagementComponent .rds-Icon--negative {
+  fill: #e64b40;
+}
+.authenticatedEngagementComponent .rds-Link {
+  display: inline-block;
+  flex-shrink: 0;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  text-indent: 0;
+  text-transform: none;
+  text-decoration: none;
+  text-shadow: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #0073b9;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  word-break: break-word;
+}
+.authenticatedEngagementComponent .rds-Link sup,
+.authenticatedEngagementComponent .rds-Link sub {
+  line-height: 0;
+  font-size: 0.875em;
+}
+.authenticatedEngagementComponent .rds-Link sup {
+  top: initial;
+  vertical-align: super;
+}
+.authenticatedEngagementComponent .rds-Link sub {
+  bottom: initial;
+  vertical-align: sub;
+}
+.authenticatedEngagementComponent .rds-Link:hover:not([disabled]), .authenticatedEngagementComponent .rds-Link:focus:not([disabled]), .authenticatedEngagementComponent .rds-Link:active:not([disabled]) {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  text-decoration-thickness: 2px;
+}
+.authenticatedEngagementComponent .rds-Link.on-darkCanvas {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Link--inheritColor, .authenticatedEngagementComponent .rds-Link--inheritColor.on-darkCanvas {
+  color: inherit;
+}
+.authenticatedEngagementComponent .rds-Link--large {
+  font-size: 18px;
+}
+.authenticatedEngagementComponent .rds-Link--small {
+  font-size: 14px;
+}
+.authenticatedEngagementComponent .rds-Link-icon {
+  position: relative;
+  top: 0.1666666667em;
+  width: 1em;
+  height: 1em;
+}
+.authenticatedEngagementComponent .rds-Link-icon--left {
+  margin-right: 4px;
+}
+.authenticatedEngagementComponent .rds-Link-icon--right {
+  margin-left: 4px;
+}
+.authenticatedEngagementComponent .rds-Link[disabled] {
+  cursor: not-allowed !important;
+}
+.authenticatedEngagementComponent .rds-Link[disabled], .authenticatedEngagementComponent .rds-Link.is-disabled {
+  opacity: 0.4 !important;
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+          user-select: none !important;
+}
+.authenticatedEngagementComponent a.rds-Link.is-disabled {
+  pointer-events: none !important;
+}
+.authenticatedEngagementComponent .rds-Menu {
+  box-sizing: border-box;
+  text-indent: 0;
+  text-shadow: none;
+  letter-spacing: normal;
+  font-style: normal;
+}
+.authenticatedEngagementComponent .rds-Menu-title {
+  margin: 0 0 8px 0;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: 1.25;
+  color: #1f2426;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.authenticatedEngagementComponent .rds-Menu-item {
+  display: block;
+  transition: background-color 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  margin: 0;
+  border: solid 2px transparent;
+  border-radius: 8px;
+  background: none;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  line-height: 1.25;
+  color: #1f2426;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.authenticatedEngagementComponent .rds-Menu-item:hover:not(:disabled) {
+  text-decoration: none;
+  background-color: rgba(0, 115, 185, 0.1);
+  color: #1f2426;
+}
+.authenticatedEngagementComponent .rds-Menu-item:focus:not(:disabled) {
+  text-decoration: none;
+  color: #1f2426;
+  outline: 2px solid #0073b9;
+  outline-offset: 1px;
+}
+.authenticatedEngagementComponent .rds-Menu-item:active:not(:disabled) {
+  text-decoration: none;
+  color: #1f2426;
+  border-color: #0073b9;
+  background-color: rgba(0, 115, 185, 0.1);
+}
+.authenticatedEngagementComponent .rds-Menu-item:disabled {
+  cursor: not-allowed;
+}
+.authenticatedEngagementComponent .rds-Menu-item:disabled, .authenticatedEngagementComponent .rds-Menu-item.is-disabled {
+  opacity: 40%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.authenticatedEngagementComponent a.rds-Menu-item.is-disabled {
+  pointer-events: none;
+}
+.authenticatedEngagementComponent .rds-Popover {
+  box-sizing: border-box;
+  position: relative;
+  transition: opacity 75ms ease-out;
+  opacity: 0;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px 0 rgba(31, 36, 38, 0.18);
+  background-color: #ffffff;
+  padding: 16px;
+  max-width: 360px;
+  text-indent: 0;
+  text-transform: none;
+  text-decoration: none;
+  text-shadow: none;
+  font-style: normal;
+}
+.authenticatedEngagementComponent .rds-Popover-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 8px;
+}
+.authenticatedEngagementComponent .rds-Popover--lgPadding {
+  padding: 24px;
+}
+.authenticatedEngagementComponent .rds-Popover--nonePadding {
+  padding: 0;
+}
+.authenticatedEngagementComponent .rds-Popover.is-open {
+  opacity: 1;
+}
+.authenticatedEngagementComponent .rds-Stack {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.authenticatedEngagementComponent .rds-Stack--2xsSpacing {
+  gap: 2px;
+}
+.authenticatedEngagementComponent .rds-Stack--xsSpacing {
+  gap: 4px;
+}
+.authenticatedEngagementComponent .rds-Stack--smSpacing {
+  gap: 8px;
+}
+.authenticatedEngagementComponent .rds-Stack--lgSpacing {
+  gap: 24px;
+}
+.authenticatedEngagementComponent .rds-Stack--xlSpacing {
+  gap: 32px;
+}
+.authenticatedEngagementComponent .rds-Stack--2xlSpacing {
+  gap: 48px;
+}
+.authenticatedEngagementComponent .rds-Stack--topVerticalAlignment {
+  align-items: flex-start;
+}
+.authenticatedEngagementComponent .rds-Stack--bottomVerticalAlignment {
+  align-items: flex-end;
+}
+.authenticatedEngagementComponent .rds-Stack--fillVerticalAlignment:not(.rds-Stack--vertical) {
+  align-items: stretch;
+}
+.authenticatedEngagementComponent .rds-Stack--centerHorizontalAlignment {
+  justify-content: center;
+}
+.authenticatedEngagementComponent .rds-Stack--rightHorizontalAlignment {
+  justify-content: flex-end;
+}
+.authenticatedEngagementComponent .rds-Stack--fillHorizontalAlignment:not(.rds-Stack--vertical) > * {
+  flex-grow: 1;
+}
+.authenticatedEngagementComponent .rds-Stack--vertical {
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.authenticatedEngagementComponent .rds-Stack--vertical.rds-Stack--topVerticalAlignment {
+  justify-content: flex-start;
+}
+.authenticatedEngagementComponent .rds-Stack--vertical.rds-Stack--bottomVerticalAlignment {
+  justify-content: flex-end;
+}
+.authenticatedEngagementComponent .rds-Stack--vertical.rds-Stack--fillVerticalAlignment > * {
+  flex-grow: 1;
+}
+.authenticatedEngagementComponent .rds-Stack--vertical.rds-Stack--centerHorizontalAlignment {
+  align-items: center;
+}
+.authenticatedEngagementComponent .rds-Stack--vertical.rds-Stack--rightHorizontalAlignment {
+  align-items: flex-end;
+}
+.authenticatedEngagementComponent .rds-Stack--vertical.rds-Stack--fillHorizontalAlignment {
+  align-items: stretch;
+}
+.authenticatedEngagementComponent .rds-Stack--noWrap {
+  flex-wrap: nowrap;
+}
+.authenticatedEngagementComponent .rds-Text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-indent: 0;
+  text-transform: none;
+  text-shadow: none;
+  line-height: 1.25;
+  letter-spacing: 0;
+  color: #1f2426;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.authenticatedEngagementComponent .rds-Text sup,
+.authenticatedEngagementComponent .rds-Text sub {
+  line-height: 0;
+  font-size: 0.875em;
+}
+.authenticatedEngagementComponent .rds-Text sup {
+  top: initial;
+  vertical-align: super;
+}
+.authenticatedEngagementComponent .rds-Text sub {
+  bottom: initial;
+  vertical-align: sub;
+}
+.authenticatedEngagementComponent .rds-Text--bodyXSmall {
+  font-size: 14px;
+}
+.authenticatedEngagementComponent .rds-Text--bodySmall {
+  font-size: 16px;
+}
+.authenticatedEngagementComponent .rds-Text--bodyLarge {
+  font-size: 20px;
+}
+.authenticatedEngagementComponent .rds-Text--subtitle {
+  font-size: 24px;
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-Text--subtitle {
+    font-size: 28px;
+  }
+}
+.authenticatedEngagementComponent .rds-Text--subdued {
+  color: #495257;
+}
+.authenticatedEngagementComponent .rds-Text a {
+  text-decoration: underline;
+  color: #0073b9;
+}
+.authenticatedEngagementComponent .rds-Text a:hover {
+  color: #005b98;
+}
+.authenticatedEngagementComponent .rds-Text.on-darkCanvas {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Text.on-darkCanvas a, .authenticatedEngagementComponent .rds-Text.on-darkCanvas a:hover {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent em.rds-Text,
+.authenticatedEngagementComponent i.rds-Text,
+.authenticatedEngagementComponent .rds-Text i,
+.authenticatedEngagementComponent .rds-Text em {
+  font-style: italic;
+}
+.authenticatedEngagementComponent strong.rds-Text,
+.authenticatedEngagementComponent b.rds-Text,
+.authenticatedEngagementComponent .rds-Text b,
+.authenticatedEngagementComponent .rds-Text strong {
+  font-weight: 600;
+}
+.authenticatedEngagementComponent .rds-Tabs {
+  box-sizing: border-box;
+  width: 100%;
+  text-align: start;
+  text-indent: 0;
+  text-transform: none;
+  text-shadow: none;
+  line-height: 1;
+  letter-spacing: normal;
+  font-style: normal;
+}
+.authenticatedEngagementComponent .rds-Tabs-list {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-bottom: solid #b6bec2 1px;
+}
+.authenticatedEngagementComponent .rds-Tabs-list--center {
+  justify-content: center;
+}
+.authenticatedEngagementComponent .rds-Tabs-list--right {
+  justify-content: flex-end;
+}
+.authenticatedEngagementComponent .rds-Tabs-list--fill .rds-Tabs-container {
+  flex-grow: 1;
+}
+.authenticatedEngagementComponent .rds-Tabs-list--noDivider {
+  border-bottom-color: transparent;
+}
+.authenticatedEngagementComponent .rds-Tabs-container {
+  position: relative;
+  align-items: flex-end;
+}
+.authenticatedEngagementComponent .rds-Tabs-tab {
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 3px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+  line-height: 1;
+  color: #495257;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-weight: 600;
+}
+.authenticatedEngagementComponent .is-onDarkCanvas .rds-Tabs-tab {
+  color: #d5d9db;
+}
+.authenticatedEngagementComponent .rds-Tabs-tab.is-selected, .authenticatedEngagementComponent .rds-Tabs-tab:hover {
+  color: var(--rds-tabs-selected-color, #0073b9);
+}
+.authenticatedEngagementComponent .is-onDarkCanvas .rds-Tabs-tab.is-selected, .authenticatedEngagementComponent .is-onDarkCanvas .rds-Tabs-tab:hover {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Tabs-tab:focus-visible {
+  outline: none;
+}
+.authenticatedEngagementComponent .rds-Tabs-tab:focus-visible .rds-Tabs-inner {
+  outline: solid #0073b9 2px;
+}
+.authenticatedEngagementComponent .is-onDarkCanvas .rds-Tabs-tab:focus-visible .rds-Tabs-inner {
+  outline-color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Tabs-tab:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+  color: #495257;
+}
+.authenticatedEngagementComponent .is-onDarkCanvas .rds-Tabs-tab:disabled {
+  opacity: 0.4;
+  color: #d5d9db;
+}
+.authenticatedEngagementComponent .rds-Tabs-inner {
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 4px;
+}
+.authenticatedEngagementComponent .rds-Tabs-indicator {
+  position: absolute;
+  bottom: -1px;
+  border-radius: 16px;
+  background-color: var(--rds-tabs-selected-color, #0073b9);
+  width: 100%;
+  height: 4px;
+}
+.authenticatedEngagementComponent .is-onDarkCanvas .rds-Tabs-indicator {
+  background-color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-Tabs-panel {
+  box-sizing: border-box;
+}
+.authenticatedEngagementComponent .rds-Tabs-panel--noGap {
+  padding-top: 0;
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-list {
+    gap: 16px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-tab {
+    padding: 8px;
+    font-size: 16px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-inner {
+    padding: 4px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-panel:not(.rds-Tabs-panel--noGap) {
+    padding-top: 32px;
+  }
+}
+@media screen and (min-width: 56.25em) {
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-list {
+    gap: 8px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-tab {
+    padding: 8px;
+    font-size: 18px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-inner {
+    padding: 8px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-panel:not(.rds-Tabs-panel--noGap) {
+    padding-top: 32px;
+  }
+}
+.authenticatedEngagementComponent .rds-Tabs--sm .rds-Tabs-list {
+  gap: 16px;
+}
+.authenticatedEngagementComponent .rds-Tabs--sm .rds-Tabs-tab {
+  padding: 4px;
+  font-size: 16px;
+}
+.authenticatedEngagementComponent .rds-Tabs--sm .rds-Tabs-inner {
+  padding: 2px;
+}
+.authenticatedEngagementComponent .rds-Tabs--sm .rds-Tabs-panel:not(.rds-Tabs-panel--noGap) {
+  padding-top: 24px;
+}
+.authenticatedEngagementComponent .rds-Tabs--md .rds-Tabs-list {
+  gap: 16px;
+}
+.authenticatedEngagementComponent .rds-Tabs--md .rds-Tabs-tab {
+  padding: 8px;
+  font-size: 16px;
+}
+.authenticatedEngagementComponent .rds-Tabs--md .rds-Tabs-inner {
+  padding: 4px;
+}
+.authenticatedEngagementComponent .rds-Tabs--md .rds-Tabs-panel:not(.rds-Tabs-panel--noGap) {
+  padding-top: 32px;
+}
+.authenticatedEngagementComponent .rds-Tabs--lg .rds-Tabs-list {
+  gap: 8px;
+}
+.authenticatedEngagementComponent .rds-Tabs--lg .rds-Tabs-tab {
+  padding: 8px;
+  font-size: 18px;
+}
+.authenticatedEngagementComponent .rds-Tabs--lg .rds-Tabs-inner {
+  padding: 8px;
+}
+.authenticatedEngagementComponent .rds-Tabs--lg .rds-Tabs-panel:not(.rds-Tabs-panel--noGap) {
+  padding-top: 32px;
+}
+@media screen and (max-width: 37.4375em) {
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-list {
+    gap: 16px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-tab {
+    padding: 4px;
+    font-size: 16px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-inner {
+    padding: 2px;
+  }
+  .authenticatedEngagementComponent .rds-Tabs .rds-Tabs-panel:not(.rds-Tabs-panel--noGap) {
+    padding-top: 24px;
+  }
+}
+.authenticatedEngagementComponent .rds-RichText {
+  text-transform: none;
+  text-shadow: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #1f2426;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+}
+.authenticatedEngagementComponent .rds-RichText sup,
+.authenticatedEngagementComponent .rds-RichText sub {
+  line-height: 0;
+  font-size: 0.875em;
+}
+.authenticatedEngagementComponent .rds-RichText sup {
+  top: initial;
+  vertical-align: super;
+}
+.authenticatedEngagementComponent .rds-RichText sub {
+  bottom: initial;
+  vertical-align: sub;
+}
+.authenticatedEngagementComponent .rds-RichText > * {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-RichText > * {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+.authenticatedEngagementComponent .rds-RichText :first-child {
+  margin-top: 0px;
+}
+.authenticatedEngagementComponent .rds-RichText :last-child {
+  margin-bottom: 0px;
+}
+.authenticatedEngagementComponent .rds-RichText p,
+.authenticatedEngagementComponent .rds-RichText div,
+.authenticatedEngagementComponent .rds-RichText ul,
+.authenticatedEngagementComponent .rds-RichText ol {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.authenticatedEngagementComponent .rds-RichText ul,
+.authenticatedEngagementComponent .rds-RichText ol {
+  margin-left: 32px;
+  padding: 0px;
+}
+.authenticatedEngagementComponent .rds-RichText ul {
+  list-style-type: disc;
+}
+.authenticatedEngagementComponent .rds-RichText ol {
+  list-style-type: decimal;
+}
+.authenticatedEngagementComponent .rds-RichText b,
+.authenticatedEngagementComponent .rds-RichText strong {
+  font-weight: 600;
+}
+.authenticatedEngagementComponent .rds-RichText i,
+.authenticatedEngagementComponent .rds-RichText em {
+  font-style: italic;
+}
+.authenticatedEngagementComponent .rds-RichText h2,
+.authenticatedEngagementComponent .rds-RichText h3,
+.authenticatedEngagementComponent .rds-RichText h4,
+.authenticatedEngagementComponent .rds-RichText h5,
+.authenticatedEngagementComponent .rds-RichText h6 {
+  line-height: 1.25;
+  color: #1f2426;
+  font-family: canada-type-gibson, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.authenticatedEngagementComponent .rds-RichText h2 a,
+.authenticatedEngagementComponent .rds-RichText h3 a,
+.authenticatedEngagementComponent .rds-RichText h4 a,
+.authenticatedEngagementComponent .rds-RichText h5 a,
+.authenticatedEngagementComponent .rds-RichText h6 a {
+  text-decoration: none;
+  color: inherit;
+}
+.authenticatedEngagementComponent .rds-RichText h2 a:hover,
+.authenticatedEngagementComponent .rds-RichText h3 a:hover,
+.authenticatedEngagementComponent .rds-RichText h4 a:hover,
+.authenticatedEngagementComponent .rds-RichText h5 a:hover,
+.authenticatedEngagementComponent .rds-RichText h6 a:hover {
+  color: #495257;
+}
+.authenticatedEngagementComponent .rds-RichText h2 {
+  font-size: 28px;
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-RichText h2 {
+    font-size: 34px;
+  }
+}
+.authenticatedEngagementComponent .rds-RichText h4 {
+  font-size: 20px;
+}
+.authenticatedEngagementComponent .rds-RichText h5,
+.authenticatedEngagementComponent .rds-RichText h6 {
+  font-size: 18px;
+}
+.authenticatedEngagementComponent .rds-RichText a {
+  text-decoration: underline;
+  color: #0073b9;
+}
+.authenticatedEngagementComponent .rds-RichText a:hover {
+  color: #005b98;
+}
+.authenticatedEngagementComponent .rds-RichText table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  line-height: 1.25;
+  color: #1f2426;
+}
+.authenticatedEngagementComponent .rds-RichText table thead tr,
+.authenticatedEngagementComponent .rds-RichText table tbody tr {
+  border-bottom: 1px solid #b6bec2;
+}
+.authenticatedEngagementComponent .rds-RichText table tfoot tr {
+  border-top: 1px solid #b6bec2;
+}
+.authenticatedEngagementComponent .rds-RichText table tbody tr:last-of-type {
+  border-bottom: 0;
+}
+.authenticatedEngagementComponent .rds-RichText table td,
+.authenticatedEngagementComponent .rds-RichText table th {
+  padding: 16px;
+}
+.authenticatedEngagementComponent .rds-RichText table th,
+.authenticatedEngagementComponent .rds-RichText table tfoot td {
+  font-weight: 600;
+}
+.authenticatedEngagementComponent .rds-RichText table table,
+.authenticatedEngagementComponent .rds-RichText table td,
+.authenticatedEngagementComponent .rds-RichText table th,
+.authenticatedEngagementComponent .rds-RichText table tr {
+  border: 1px solid #b6bec2;
+}
+.authenticatedEngagementComponent .rds-RichText table tbody tr {
+  border: 0;
+}
+.authenticatedEngagementComponent .rds-RichText table tbody tr:nth-child(even) {
+  background-color: rgba(232, 236, 237, 0.44);
+}
+.authenticatedEngagementComponent .rds-RichText blockquote {
+  margin-right: 0px;
+  margin-left: 0px;
+  border-top: 2px solid #0073b9;
+  border-bottom: 2px solid #0073b9;
+  padding: 16px 0px;
+  text-align: center;
+}
+.authenticatedEngagementComponent .rds-RichText blockquote, .authenticatedEngagementComponent .rds-RichText blockquote > * {
+  font-size: 20px;
+  color: var(--rds-heading-brand-color, #0073b9);
+  line-height: 1.5;
+  font-weight: 600;
+}
+.authenticatedEngagementComponent .rds-RichText blockquote a:hover, .authenticatedEngagementComponent .rds-RichText blockquote > * a:hover {
+  color: var(--rds-heading-brand-interactive-color, #005b98);
+}
+@media screen and (min-width: 37.5em) {
+  .authenticatedEngagementComponent .rds-RichText blockquote, .authenticatedEngagementComponent .rds-RichText blockquote > * {
+    font-size: 24px;
+  }
+}
+.authenticatedEngagementComponent .rds-RichText hr {
+  border: 0px;
+  background-color: #b6bec2;
+  height: 1px;
+}
+.authenticatedEngagementComponent .rds-RichText--lineHeightMedium {
+  line-height: 1.25;
+}
+.authenticatedEngagementComponent .rds-RichText--small {
+  font-size: 16px;
+}
+.authenticatedEngagementComponent .rds-RichText--small sup,
+.authenticatedEngagementComponent .rds-RichText--small sub {
+  font-size: 12px;
+}
+.authenticatedEngagementComponent .rds-RichText--small table td,
+.authenticatedEngagementComponent .rds-RichText--small table th {
+  padding: 12px;
+  font-size: 16px;
+}
+.authenticatedEngagementComponent .rds-RichText--large {
+  font-size: 20px;
+}
+.authenticatedEngagementComponent .rds-RichText--large sup,
+.authenticatedEngagementComponent .rds-RichText--large sub {
+  font-size: 16px;
+}
+.authenticatedEngagementComponent .rds-RichText--large table td,
+.authenticatedEngagementComponent .rds-RichText--large table th {
+  padding: 24px;
+  font-size: 20px;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h2,
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h3,
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h4,
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h5,
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h6 {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h2 a:hover,
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h3 a:hover,
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h4 a:hover,
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h5 a:hover,
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas h6 a:hover {
+  color: #f5f7f8;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas a, .authenticatedEngagementComponent .rds-RichText.on-darkCanvas a:hover {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas blockquote {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas blockquote a:hover {
+  color: #f5f7f8;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas blockquote > * {
+  color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas blockquote > * a:hover {
+  color: #f5f7f8;
+}
+.authenticatedEngagementComponent .rds-RichText.on-darkCanvas hr {
+  background-color: #ffffff;
+}
+.authenticatedEngagementComponent .rds-RichText pre {
+  font-family: canada-type-gibson, Arial, sans-serif;
+}
+.authenticatedEngagementComponent .container {
+  width: 100%;
+}
+@media (min-width: 37.5em) {
+
+  .authenticatedEngagementComponent .container {
+    max-width: 37.5em;
+  }
+}
+@media (min-width: 56.25em) {
+
+  .authenticatedEngagementComponent .container {
+    max-width: 56.25em;
+  }
+}
+@media (min-width: 75em) {
+
+  .authenticatedEngagementComponent .container {
+    max-width: 75em;
+  }
+}
+@media (min-width: 93.75em) {
+
+  .authenticatedEngagementComponent .container {
+    max-width: 93.75em;
+  }
+}
+@media (min-width: 112.5em) {
+
+  .authenticatedEngagementComponent .container {
+    max-width: 112.5em;
+  }
+}
+.authenticatedEngagementComponent .invisible {
+  visibility: hidden;
+}
+.authenticatedEngagementComponent .float-right {
+  float: right;
+}
+.authenticatedEngagementComponent .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.authenticatedEngagementComponent .mb-0\.5 {
+  margin-bottom: 4px;
+}
+.authenticatedEngagementComponent .mb-1 {
+  margin-bottom: 8px;
+}
+.authenticatedEngagementComponent .mb-2 {
+  margin-bottom: 16px;
+}
+.authenticatedEngagementComponent .mt-\[12px\] {
+  margin-top: 12px;
+}
+.authenticatedEngagementComponent .hidden {
+  display: none;
+}
+.authenticatedEngagementComponent .w-4 {
+  width: 32px;
+}
+.authenticatedEngagementComponent .min-w-44 {
+  min-width: 352px;
+}
+.authenticatedEngagementComponent .min-w-\[300px\] {
+  min-width: 300px;
+}
+.authenticatedEngagementComponent .cursor-pointer {
+  cursor: pointer;
+}
+.authenticatedEngagementComponent .rounded {
+  border-radius: 8px;
+}
+.authenticatedEngagementComponent .rounded-full {
+  border-radius: 9999px;
+}
+.authenticatedEngagementComponent .bg-blue-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 115 185 / var(--tw-bg-opacity));
+}
+.authenticatedEngagementComponent .bg-blue-50\/10 {
+  background-color: rgb(0 115 185 / 0.1);
+}
+.authenticatedEngagementComponent .bg-blue-50\/20 {
+  background-color: rgb(0 115 185 / 0.2);
+}
+.authenticatedEngagementComponent .bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.authenticatedEngagementComponent .bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
+}
+.authenticatedEngagementComponent .p-2 {
+  padding: 16px;
+}
+.authenticatedEngagementComponent .p-\[12px\] {
+  padding: 12px;
+}
+.authenticatedEngagementComponent .pt-4 {
+  padding-top: 32px;
+}
+.authenticatedEngagementComponent .text-center {
+  text-align: center;
+}
+.authenticatedEngagementComponent .text-5 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+.authenticatedEngagementComponent .font-semibold {
+  font-weight: 600;
+}
+.authenticatedEngagementComponent .leading-\[1\.5\] {
+  line-height: 1.5;
+}
+.authenticatedEngagementComponent .text-blue-50 {
+  --tw-text-opacity: 1;
+  color: rgb(0 115 185 / var(--tw-text-opacity));
+}
+.authenticatedEngagementComponent .text-gray-40 {
+  --tw-text-opacity: 1;
+  color: rgb(182 190 194 / var(--tw-text-opacity));
+}
+.authenticatedEngagementComponent .outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.authenticatedEngagementComponent .ring-2 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.authenticatedEngagementComponent .ring-blue-50 {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(0 115 185 / var(--tw-ring-opacity));
+}
+.authenticatedEngagementComponent .ring-offset-1 {
+  --tw-ring-offset-width: 1px;
+}
+.authenticatedEngagementComponent .filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.authenticatedEngagementComponent .p-inset-sm {
+  padding: 12px;
+}
+.authenticatedEngagementComponent .p-squish-sm {
+  padding: 8px 16px;
+}
+/* Remember, this will get prefixed with .authenticatedEngagementComponent */
+.authenticatedEngagementComponent a:is(.authenticatedEngagementComponent > a) {
+  display: none;
+}
+.authenticatedEngagementComponent .hover\:bg-blue-50\/20:hover {
+  background-color: rgb(0 115 185 / 0.2);
+}
+.authenticatedEngagementComponent .focus-visible\:ring-2:focus-visible {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.authenticatedEngagementComponent .active\:ring-2:active {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
